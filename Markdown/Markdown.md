@@ -16,5 +16,8 @@ markdown
 |链接-参考式		| \[display\] \[id\] 下文跟 \[id\]: url "title"	|
 |图片-行内式		| \!\[alt\](url "title")	|
 |图片-参考式		| !\[alt\] \[id\] 下文跟 \[id\]: url "title"	|
+|自动连接		| <包围>, display和url一样
 |强调			| *或_包围, 不能有空格		|
 
+Credit:
+[Reference](http://wowubuntu.com/markdown/)
