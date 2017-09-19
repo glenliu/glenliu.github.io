@@ -7,7 +7,7 @@ Exam Weight: 12% 	Study Session 2 Study Session 3
 # Economics #
 Exam Weight: 10% 	Study Session 4 Study Session 5 
 
-# [Financial Reporting and Analysis](FSA.md) #
+# [Financial Reporting and Analysis](fsa) #
 Exam Weight: 20% 	Study Session 6 Study Session 7 Study Session 8 Study Session 9
 
 # Corporate Finance #

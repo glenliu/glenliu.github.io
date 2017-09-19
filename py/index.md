@@ -9,12 +9,12 @@ Python由Guido van Rossum于1989年底发明，第一个公开发行版发行于
 
 解决方法为只要在文件开头加入 # -*- coding: UTF-8 -*- 或者 #coding=utf-8 就行了 
 
-credit: [Runoob | http://www.runoob.com/python/python-basic-syntax.html]
+credit: [Runoob] (http://www.runoob.com/python/python-basic-syntax.html)
 
 
-## [Basics](Basics) ##
+## [Basics](basics) ##
 
-### Variable ###
+### [Variable](var) ###
 
 ### OO ###
 
