@@ -16,7 +16,7 @@ credit: [Runoob] (http://www.runoob.com/python/python-basic-syntax.html)
 
 ### [Variable](var) ###
 
-### OO ###
+### [OO](oo) ###
 
 ## List, Tuple, Dict ##
 ### List ###
@@ -26,6 +26,7 @@ credit: [Runoob] (http://www.runoob.com/python/python-basic-syntax.html)
 ### Tuple ###
 
 ### Dictionary ###
+
 |	What		|		How			|			Example		|
 |	---			|		---			| ---					|
 |				|					|						|

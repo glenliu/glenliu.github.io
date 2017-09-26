@@ -2,6 +2,7 @@
 
 引自[Runoob](http://www.runoob.com/python/python-variable-types.html)
 
+[Back](index)
 
 ### Python 变量类型
 
@@ -354,3 +355,5 @@ isinstance 和 type 的区别在于：
 
 -    type()不会认为子类是一种父类类型。
 -    isinstance()会认为子类是一种父类类型。
+
+[Back](index)
