@@ -51,7 +51,7 @@ said to have a _term maturity structure_ with all the bonds maturing on the same
 medium-term in maturity.
 
 - 52.h short term funding alternative to bank
-  - Customer deposits (retail deposits) are a short-term funding source for banks. 
+  - Customer deposits (retail deposits) are a short-term funding source for banks.
   - Checking accounts
 provide transactions services and immediate availability of funds but typically pay no interest.
   - Money
@@ -63,3 +63,19 @@ cannot be sold and withdrawal of funds often incurs a significant penalty.
 Negotiable certificates of deposit can be sold.
   - Excess reserve, federal fund rate
   - interbank funds
+
+
+- 52.i repo
+  - Maturity:
+    - overnight repo
+    - term repo
+  - repo rate is:
+    - Higher, the longer the repo term.
+    - Lower, the higher the credit quality of the collateral security.
+    - Lower when the collateral security is delivered to the lender.
+    - Higher when the interest rates for alternative sources of funds are higher.
+  - repo margin / haircut, is:
+    -   Higher, the longer the repo term.
+    - Lower, the higher the credit quality of the collateral security.
+    - Lower, the higher the credit quality of the borrower.
+    - Lower when the collateral security is in high demand or low supply.
