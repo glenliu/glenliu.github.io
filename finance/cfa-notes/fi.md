@@ -79,3 +79,8 @@ Negotiable certificates of deposit can be sold.
     - Lower, the higher the credit quality of the collateral security.
     - Lower, the higher the credit quality of the borrower.
     - Lower when the collateral security is in high demand or low supply.
+
+
+56.h Credit analysis
+ 
+![4C](creditanalysis4c.png)
