@@ -79,3 +79,13 @@ Negotiable certificates of deposit can be sold.
     - Lower, the higher the credit quality of the collateral security.
     - Lower, the higher the credit quality of the borrower.
     - Lower when the collateral security is in high demand or low supply.
+
+
+Spread
+
+* G-spread
+* I-spread: relative to IRS swap rate.
+* Zero volatility spread; fixed spread besides Z rate
+* OAS = ZS - option value
+
+[Treasury yield curve](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)
