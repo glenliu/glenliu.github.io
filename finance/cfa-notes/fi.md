@@ -81,6 +81,7 @@ Negotiable certificates of deposit can be sold.
     - Lower when the collateral security is in high demand or low supply.
 
 
+
 Spread
 
 * G-spread
@@ -89,3 +90,7 @@ Spread
 * OAS = ZS - option value
 
 [Treasury yield curve](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)
+
+56.h Credit analysis
+
+![4C](creditanalysis4c.png)
