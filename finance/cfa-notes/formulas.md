@@ -11,7 +11,7 @@ Lifo Reserve:
 --------------------
  > InvF = InvL + L.R.
 
- > COGSF = COGSL - Delta L.R.
+ > COGS_fifo = COGS_lifo - Delta L.R.
 
  > delta NI = delta L.R. * (1-t)
 
@@ -39,13 +39,20 @@ R/E
 
 FCFF
 ------------------------------
- > FCFF = CFO - FCInv + I*(1-t)
+ > FCFF = EBIT * (1-t) + NCC - WCInv - FCInv
+
+  > FCFF = NI + NCC - WCInv - FCInv + Int*(1-t)
+
+ > FCFF = CFO              - FCInv + Int*(1-t)
 
  > FCFE = CFO - FCInv + NetBorrowing
+
+ > FCFC = FCFF - Int * (1-t) + NetBorrowing
 
 Tax
 --------------------------
 > Tax Expense = Tax Payable + delta DTL - delta DTA
+
 > Tax payable = Taxable income (pre-tax income) * tax rate
 
 > DTA/DTL = | CV - Tax Base | * tax rate
