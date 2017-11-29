@@ -81,6 +81,16 @@ Negotiable certificates of deposit can be sold.
     - Lower when the collateral security is in high demand or low supply.
 
 
+
+Spread
+
+* G-spread
+* I-spread: relative to IRS swap rate.
+* Zero volatility spread; fixed spread besides Z rate
+* OAS = ZS - option value
+
+[Treasury yield curve](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)
+
 56.h Credit analysis
- 
+
 ![4C](creditanalysis4c.png)
