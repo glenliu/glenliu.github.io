@@ -111,21 +111,6 @@ Python支持四种不同的数字类型：
 实例
 
 
-|  Sequence   | Result                                                        |
-|-------------|---------------------------------------------------------------|
-| `a?c`       | Matches `abc`, `axc`, and `aac`. Does not match `ac`, `abbc`, | 
-|             | or `a/c`.                                                     |
-|-------------|---------------------------------------------------------------|
-| `a*c`       | Matches "ac", "abc" and "azzzzzzzc". Does not match "a/c".    |
-|-------------|---------------------------------------------------------------|
-| `foo...bar` | Matches "foobar", "fooxbar", and "fooz/blaz/rebar". Does not  |
-|             | match "fo/obar", "fobar" or "food/bark".                      |
-|-------------|---------------------------------------------------------------|
-| `....obj`   | Matches all files anywhere in the current hierarchy that end  |
-|             | in ".obj". Note that the first three periods are interpreted  |
-|             | as "...", and the fourth one is interpreted as a literal "."  |
-|             | character.                                                    |
-|-------------|---------------------------------------------------------------|
 
 一些数值类型的实例：
 
