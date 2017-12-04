@@ -9,18 +9,18 @@ initial page
 
 |  Sequence   | Result                                                        |
 |-------------|---------------------------------------------------------------|
-| `a?c`       | Matches `abc`, `axc`, and `aac`. Does not match `ac`, `abbc`,<br /> | 
+| `a?c` <br>      | Matches `abc`, `axc`, and `aac`. Does not match `ac`, `abbc`,<br> | 
 |             | or `a/c`.                                                     |
 |-------------|---------------------------------------------------------------|
 | `a*c`       | Matches "ac", "abc" and "azzzzzzzc". Does not match "a/c".    |
 |-------------|---------------------------------------------------------------|
-| `foo...bar` | Matches "foobar", "fooxbar", and "fooz/blaz/rebar". Does not <br /> |
-|             | match "fo/obar", "fobar" or "food/bark".                      |
+| `foo...bar` | Matches "foobar", "fooxbar", and "fooz/blaz/rebar". Does not <br> |
+|    <br>         | match "fo/obar", "fobar" or "food/bark".                      |
 |-------------|---------------------------------------------------------------|
-| `....obj`   | Matches all files anywhere in the current hierarchy that end  <br />|
-|             | in ".obj". Note that the first three periods are interpreted  <br />|
-|             | as "...", and the fourth one is interpreted as a literal "."  <br />|
-|             | character.                                                    |
+| `....obj` <br>  | Matches all files anywhere in the current hierarchy that end  <br>|
+|   <br>          | in ".obj". Note that the first three periods are interpreted  <br>|
+|   <br>          | as "...", and the fourth one is interpreted as a literal "."  <br>|
+|   <br>          | character.                                                    |
 |-------------|---------------------------------------------------------------|
 
 $$ x^2+y^2=r^2 $$
