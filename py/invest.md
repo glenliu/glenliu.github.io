@@ -3,17 +3,19 @@
 
 |Input|Process|Output|
 |:---       |:------ |:------- |
-|Trade (buy, sell)|   |  |
+|Trade (buy, sell)|   | Return, Risk, Ratio (Sharpe, etc) |
 |Daily price |Calc performance (return:TWRR, MWRR, volatility);  |plot|
+|Benchmark| | | 
+|Risk free rate | | |
 
 ### Return
-TWRR
-DWRR
+- TWRR
+- DWRR
 
 ### Risk
-Volatility
-Beta
-VAR
+- Volatility
+- Beta
+- VAR
 
 ## Valuation
 |Input|Process|Output|
@@ -22,4 +24,9 @@ VAR
 
 ### Industrial analysis
 * Stage
+* Concentration
+
 ### Company analysis
+- Ratio:
+  - Price multiples
+  - EV/EBITDA
