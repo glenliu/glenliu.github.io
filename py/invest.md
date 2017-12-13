@@ -5,7 +5,7 @@
 |:---       |:------ |:------- |
 |Trade (buy, sell)|   | Return, Risk, Ratio (Sharpe, etc) |
 |Daily price |Calc performance (return:TWRR, MWRR, volatility);  |plot|
-|Benchmark| | | 
+|Benchmark| | |
 |Risk free rate | | |
 
 ### Return
@@ -27,6 +27,11 @@
 * Concentration
 
 ### Company analysis
+- DCFM
+  - GGM
+  - FCFF,FCFE
+  - Residual income
 - Ratio:
   - Price multiples
   - EV/EBITDA
+- Asset based approach
