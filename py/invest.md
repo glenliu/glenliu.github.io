@@ -1,12 +1,25 @@
-## System overview ##
-### Performance review
+# System overview #
+## Performance review
 
 |Input|Process|Output|
 |:---       |:------ |:------- |
 |Trade (buy, sell)|   |  |
 |Daily price |Calc performance (return:TWRR, MWRR, volatility);  |plot|
 
-### Valuation
+### Return
+TWRR
+DWRR
+
+### Risk
+Volatility
+Beta
+VAR
+
+## Valuation
 |Input|Process|Output|
 |:---     |:----       |:----      |
 |Fundamentals (annual report)|Calc ratios, compare (cross section, historic) | Report|
+
+### Industrial analysis
+* Stage
+### Company analysis
