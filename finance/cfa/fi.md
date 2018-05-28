@@ -1,4 +1,4 @@
-
+$x^2$
 
 # Fixed Income #
 Exam Weight: 10% 	Study Session 15 Study Session 16

@@ -20,13 +20,13 @@ Exam Weight: 7% 	Study Session 10 Study Session 11
 # Portfolio Management #
 Exam Weight: 7% 	Study Session 12
 
-# [Equity](DE)  #
+# Equity  #
 Exam Weight: 10% 	Study Session 13 Study Session 14
 
 # [Fixed Income](fi) #
 Exam Weight: 10% 	Study Session 15 Study Session 16
 
-# Derivatives #
+# [Derivatives](DE) #
 Exam Weight: 5% 	Study Session 17
 
 # Alternative Investments #
