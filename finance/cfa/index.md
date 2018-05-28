@@ -1,7 +1,7 @@
 # [Ethical and Professional Standards](ET) #
 Exam Weight: 15% 	Study Session 1 | Readings 1-5
 
-# Quantitative Methods #
+# [Quantitative Methods](QA)#
 Exam Weight: 12% 	Study Session 2 Study Session 3
 
 # [Economics](EC) #
