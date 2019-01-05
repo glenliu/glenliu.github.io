@@ -76,3 +76,60 @@ k evaluate a client’s tax liability under each of three basic methods (credit,
 taxation;
 
 l discuss how increasing international transparency and information exchangeamong tax authorities affect international estate planning.
+
+# READING 13. CONCENTRATED SINGLE-ASSET POSITIONS
+
+The candidate should be able to:
+
+a explain investment risks associated with a concentrated position in a singleasset and discuss the appropriateness of reducing such risks;
+
+b describe typical objectives in managing concentrated positions;
+
+c discuss tax consequences and illiquidity as considerations affecting the management of concentrated positions in publicly traded common shares, privately held businesses, and real estate;
+
+d discuss capital market and institutional constraints on an investor’s ability to reduce a concentrated position;
+
+e discuss psychological considerations that may make an investor reluctant to reduce his or her exposure to a concentrated position;
+
+f describe advisers’ use of goal-based planning in managing concentrated positions;
+
+g explain uses of asset location and wealth transfers in managing concentrated positions;
+
+h describe strategies for managing concentrated positions in publicly traded common shares;
+
+i discuss tax considerations in the choice of hedging strategy;
+
+j describe strategies for managing concentrated positions in privately held businesses;
+
+k describe strategies for managing concentrated positions in real estate;
+
+l evaluate and recommend techniques for tax efficiently managing the risks of concentrated positions in publicly traded common stock, privately held businesses, and real estate.
+
+# READING 14. RISK MANAGEMENT FOR INDIVIDUALS
+
+The candidate should be able to:
+
+a compare the characteristics of human capital and financial capital as components of an individual’s total wealth;
+
+b discuss the relationships among human capital, financial capital, and net wealth;
+
+
+c discuss the financial stages of life for an individual;
+
+d describe an economic (holistic) balance sheet;
+
+e discuss risks (earnings, premature death, longevity, property, liability, and health risks) in relation to human and financial capital;
+
+f describe types of insurance relevant to personal financial planning;
+
+g describe the basic elements of a life insurance policy and how insurers price a life insurance policy;
+
+h discuss the use of annuities in personal financial planning;
+
+i discuss the relative advantages and disadvantages of fixed and variable annuities;
+
+j analyze and critique an insurance program;
+
+k discuss how asset allocation policy may be influenced by the risk characteristics of human capital;
+
+l recommend and justify appropriate strategies for asset allocation and risk reduction when given an investor profile of key inputs.
