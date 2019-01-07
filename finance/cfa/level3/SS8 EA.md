@@ -46,6 +46,25 @@ Problems of forecasting
 
 3. Module 16.2: Statistical Tools and Discounted Cash Flow Models
 
+ - Statistical tools
+
+   - historical return
+   - geometric average
+   - ERP+bond yeild
+   - shrinage estimate (weighted average)
+   - Time series model: 
+      - volatility clustering: sigma^2=beta*sigma^2+(1-beta)eplison^2
+   - multifactor model
+   - rigorous approach: Level 1 -> Level 2
+
+ - DCF
+   - disadvantage: not account for current market condition, suitable for long term valuation
+   - GGM
+   - G&K model:
+      - expected income return: D1/P0-deltaS
+      - expected nominal earning growth: i+g
+      - repricing return: delta P/E
+
 4. Module 16.3: Risk Premiums, Financial Equilibrium, and Surveys
 
 5. Module 16.4: The Business Cycle
