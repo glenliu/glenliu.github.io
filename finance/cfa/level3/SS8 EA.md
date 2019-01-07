@@ -24,12 +24,12 @@ Problems of forecasting
   - appraisal (smoothed) data
 - data measurement errors and biases
 - limitations of historical returns
-  - regime changes and nonstationary
+  - regime changes and non-stationary
 - ex post to determine ex ante
 - patterns unlikely to occur
-  - data miniing
+  - data mining
   - time period bias
-- fail to account for condioning information
+- fail to account for conditioning information
 - misinterpretation of correlation
 - psychological traps
   - anchoring
@@ -50,8 +50,8 @@ Problems of forecasting
 
    - historical return
    - geometric average
-   - ERP+bond yeild
-   - shrinage estimate (weighted average)
+   - ERP+bond yield
+   - shrinkage estimate (weighted average)
    - Time series model: 
       - volatility clustering: sigma^2=beta*sigma^2+(1-beta)eplison^2
    - multifactor model
@@ -67,7 +67,54 @@ Problems of forecasting
 
 4. Module 16.3: Risk Premiums, Financial Equilibrium, and Surveys
 
+- Risk premium: R = rf+inflation+default+illiquidity+maturity+tax
+- Financial Equilibrium: 
+  - ICAPM: Ri=Rf+beta(Rm-Rf) => RPi=Rho*Sigmai*market sharpe ratio
+  -  adjust market impeferction (Singer & Terhaar)
+    - assuming full integration: ERP=Rho*Sigma*MSR + illiquidity
+    - assuming full segmentation: ERP=Sigma*MSR + illiquidity
+    - weighted average of the two
+
+- Survey and judgement
+
+  - Survey: constant over time: panel method
+  - Judgment 
+
 5. Module 16.4: The Business Cycle
+
+inflection point
+
+cyclical activity:
+- GDP: real
+- output gap: potential vs current
+- recession: decrease over 2 consecutive quarters
+
+inventory cycle: 2-4 years  inventory to sales ratio
+business cycle: 9-11 years
+ - initial recovery
+ - early upswing
+ - late upswing
+ - slow down
+ - recession
+
+Big table for the 5 cycles ==TODO
+
+|Business cycle | Inflation   | Economic policy     |Market - ST       |Market - LT
+|----------------|----------------|-----------------|------------------|-----------|
+|Initial recovery|Initially declining inflation|Stimulative| Low or declining|bottoming and bond prices peaking|
+|Early upswing    | Low inflation and good economic growth|Less stimulative| Increasing | Bottoming or increasing, bond prices begin to decline|
+|Late upswing    |Increasing     |Restrictive        |increasing       |increasing, bond prices declining|
+|Slowdown       |accelerate      |less restrictive    | peaking then declining      |peaking then declining, bond prices start to increase|
+|Recession      |inflation peaking | Easing           |declining      |declining, bond prices increasing, stock prices begin to increase later in recession|
+
+
+Inflation and asset returns
+
+|Level           |Cash Equivalents |Bonds       | Real Estate   | Equity    |
+|----------------|-----------------|------------|---------------|-----------|
+|at or below exp |Neutral with stable or declining yield |Neutral with stable or declining yield | Neutral with typical rates of return | Positive with predictable economical growth|
+|above exp       |Positive with increasing yields| Negative as rates increase| Positive | Negative|
+|Deflation       | Negative (approx 0% interest rate) | Positive (fixed future CF has greater purchase power) | Negative   | Negative  | 
 
 6. Module 16.5: Monetary Policy and Interest Rates
 
@@ -84,6 +131,8 @@ Problems of forecasting
 12. Key Concepts
 
 13. Answer Key for Module Quizzes
+
+
 
 ## Reading 17: Equity Market Valuation
 
