@@ -116,6 +116,19 @@ Inflation and asset returns
 |above exp       |Positive with increasing yields| Negative as rates increase| Positive | Negative|
 |Deflation       | Negative (approx 0% interest rate) | Positive (fixed future CF has greater purchase power) | Negative   | Negative  | 
 
+Severe threat of deflation:
+- encourage default on debt obligation
+- limit the central banks ability to lower interest rate and stimulate the economy. => QE
+
+Consumer spending:
+ - seasonal pattern
+ - > business spending
+ - non-farm payroll + unemployment claims => after tax income => consumer spending
+ - savings rate, consumer confidence
+
+Business spending:
+ - volatile
+
 6. Module 16.5: Monetary Policy and Interest Rates
 
 7. Module 16.6: The Trend Rate of Growth
@@ -159,5 +172,6 @@ Inflation and asset returns
 3. Topic Assessment: Economic Analysis
 
 4. Topic Assessment Answers: Economic Analysis
+
 
 
