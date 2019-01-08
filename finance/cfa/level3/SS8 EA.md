@@ -131,6 +131,36 @@ Business spending:
 
 6. Module 16.5: Monetary Policy and Interest Rates
 
+Taylor rule: rtarget = rneutral + [0.5(GDPexpected − GDPtrend) + 0.5(iexpected − itarget)]
+
+where:
+rtarget = short-term interest rate target
+rneutral = neutral short-term interest rate. The rate at which a balance between growth and inflation is achieved
+GDP expected = expected GDP growth rate
+GDP trend = long-term trend in the GDP growth rate
+iexpected = expected inflation rate
+itarget = target inflation rate
+
+e.g.  Rtarget = 4% + [0.5(0%-2%)+0.5(7%-3%0] 
+              = 4% + (-1%+2%)
+              = 5%
+
+In this example, the weak projected economic growth calls for cutting interest rates. If inflation were not a consideration, the target interest rate would be 1% lower than the neutral rate. 
+However, the higher projected inflation overrides the growth concern because projected inflation is 4% greater than the target inflation rate. 
+In net, the target rate is 5% because the concern over high inflation overrides the weak growth concern.
+
+### Negative interest rate:
+
+Reason: implicit advantage of quick transfer > explicit cost of holding deposits at negative rates
+
+Similar effects as QE (in theory):
+- Holders of funds find desirable to spend money
+- invest in long term stocks and bonds -> drive up asset prices and create wealth effect
+- consumer and business to borrow zero or negative rates to spend now
+
+Complicate the process of forming CME:
+
+
 7. Module 16.6: The Trend Rate of Growth
 
 8. Module 16.7: International Considerations
