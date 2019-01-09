@@ -159,7 +159,22 @@ Similar effects as QE (in theory):
 - consumer and business to borrow zero or negative rates to spend now
 
 Complicate the process of forming CME:
+- Risk free rate is starting point in buildup model. When risk free rate is negative, the neutral rate is more appropriate for starting point. But neutral rate is not fully risk free, so default risk must be removed.
+- CME over shorter time horizon is complicated by the time path over which negative rates will converge to a long-run sustainable risk free rate.
+- Shorter term projections of asset class returns is to interpret negative risk free rate as being consistent with contraction or early recovery stage of business cycle.
+- Historical data to use as starting point is more problematic because few comparable periods exist. Negative rates suggest significant economic changes are occurring, such regime change makes statistics based on historical data less reliable.
+- Negative rates combined with less tested QE make forecasting more challenging.
 
+Fiscal policy
+- First, it is not the level of the budget deficit that matters—it is the change in the deficit.
+- Second, changes in the deficit that occur naturally over the course of the business cycle are not stimulative or restrictive.
+
+Yield curve:
+
+|Monetary      |Fiscal - Expansive   | Fiscal - Restrictive  |
+|--------------|-----------------------|--------------------|
+| Expansive    |Sharply upward sloping |moderately steep    |
+| Restrictive  | flat                  |Downward sloping = inverted|
 
 7. Module 16.6: The Trend Rate of Growth
 
