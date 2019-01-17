@@ -1,4 +1,4 @@
-READING 5. OVERVIEW OF THE ASSET MANAGEMENT INDUSTRY AND PORTFOLIO MANAGEMENT
+# READING 5. OVERVIEW OF THE ASSET MANAGEMENT INDUSTRY AND PORTFOLIO MANAGEMENT
 
 The candidate should be able to:
 
@@ -9,7 +9,7 @@ b discuss a portfolio management process that supports achieving asset owners’
 c discuss the elements of effective investment governance.
 
 
-READING 6. PROFESSIONALISM IN INVESTMENT MANAGEMENT
+# READING 6. PROFESSIONALISM IN INVESTMENT MANAGEMENT
 
 The candidate should be able to:
 

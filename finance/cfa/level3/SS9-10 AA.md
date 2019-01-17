@@ -19,6 +19,16 @@
 4. Module 19.3: Example
 5. Module 19.4: Issues for Individuals
 6. Module 19.5: A Risk Budgeting Approach
+
+ $ MCTR_i=\beta_i * \sigma_p $
+
+ $ ACTR_i=\omega_i * MCTR_i $
+
+Optimal:
+
+ $ ExcessReturn_i/MCTR_i= ExcessReturn_j/MCTR_j=SR_p $
+
+
 7. Module 19.6: An ALM Approach
 8. Module 19.7: Goals-Based and Miscellaneous Approaches
 9. Module 19.8: Rebalancing Policy
