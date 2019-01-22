@@ -23,7 +23,7 @@
 |1                       | GIGO                                       | Improving quality of inputs (reverse optimization & Black-Litterman model); adding more constraints; resampling MVO|
 |2                    | Concentrated asset allocation| Improving quality of inputs(reverse optimization & Black-Litterman model); adding more constraints; resampling MVO |
 |3                    | Skewness and kurtoisis           | Use asymmetric riks eg CVAR|
-|4                    | Risk diversification                    | |
+|4                    | Risk diversification                    | Risk parity|
 |5                    | Ignore liability                            | Surplus optimization, Two-portfolio approach, Integrated asset-liability |
 |6                    | Single period framework         | MCS, o|
 
