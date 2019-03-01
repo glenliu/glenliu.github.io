@@ -1,10 +1,31 @@
 # READING 7. THE BEHAVIORAL FINANCE PERSPECTIVE
 
 The candidate should be able to:
-a contrast traditional and behavioral finance perspectives on investor decisionmaking;
-b contrast expected utility and prospect theories of investment decision making;
-c discuss the effect that cognitive limitations and bounded rationality may have on investment decision making;
-d compare traditional and behavioral finance perspectives on portfolio construction and the behavior of capital markets.
+## a contrast traditional and behavioral finance perspectives on investor decisionmaking;
+
+
+## b contrast expected utility and prospect theories of investment decision making;
+Bounded rationality:
+  - knowledge capacity limits
+  - not assume:
+     - perfect info
+     - fully rational decisioin making
+     - consistent utility maximization
+  - practice satisfice
+
+Prospect Theory:
+  - relax assumption of risk aversioni, propose loss aversion
+  - choices are made in 2 phases:
+     - editing phase: 
+        - frames proposals
+        - establish a reference point
+        - simplify number  of choices, address cognitive limitations
+     - evaluation phase: loss aversion
+
+
+## c discuss the effect that cognitive limitations and bounded rationality may have on investment decision making;
+
+## d compare traditional and behavioral finance perspectives on portfolio construction and the behavior of capital markets.
 
 # READING 8. THE BEHAVIORAL BIASES OF INDIVIDUALS
 
