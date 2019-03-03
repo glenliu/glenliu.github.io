@@ -30,7 +30,11 @@ Prospect Theory:
 # READING 8. THE BEHAVIORAL BIASES OF INDIVIDUALS
 
 The candidate should be able to:
-a distinguish between cognitive errors and emotional biases;
+## a distinguish between cognitive errors and emotional biases;
+ - Cognitive errors: faulty reasoning, lack of understanding, info processing mistakes, memory errors -> Easier to correct or mitigate
+ - Emotional errors: feelings, impulses, intuition
+
+
 b discuss commonly recognized behavioral biases and their implications for financial decision making;
 c identify and evaluate an individual’s behavioral biases;
 d evaluate how behavioral biases affect investment policy and asset allocation decisions and recommend approaches to mitigate their effects.
