@@ -35,9 +35,46 @@ The candidate should be able to:
  - Emotional errors: feelings, impulses, intuition
 
 
-b discuss commonly recognized behavioral biases and their implications for financial decision making;
-c identify and evaluate an individual’s behavioral biases;
+## b discuss commonly recognized behavioral biases and their implications for financial decision making;
+## c identify and evaluate an individual’s behavioral biases;
+
+  - Cognitive Errors: Belief Perseverance
+    - Conservatism bias.
+    - Confirmation bias.
+    - Representativeness bias.
+    - Control bias.
+    - Hindsight bias.
+  - Cognitive Errors: Information Processing
+    - Anchoring and adjustment.
+    - Mental accounting bias.
+    - Framing bias.
+    - Availability bias.
+  - Emotional Biases
+    - Loss aversion bias.
+    - Overconfidence bias.
+    - Self-control bias.
+    - Status quo bias.
+    - Endowment bias.
+    - Regret-aversion bias
+
 d evaluate how behavioral biases affect investment policy and asset allocation decisions and recommend approaches to mitigate their effects.
+
+- Goals-based investing
+ recognizes that individuals are subject to loss aversion and mental accounting. Builds a portfolio in layers, each consisting of assets used to meet individual goals. 
+Pyramiding: 
+  - bottom layer comprised of assets designated to meet the investor’s most important goals. 
+  - Each successive layer consists of increasingly risky assets used to meet less and less important goals.
+  - Provides investor with ability to see risk more clearly. Although portfolio probably won’t be efficient, it will tend to be fairly well diversified.
+
+- Behaviorally Modified Asset Allocation
+  - Emotional biases are more often adapted to through deviations from the rational asset portfolio allocation.
+  - Higher wealth relative to lifestyle needs allows for greater deviations from the rational portfolio.
+  - The emotional biases of the lower-wealth individual are treated about the same as the cognitive biases of the wealthier individual.
+  - The amount of deviation is also affected by the number of different asset classes in the portfolio.
+  - The lower the suggested deviation from the rational portfolio asset allocation, the greater the need to moderate the investor’s behavioral biases.
+    - Due to significant standard of living risk, for example, the cognitive biases of the low-wealth investor must be moderated.
+
+MODERATE VS ADAPT TO
 
 # READING 9. BEHAVIORAL FINANCE AND INVESTMENT PROCESSES
 
