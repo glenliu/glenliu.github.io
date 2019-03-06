@@ -57,7 +57,7 @@ The candidate should be able to:
     - Endowment bias.
     - Regret-aversion bias
 
-d evaluate how behavioral biases affect investment policy and asset allocation decisions and recommend approaches to mitigate their effects.
+## d evaluate how behavioral biases affect investment policy and asset allocation decisions and recommend approaches to mitigate their effects.
 
 - Goals-based investing
  recognizes that individuals are subject to loss aversion and mental accounting. Builds a portfolio in layers, each consisting of assets used to meet individual goals. 
@@ -79,11 +79,33 @@ MODERATE VS ADAPT TO
 # READING 9. BEHAVIORAL FINANCE AND INVESTMENT PROCESSES
 
 The candidate should be able to:
-a explain the uses and limitations of classifying investors into personality types;
-b discuss how behavioral factors affect adviser–client interactions;
-c discuss how behavioral factors influence portfolio construction;
-d explain how behavioral finance can be applied to the process of portfolio
-construction;
-e discuss how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases;
-f discuss how behavioral factors affect investment committee decision making and recommend techniques for mitigating their effects;
-g describe how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance. 
+## a explain the uses and limitations of classifying investors into personality types;
+- Uses of classifying investors into behavioral types include:
+  - Portfolios that are closer to the efficient frontier and more closely resemble ones based on traditional finance theory.
+  - More trusting and satisfied clients.
+  - Clients who are better able to stay on track with their long-term strategic plans.
+  - Better overall working relationships between the client and adviser.
+
+- Limitations of classifying investors into behavioral types include:
+  - Individuals may display both emotional and cognitive errors at the same time, with either behavior appearing irrational.
+  - The same individual may display traits of more than one behavioral investor type at the same time; therefore, the investment adviser should not try to classify the individual into only one behavioral investor type.
+  - As investors age, they will most likely go through behavioral changes, usually resulting in decreased risk tolerance, along with becoming more emotional about their investing.
+  - Even though two individuals may fall into the same behavioral investor type, each individual would not be treated the same due to their unique circumstances.
+  - Individuals tend to act irrationally at different times, seemingly without predictability.
+
+
+
+## b discuss how behavioral factors affect adviser–client interactions;
+
+A successful client/adviser relationship can be defined in four areas:
+
+  - The adviser understands the long-term financial goals of the client.
+  - The adviser maintains a consistent approach with the client.
+  - The adviser invests as the client expects.
+  - Both client and adviser benefit from the relationship
+
+## c discuss how behavioral factors influence portfolio construction;
+## d explain how behavioral finance can be applied to the process of portfolio construction;
+## e discuss how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases;
+## f discuss how behavioral factors affect investment committee decision making and recommend techniques for mitigating their effects;
+## g describe how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance. 
