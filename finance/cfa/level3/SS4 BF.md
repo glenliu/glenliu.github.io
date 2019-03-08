@@ -115,5 +115,5 @@ A successful client/adviser relationship can be defined in four areas:
 ## g describe how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance. 
 
 Financial bubbles and crashes are periods of unusual positive or negative returns caused by panic buying and selling, neither of which are based on economic fundamentals. In a bubble, the buying is due to investors believing the price of the asset will continue to go up. 
-Another way of defining a bubble or crash is a period of prices for an asset class that is two standard deviations away from the price index’s mean value. 
-A crash can also be characterized as a fall in asset prices of 30% or more over a period of several months. 
+- Another way of defining a bubble or crash is a period of prices for an asset class that is two standard deviations away from the price index’s mean value. 
+- A crash can also be characterized as a fall in asset prices of 30% or more over a period of several months. 
