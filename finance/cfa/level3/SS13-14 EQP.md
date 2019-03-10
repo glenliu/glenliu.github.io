@@ -137,7 +137,7 @@ Three types of passive factor-based strategies
 
 Passive factor-based strategies often use multiple benchmarks, including both factor based and market-cap-weighted indexes. This increases tracking error.
  - The advantages of passive factor-based investing include that it is typically less costly than active management, but still offers the investor factor exposure based on the investor’s view of the market (which is known as factor rotation).
- - The disadvantagesinclude that, relative to passive cap-weighted investing, management fees and trading commissions are higher
+ - The disadvantages include that, relative to passive cap-weighted investing, management fees and trading commissions are higher
 
 ## c compare different approaches to passive equity investing;
 - Pooled investments:
@@ -154,39 +154,141 @@ Passive factor-based strategies often use multiple benchmarks, including both fa
 
 - full replication: costly
 - stratified sampling: strata formed across multiple dimensions, size up -> less tracking error
-- optimization: MPT minimize tracking error. drawback: based on historical relationship; not mean-variance efficient (solution: constraint on total portofolio variance to be volatility of benchmark)
+- optimization: MPT minimize tracking error. drawback: based on historical relationship; not mean-variance efficient (solution: constraint on total portfolio variance to be volatility of benchmark)
 - blended:
-  - full replicatin for index will small number of liquid stocks
+  - full replication for index will small number of liquid stocks
   - stratified sampling or optimization for index with lots of heterogeneous, thinly traded stocks
 
 Adding to the sample size with liquid stocks first reduces tracking error; but as less liquid stocks are added, the costs and tracking error increase
 
 ## e discuss potential causes of tracking error and methods to control tracking error for passively managed equity portfolios;
 
+Tracking error initially declines as sample size increases but then increases as costs (transaction, management, and illiquidity) increase.
+ Intra-day trading and cash drag also create tracking error.
+Reducing tracking error requires a continuing evaluation of the tradeoff between the benefits of larger sample size and increasing costs. Derivatives can be used to minimize the effects of cash drag
+
 ## f explain sources of return and risk to a passively managed equity portfolio.
+
+Attribution analysis is a key tool in helping the manager identify the sources of tracking error.
+Securities lending can generate fee income to offset some of the costs of managing the portfolio and reduce tracking error.
+Corporate governance and investor activism is important for both passive and active investors.
 
 # READING 28. ACTIVE EQUITY INVESTING: STRATEGIES
 
 The candidate should be able to:
 
-a compare fundamental and quantitative approaches to active management;
+## a compare fundamental and quantitative approaches to active management;
 
-b analyze bottom-up active strategies, including their rationale and associated processes;
 
-c analyze top-down active strategies, including their rationale and associated processes;
+Managers can use a blend of bottom-up and top-down approaches. For example, 
+- a topdown strategist sets target country or sector weights, and then bottom-up portfolio managers select the best investments consistent with these weights. 
+- Or the bottom-up managers could drive the portfolio construction process through selecting the best individual investments, with a top-down-based derivatives overlay added to remove unintended macro exposures.
 
-d analyze factor-based active strategies, including their rationale and associated processes;
+## b analyze bottom-up active strategies, including their rationale and associated processes;
+Bottom-up strategies analyze information at the company level to generate investment ideas.
+ Bottom up strategies can be divided into value and growth styles.
+ Value substyles include relative value, contrarian, high-quality value, income investing, deep value, restructuring and distressed debt, and special situations.
 
-e analyze activist strategies, including their rationale and associated processes;
+- Quantitative bottom-up managers look for quantifiable relationships between company level information (e.g., P/E ratio) and expected return that will persist into the future.
+- Fundamental bottom-up managers incorporate both quantifiable and qualitative characteristics of individual companies into their analysis (e.g., business model and branding, competitive advantage, and quality of company management and corporate governance).
 
-f describe active strategies based on statistical arbitrage and market microstructure;
+## c analyze top-down active strategies, including their rationale and associated processes;
+Top-down managers typically use broad market ETFs and derivatives to overweight the best markets and underweight the least attractive markets 
 
-g describe how fundamental active investment strategies are created;
+Top-down strategies focus on the macroeconomic environment, demographic trends, and government policies to make investment decisions. 
+Top-down strategies could focus on geography, industry, equity style rotation, volatility-based strategies, or thematic investment ideas.
 
-h describe how quantitative active investment strategies are created;
+The proliferation over recent years of structured products and focused ETFs has provided managers with greater flexibility in implementing passive factor investing (sometimes referred to as ‘smart beta’ products), allowing the manager to target a specific style or sector at a time when they believe it will outperform.
 
-i discuss equity investment style classifications.
+## d analyze factor-based active strategies, including their rationale and associated processes;
+Quantitative strategies often use factor-based models, which aim to identify factors that drive performance historically and are likely to continue to do so in the future. 
+- rewarded
+- unrewarded
 
+Identify factors performance - Hedged Portfolio Approach
+1. rank by factor
+2. divide into quantiles
+3. form a long/short portfolio: long best 10% short worst 10%
+4. track performance
+
+Drawbacks of HPA:
+1. ignore middle quantiles
+2. assume linear factor vs return relationship
+3. if factors are correlated, then less diversification
+4. assume can short
+5. not "pure" factor, will have exposure to other risk factors
+
+Factors can be based on fundamental characteristics such as value and growth, and price momentum, or on unconventional data.
+
+Equity style rotation
+
+## e analyze activist strategies, including their rationale and associated processes;
+Activist investors specialize in taking meaningful stakes in listed companies and then publicly pushing for changes to the management, strategy, or capital structure of the company that they believe will enhance value
+
+Process
+
+Target companies
+
+Popularity
+
+Impact
+
+## f describe active strategies based on statistical arbitrage and market microstructure;
+
+Stat arb funds look to profit from anomalies in technical market data (i.e.,prices and volumes), for example,
+- pairs trading
+- market microstructure: HFT to capture misplace in a milliseconds.
+
+
+Event-driven strategies (risk arb) exploit market inefficiencies that may occur around mergers and acquisitions, earnings announcements, bankruptcies, share buybacks, special dividends, and spin-offs
+
+## g describe how fundamental active investment strategies are created;
+
+The fundamental active investment process consists of the following steps:
+1. Define the investment universe in accordance with the fund mandate.
+  - Define the market opportunity (investment thesis) and explain why it is there.
+2. Prescreen the investment universe to obtain a manageable set of securities for detailed analysis.
+  - For example, a value manager might screen to remove stocks with high P/E multiples.
+3. Analyze the industry, competitive position, and financial reports of the companies.
+4. Forecast performance, most commonly based on cash flows or earnings.
+5. Convert forecasts to valuations.
+6. Construct a portfolio of profitable investments with the desired risk profile.
+  - Incorporate any top-down view on sectors/markets at this stage.
+7. Rebalance the portfolio with buy and sell disciplines.
+
+Pitfalls in fundamental investing include
+ - behavioral biases: confirmation bias, illusion of control, availability bias, loss aversion, overconfidence, and regret aversion.
+ - the value trap, where a stock that appears to be attractive because of a significant price fall, may in fact be overvalued and decline further. 
+ - the growth trap. favorable future growth prospects are already reflected, or over-reflected, in the price. 
+
+## h describe how quantitative active investment strategies are created;
+The quantitative active investment process includes the following steps:
+ 1. Define the market opportunity.
+ 2. Acquire and process data.
+ 3. Back-test the strategy.
+   - 1. obtain sample of historical data
+   - 1. calc E/Y and subsequent performance
+   - 1. rank stocks by E/P: factor score = (actual E/P - avg E/P) / Sigma E/P 
+   - 1. Calc IC (information coefficent), Spearman, Pearson
+   - 1. The Pearson IC of the raw data is sensitive to even a few outliers (extreme high or low historical return). The Spearman Rank IC addressees this issue and is often considered more robust (superior).
+
+
+ 4. Evaluate the strategy. out of sample testing, VaR and max drawdown
+ 5. Portfolio construction. consider risk models (rely on commercial risk models), trading costs
+
+Pitfalls in quantitative investing include
+- look-ahead 
+- survivorship biases, 
+- overfitting / data mining,
+- unrealistic turnover assumptions,
+- transaction costs
+- short availability.
+
+
+## i discuss equity investment style classifications.
+The two main approaches used in style analysis are holdings-based and returns-based.
+- Holdings-based approaches aggregate the style scores of individual holdings, 
+- returns-based approaches analyze the investment style of portfolio managers by regressing historical portfolio returns against a set of style indexes.
 
 # READING 29. ACTIVE EQUITY INVESTING: PORTFOLIO CONSTRUCTION
 
