@@ -294,18 +294,96 @@ The two main approaches used in style analysis are holdings-based and returns-ba
 
 The candidate should be able to:
 
-a describe elements of a manager’s investment philosophy that influence the portfolio construction process;
+## a describe elements of a manager’s investment philosophy that influence the portfolio construction process;
 
-b discuss approaches for constructing actively managed equity portfolios;
+The three main building blocks of active return (excess return above a benchmark) for an active equity manager are:
+- Active rewarded factor (beta) weightings (taking exposures that differ from the benchmark). Factor exposures include market, size, value, momentum, liquidity, et cetera.
+- Alpha skills—timing rewarded and unrewarded factors, sectors, and securities. This primarily generates excess return through identifying mispricings.
+- Position sizing—large positions affect all three sources of active returns, but will primarily generate high idiosyncratic risk (good/bad luck). It may be a required part of a concentrated manager’s alpha-generating strategy
 
-c distinguish between Active Share and active risk and discuss how each measure relates to a manager’s investment strategy;
+E(RA) = IC * sqrt(BR) * SigmaRA * TC
 
-d discuss the application of risk budgeting concepts in portfolio construction;
+## b discuss approaches for constructing actively managed equity portfolios;
 
-e discuss risk measures that are incorporated in equity portfolio construction and describe how limits set on these measures affect portfolio construction;
+Decision-making can be can be 
+- systematic (rule-driven) or 
+- discretionary (opinion driven). Discretionary managers are more likely to engage in factor timing, hold concentrated portfolios, and are less likely to use formal portfolio optimization techniques. 
 
-f discuss how assets under management, position size, market liquidity, and portfolio turnover affect equity portfolio construction decisions;
+Information used can be top-down (relating to the macro environment) or bottom-up (relating to individual securities).
 
-g evaluate the efficiency of a portfolio structure given its investment mandate;
+Objectives and constraints of managers can be 
+- absolute (e.g., maximize Sharpe ratio subject to maximum volatility) or 
+- relative (e.g., maximize information ratio subject to maximum active risk). 
+- Other constraints may focus on minimizing risk, maximizing exposures to desired factors, or heuristic approaches.
 
-h discuss the long-only, long extension, long/short, and equitized market-neutral approaches to equity portfolio construction, including their risks, costs, and effects on potential alphas.
+## c distinguish between Active Share and active risk and discuss how each measure relates to a manager’s investment strategy;
+
+Active Share measures the degree to which the number and sizing of the positions in a manager’s portfolio differ to those of a benchmark
+
+AS= 1/2 Sum ABS(wib-wip)
+
+Active Risk = Sigma (RA)= sqrt (Variance Active Return) = sqrt (sigma^2*Sum((betapk-betabk)*Fk)+Sigmae^2)
+
+## d discuss the application of risk budgeting concepts in portfolio construction;
+
+The contribution of asset i to absolute portfolio variance
+CVi=Sum(wiwjCij)=wiCip
+
+The contribution of factor i to absolute portfolio variance
+CVi=Sum(BetaiBetajCij)=BetaiCip
+
+The contribution of asset i to relative portfolio variance
+CAVi = Sum(wpi-wbi)(wpj-wbj)RCij = (wpi-wbi)RCip
+
+Practical considerations when considering the appropriate level of portfolio risk include:
+- Implementation constraints (e.g., limits on position sizes) causing information ratio degradation as active risk increases.
+- Limited diversification opportunities in higher risk investments.
+- Leverage increasing volatility and causing lower geometric average compounded returns over multiple periods.
+
+## e discuss risk measures that are incorporated in equity portfolio construction and describe how limits set on these measures affect portfolio construction;
+
+Risk constraints can be classified as 
+- heuristic (based on experience like arbitrary position limits) or
+- formal (based on statistical measures such as VaR). 
+Formal constraints require the estimation of return distributions which introduces estimation error. This estimation error can be magnified by leverage and the idiosyncratic risk of concentrated positions.
+
+## f discuss how assets under management, position size, market liquidity, and portfolio turnover affect equity portfolio construction decisions;
+The market impact cost of an investment strategy is an implicit cost related to the price movement caused by managers executing trades in the market. 
+Managers with higher AUM, higher turnover and shorter time horizons, whose trades have a higher information content, dealing in smaller-cap less-liquid securities, will have higher market impact costs.
+A firm focused on small-cap stocks must either limit its AUM, diversify, limit turnover, or adapt its trading strategy to cap impact costs as AUM grow
+
+## g evaluate the efficiency of a portfolio structure given its investment mandate;
+
+A well-constructed portfolio should deliver the characteristics promised to investors in a cost-efficient and risk-efficient way. This involves:
+- A clear investment philosophy and a consistent investment process.
+- Risk and structural characteristics as promised to investors.
+- Achieving desired risk exposures in the most efficient manner.
+- Reasonably low operating costs given the strategy.
+
+## h discuss the long-only, long extension, long/short, and equitized market-neutral approaches to equity portfolio construction, including their risks, costs, and effects on potential alphas.
+
+An investor’s choice between following long-only or long/short strategies is influenced by several factors, including:
+- Long-term risk premiums.
+- Capacity and scalability.
+- Limited legal liability.
+- Regulation.
+- Transactional complexity.
+- Costs.
+- Personal ideology.
+
+Long extension portfolios guarantee investors 100% net exposure with a specified short exposure. A typical 130/30 fund will have 130% long and 30% short positions.
+Market-neutral portfolios aim to remove market exposure through offsetting long and short positions. 
+Pairs trading is a common technique in building market-neutral portfolios, with quantitative pair trading referred to as statistical arbitrage.
+
+Benefits of long/short strategies include 
+- the ability to better express negative views, 
+- the ability to gear into high-conviction long positions, 
+- the removal of market risk to diversify, and 
+- the ability to better control risk factor exposures.
+
+Drawbacks of long/short strategies include 
+- potential large losses because share prices are not bounded above, 
+- negative exposures to risk premiums,
+- potentially high leverage for market-neutral funds, 
+- the costs of borrowing securities, and collateral demands from prime brokers. 
+- Being subject to a short squeeze on short positions is also a risk.
