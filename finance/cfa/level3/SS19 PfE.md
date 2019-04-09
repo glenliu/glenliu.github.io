@@ -11,8 +11,9 @@ Fund sponsor’s perspective: Performance evaluation improves the effectiveness 
 - Indicates where other, additional strategies can be successfully applied.
 - Provides feedback on the consistent application of the policies set forth in the IPS.
 
-Investment manager’s perspective: As with the fund sponsor’s perspective, performance evaluation can serve as a feedback and control mechanism. Some investment managers may simply compare their reported investment returns to a
-designated benchmark. Others will want to investigate the effectiveness of each component of their investment process.
+Investment manager’s perspective: As with the fund sponsor’s perspective, performance evaluation can serve as a feedback and control mechanism. 
+- Some investment managers may simply compare their reported investment returns to a designated benchmark.
+- Others will want to investigate the effectiveness of each component of their investment process.
 
 ## b explain the following components of portfolio evaluation: performance measurement, performance attribution, and performance appraisal;
 
@@ -36,6 +37,12 @@ RP = (1 + Rs1)(1 + Rs2)(1 + Rs3)(1 + Rs4)... (1 + Rsk) − 1
 - The subperiod results are then compounded together. 
 - The resulting TWRR is unaffected by the external cash flows.
 
+TWRR 的特点：
+- TWRR 不考虑外部现金流的影响（not affected by external cash flows）
+- 计算时需要知道 MVt
+- TWRR 对数据敏感，估值、成本高（ data intensive and expensive）
+- 基金经理无法控制外部现金流时（manager can not controls the timing of external cash flows），使用 TWRR 计算收益率
+
 ### MWRR
 
 The money-weighted rate of return (MWRR) is the internal rate of return (IRR) on all funds invested during the evaluation period, including the beginning value of the portfolio.
@@ -45,6 +52,12 @@ The money-weighted rate of return (MWRR) is the internal rate of return (IRR) on
 - The MWRR, unlike the TWRR, is heavily influenced by the size and timing of cash flows.
 - The TWRR is the preferred method unless the manager has control over the size and timing of the cash flows.
 - The MWRR will be higher (lower) than the TWRR if funds are added prior to a period of strong (weak) performance.
+
+MWRR 的特点：
+- MWRR 考虑了外部现金流的影响
+- 对外部现金流的规模和时间敏感（sensitive to the size and timing of external cash flows）
+- 基 金 经 理 可 以 控 制 外 部 现 金 流 的 时 间 时（ manager controls the timing of external cash flows），使用 MWRR 计算收益率
+- MWRR 只需要知道期初和期末的估值（only requires a beginning and end of period market value）
 
 ### TWRR VS MWRR
 
@@ -77,6 +90,8 @@ Potential problems relating to data quality:
 
 ## e demonstrate the decomposition of portfolio returns into components attributable to the market, to style, and to active management;
 
+![PMSA](images/PMSA.PNG)
+
 P = M     +    S       +          A
  
 P = M   +      B-M      +        P-B
@@ -95,7 +110,7 @@ M ---------------> S----------------->A
 
 ## f discuss the properties of a valid performance benchmark and explain advantages and disadvantages of alternative types of benchmarks;
 
-A valid benchmark should meet the following criteria:
+A valid benchmark should meet the following criteria: SAMURAI
 1. Specified in advance: The benchmark is known to both the investment manager and the fund sponsor. It is specified at the start of an evaluation period.
 2. Appropriate: The benchmark is consistent with the manager’s investment approach and style.
 3. Measurable: Its value can be determined on a reasonably frequent basis.
@@ -107,12 +122,61 @@ A valid benchmark should meet the following criteria:
 There are seven primary types of benchmarks in use:
 
 1. Absolute: An absolute benchmark is a return objective (e.g., aims to exceed a minimum return target).
+- satisfy: Specified in advance、Measurable
+- Advantage: Simple and straightforward benchmark：简单直观
+- Disadvantages: Not an investable alternative：不可投资的
 2. Manager universes: The median manager or fund from a broad universe of managers or funds is used as the benchmark.
+- satisfy Appropriate , Measurable）
+- Advantage：Measurable（可测算的）
+- Disadvantage：
+ - survivor bias：只统计还存活没有被清盘的基金经理，因此其结果被高估
+ - rely on compiler's representations：依赖编制者的陈述，统计的准确与否依赖编制者的报告是否准确
+ - Cannot be identified or specified in advance：事先不可知
+ - Not an Unambiguous and not Investable：不清晰且不可投资
 3. Broad market indices: There are several well-known broad market indices that are used as benchmarks (e.g., the S&P 500 for U.S. common stocks).
+- Advantages：
+ - Well recognized, easy to understand, and widely available
+ - Unambiguous、investable、measurable、specified in advance
+ - appropriate to use
+- Disadvantage：Manager’s style may be different from the index style（基金经理的风险与指数的风格不同）
+
 4. Style indices: Investment style indices represent specific portions of an asset category.
+- Advantages：
+ -  Well recognized, easy to understand, and widely available
+ -  If the index reflects the manager's style and it is investable, it is an appropriate benchmark
+- Disadvantages：
+ -  larger than considered prudent：不够谨慎
+ -  Differing definitions of investment style can produce quite different benchmark returns：对风格指数不同的定义会带来不同的基准收益率
+ -  In these cases they are not appropriate benchmarks：有些情况不是合适的基准
 5. Factor-model-based: Factor models involve relating a specified set of factor exposures to the returns on an account.
-6. Returns-based: Returns-based benchmarks are constructed using (1) the managed account returns over specified periods and (2) corresponding returns on several style indices for the same periods.
+- Advantage：
+- Useful in performance evaluation：可用于业绩评估
+- They capture the systematic sources of return that affect an account’s performance, they help managers and fund sponsors better understand a manager’s investment style：捕获影响账户业绩的系统性,收益来源，帮助基金经理和基金资助人更好的了解基金经理的投资风格
+- Disadvantages：
+- they are not always intuitive to the fund sponsor and particularly to the investment managers：对基金资助人不总是直观的，特别是投资经理
+- data and modeling are not always available and may be expensive：历史数据或模型不可得或成本高
+- It may be ambiguous because different factor models can produce different output：可能是模糊的，因为不同的因素模型可提供不同的输出结果
+
+6. Returns-based: Returns-based benchmarks are constructed using (1) the managed account returns over specified periods and (2) corresponding returns on several style indices for the same periods. 特殊的 Factor-Model-Based，结合了 Style Indices 和 Factor-Model-Based 的特点， 用固定的四个风格指数回归所得到的多因素模型，RB=b0+b1×RLV+b2×RLG+b3×RSV+b4×RSG+ε
+- satisfy Unambiguous、Investable
+- Advantage：
+- generally easy to use and are intuitively appealing：通常易于使用和直观的显示
+- satisfy most benchmark validity criteria：满足大多数基准的有效性标准（好的基准）
+- particularly useful in situations where the only information available is account returns：特别适用于只知道账户收益率信息的情况
+- Disadvantages：
+- may hold positions in securities and economic sectors that a manager might find unacceptable：可能持有的证券头寸和基金经理找到的经济因素是不可接受的
+- require many months of observation to establish a statistically reliable pattern of style exposures：需要几个月的观察来建立一个统计上可靠的风格敞口模式
+
 7. Custom security-based: A custom security-based benchmark reflects the manager’s investment universe, weighted to reflect a particular approach.
+- Advantage：
+- Meets all of the required benchmark properties and satisfies all of the benchmark validity criteria：满足基准特性的所有要求，所有的基准都是有效标准的
+- Allows continual monitoring of investment processes：允许持续的监控投资过程
+- Allow fund sponsors to effectively allocate risk across investment management teams：允许基金的资助人有效的在投资管理团队分配风险
+- Disadvantages：
+- Can be expensive to construct and maintain：构建和维护的成本比较贵
+- Lack of transparency: not composed of published indexes：缺乏透明度：不是公开的指数
+
+![BenchmarkTypes](images/BenchmarkTypes.PNG)
 
 ## g explain the steps involved in constructing a custom security-based benchmark;
 
@@ -656,7 +720,7 @@ Client-directed trades: Because we are attempting to measure the after-tax retur
 
 =================Q===================
 
-![GIPS-1](GIPS-1.png)
+![GIPS 1](GIPS1.png)
 
 Answer:
 
