@@ -628,6 +628,16 @@ funds do not have fixed levels of capital with a set number of investors.
 
 ## q explain the requirements and recommended valuation hierarchy of the GIPS Valuation Principles;
 
+The GIPS valuation hierarchy is a list of value sources. Starting at the top, if the firm is unable to utilize the source, it should proceed to the next source on the list:
+
+1. Objective, observable, unadjusted market prices for similar investments in active markets.
+
+2. Quoted prices for identical or similar investments in markets that are not active.
+
+3. Market-based inputs other than quoted prices that are observable for the investment.
+
+4. Subjective, unobservable inputs
+
 ## r determine whether advertisements comply with the GIPS Advertising Guidelines;
 
 ## s discuss the purpose, scope, and process of verification;
@@ -636,10 +646,83 @@ funds do not have fixed levels of capital with a set number of investors.
 
 For periods beginning on or after January 1, 2011, when firms include after-tax returninformation in a compliant performance presentation, the information must be presented as supplemental information.
 
-The pre-liquidation method calculates after-tax returns based on income earned and gains and losses actually recognized over the period through asset sales. This method effectively ignores the effects of future capital gains taxes.
+- The pre-liquidation method calculates after-tax returns based on income earned and gains and losses actually recognized over the period through asset sales. This method effectively ignores the effects of future capital gains taxes, generally *** understating tax***  liability (gains are more likely in the long run) and *** overstating after-tax return*** 
 
-The mark-to-liquidation method assumes all gains, whether recognized or not, are taxed each period. It ignores the time value of money benefits of postponing capital gains and the associated taxes.
+- The mark-to-liquidation method assumes all gains, whether recognized or not, are taxed each period. It ignores the time value of money benefits of postponing capital gains and the associated taxes, *** overstating tax liability ***  and ***  understating after-tax return *** .
 
 Client-directed trades: Because we are attempting to measure the after-tax return resulting from the manager’s actions, firms must remove the effects of the resulting capital gains taxes by adjusting the ending value of the portfolio (on paper) by adding back the amount of the these non-discretionary taxes before calculating returns.
 
 ## u identify and explain errors and omissions in given performance presentations and recommend changes that would bring them into compliance with GIPS standards.
+
+=================Q===================
+
+![GIPS-1](GIPS-1.png)
+
+Answer:
+
+Errors and omissions in the McGregor performance presentation:
+
+1. The proper GIPS compliance statement.
+2. Definition of firm.
+3. Composite description.
+4. Benchmark description.
+5. If gross-of-fees returns, any fees in addition to trading expenses.
+6. If net-of-fees, any fees in addition to management fees and trading expenses that are deducted; if model or actual management fees are deducted; if net of any performance-based fees.
+7. Currency used to express returns.
+8. Internal dispersion and the measure used.
+9. Fee schedule.
+10. Composite creation date.
+11. That a list of composite descriptions is available.
+12. That the policies for valuing portfolios, calculating performance, and preparing compliant statements are available.
+
+Other omissions or errors:
+
+- The correct compliance statement for an unverified GIPS-compliant performance presentation should read as follows:
+
+McGregor Asset Management claims compliance with the Global Investment Performance Standards (GIPS®) and has prepared and presented this report in compliance with the GIPS standards. McGregor Asset Management has not been independently verified.
+
+- For periods beginning on or after 2011, 3-year ex post standard deviation of monthly returns for composite and benchmark must be presented.
+
+- Additional measure must be presented if management feels ex post standard deviation is inappropriate.
+
+=================Q===================
+
+Action 1: The S&P 500 Index was used as the benchmark for comparison with all three composite styles.
+
+A: The S&P 500 Index should not be used as a benchmark for the fixed-income and balanced composites
+
+Action 2: PMG used accrual accounting, and book values are used for computations of fixed-income returns.
+
+A: Portfolio valuations must be based on fair values (not cost basis and book value)
+
+Action 3: For fixed-income return calculations, accrued income is included.
+
+A: Compliant
+
+Action 4: Due to the change in the firm’s client base, PMG did not include its fee schedule.
+
+A: The GIPS requires the disclosure of an appropriate fee schedule.
+
+Action 5: All actual fee-paying discretionary accounts were included in at least one of the three composites.
+
+A: Compliant
+
+Action 6: Asset-weighted composite returns were calculated using end-of-period weightings.
+
+A: Composites must be asset-weighted using begining-of-period weightings or another method that reflects both begining market value and cash flows.
+
+Action 7: The performance of the equity portion of the balanced accounts, excluding cash, was combined with the equity composite results.
+
+A: For periods begining on or after Janurary 1, 2010, a carve-out cannot be included as part of a composite unles it is managed separately with its own cash balance.
+
+Action 8: All composites included only assets under management and were not linked with simulated or model portfolio performance.
+
+A: Compliant
+
+Action 9: Equal-weighted rates of return that adjust for cash flows are used for portfolio returns.
+
+A: Time-weighted rates of return that adjust for cash flows must be used. Periodic returns must be geometrically linked.
+
+Action 10: Performance calculations were made after the deduction of actual trading expenses.
+
+A: Compliant.
