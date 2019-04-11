@@ -47,7 +47,7 @@ TWRR 的特点：
 
 The money-weighted rate of return (MWRR) is the internal rate of return (IRR) on all funds invested during the evaluation period, including the beginning value of the portfolio.
 
-![MWRR](MWRR.PNG)
+![MWRR](images/MWRR.PNG)
 
 - The MWRR, unlike the TWRR, is heavily influenced by the size and timing of cash flows.
 - The TWRR is the preferred method unless the manager has control over the size and timing of the cash flows.
@@ -272,20 +272,20 @@ There are six levels of investment policy decision-making, by which the fund’s
   - assumes that the fund’s net contributions value is invested based on the fund sponsor’s policy allocations to the specified asset category benchmarks. 
   - This is a pure index fund approach reflecting SAA
   
-  ![L3AssetCategory](L3AssetCategory.PNG) 
+  ![L3AssetCategory](images/L3AssetCategory.PNG) 
 4. Benchmarks.
   - assumes that the beginning value and external cash flows of the fund are passively invested in the aggregate of the managers’ respective benchmarks. 
   - This is also a pure index fund approach but reflecting the sponsor’s TAA decisions. 
   - The difference between the manager benchmarks and the asset category benchmarks (aggregated) is also known as the “misfit return” or “style bias.”
   
-  ![L4Benchmark](L4Benchmark.PNG)
+  ![L4Benchmark](images/L4Benchmark.PNG)
   
 5. Investment managers.
   - assumes that the beginning value and external cash flows of the fund invested are the actual results of the managers. 
   - This is not an index approach but still reflects sponsor decision making as the sponsor selects the managers. 
   - This incremental return reflects the value added by the managers.
   
-  ![L5InvsMgrOrActiveMgmt](L5InvsMgrOrActiveMgmt.PNG)
+  ![L5InvsMgrOrActiveMgmt](images/L5InvsMgrOrActiveMgmt.PNG)
   
   
 6. Allocation effects.
@@ -305,19 +305,19 @@ Micro performance attribution consists of analyzing individual portfolios relati
  - (3) within-sector selection.
  - (4) It is not unusual to also see an unexplained residual component.
 
-![Micro Perf Attr](MicroPerfAttr.PNG)
+![Micro Perf Attr](images/MicroPerfAttr.PNG)
 
 - Pure sector allocation looks at whether the manager over- or underweighted a market sector that over- or underperformed the total return of the benchmark. It ignores the return of the stocks the manager selected so it purely captures the ability of the manager to emphasize outperforming sectors and avoid underperforming sectors.
 
-![SectorAlloc](SectorAlloc.PNG)
+![SectorAlloc](images/SectorAlloc.PNG)
 
 - Within-sector selection does the opposite. It uses benchmark weights, so it ignores the manager’s sector weighting decisions and only focuses on the manager’s performance within a sector versus that of the benchmark within that sector. Essentially it measures the manager’s stock picking skill.
 
-![WithinSector](WithinSector.PNG)
+![WithinSector](images/WithinSector.PNG)
 
 - Adding the previous two components will not total to the portfolio incremental return in most situations. A joint allocation/selection interaction is needed that sums over-/underweighting and stock selection. Joint effects are common in many models that break down return. They are mathematically necessary.
 
-![AllocSelctionInteraction](AllocSelctionInteraction.PNG)
+![AllocSelctionInteraction](images/AllocSelctionInteraction.PNG)
 
 ## m discuss the use of fundamental factor models in micro performance attribution;
 
@@ -380,11 +380,11 @@ The final stage of the performance evaluation process, performance appraisal, me
 
 TR=(Rp-Rf)/Beta
 
-![TR](TR.PNG)          ![TR2](TR2.PNG)
+![TR](images/TR.PNG)          ![TR2](images/TR2.PNG)
 
 4. The Sharpe ratio: Unlike the previous two methods, the Sharpe ratio calculates excess returns above the risk-free rate, relative to total risk measured by standard deviation.
 
-![SR](SR.PNG)
+![SR](images/SR.PNG)
 
 5. M2: Using the CML, M2 compares the account’s return to the market return if the two had equal risk.
 
@@ -393,7 +393,7 @@ TR=(Rp-Rf)/Beta
 
 M^2=Rf+SR*SDm
 
-![M2](M2.PNG)
+![M2](images/M2.PNG)
 
 ### Summary
 
@@ -426,7 +426,7 @@ Quality control charts plot managers’ performance relative to a benchmark, wit
 The manager’s value-added return is plotted on the vertical axis, and time is plotted on the horizontal axis. The center of the vertical axis is where the portfolio and benchmark returns are equal, so the value-added return is zero. The solid, horizontal line originating at zero can be thought of as the benchmark return, and any portfolio returns plotting off the horizontal line would represent those occasions when the portfolio and benchmark returns are not equal.
 
 
-![QC](QC.PNG)
+![QC](images/QC.PNG)
 
 Management can plot the manager’s value-added returns on the chart to determine whether they are randomly generated or are derived through superior management. If they tend to be consistently above or below the line, this could indicate superior or
 inferior performance, respectively
@@ -606,7 +606,7 @@ Standard 2.A.5. If the actual direct trading expenses cannot be identified and s
   - The numerator is the same as for original Diet
   - The denominator is the BV plus each ECF time weighted for the remainder of the full time period
   
- ![MDietz](MDietz.PNG)
+ ![MDietz](images/MDietz.PNG)
   
 - MIRR:
 
@@ -625,7 +625,7 @@ GIPS calculation methodology recommendations
 Standard 2.B.1. Returns should be calculated net of non-reclaimable withholding taxes on dividends, interest, and capital gains. Reclaimable withholding taxes should be accrued.
 
 
-![Composites](Composites.PNG)   ![CompositesA](CompositesA.PNG)
+![Composites](images/Composites.PNG)   ![CompositesA](images/CompositesA.PNG)
 
 ## f explain the meaning of “discretionary” in the context of composite construction and, given a description of the relevant facts, determine whether a portfolio is likely to be considered discretionary;
 
@@ -720,7 +720,7 @@ Client-directed trades: Because we are attempting to measure the after-tax retur
 
 =================Q===================
 
-![GIPS 1](GIPS1.png)
+![GIPS 1](images/GIPS1.png)
 
 Answer:
 
