@@ -113,9 +113,81 @@ For the adviser, the benefits include:
 
 ## f distinguish between required return and desired return and explain how these affect the individual investor’s investment policy;
 
+The division depends on what is important to that client and the facts presented. 
+- Required return is what is necessary to meet high-priority or critical goals to that client. They might include
+  -  living expenses, 
+  - children’s education, 
+  - health care, et cetera. 
+
+- Desired return goals will likewise depend on the client but might be things like
+  -  buying a second home, 
+  - world travel, et cetera.
+
+
+The treatment of inflation and taxes in the current reading assignments and past exam questions is not consistent and has caused considerable confusion.
+
+To illustrate, consider a client in a 30% tax bracket with $1,000,000, needing a $30,000 after-tax distribution at the end of the year with that amount growing at an estimated 2% inflation rate in perpetuity.
+
+Current CFA Readings Approach:
+
+1. First calculate the real, after-tax return: 30 / 1,000 = 3.00%.
+
+2. Then add inflation for the nominal, after-tax return: 3.00% + 2.00% = 5.00%.
+
+3. Last gross up for taxes to calculate the nominal, pretax return: 5.00% / (1 − 0.30) = 7.14%
+
+
+ *** Ownership of a personal residence *** is something that will be noted in the IPS, usually under unique. But it is not part of investable assets and should not be included in that number.
+
 ## g explain how to set risk and return objectives for individual investor portfolios;
 
+Ultimately, the return and risk objective have to be consistent with reasonable capital market expectations as well as the client constraints. 
+
+If there are inconsistencies, they must be resolved by working with the client.
+
 ## h discuss the effects that ability and willingness to take risk have on risk tolerance;
+
+### ablity
+ability of the portfolio to sustain losses without putting the client’s goals in jeopardy;
+how much volatility the portfolio can withstand and still meet the client’s required expenditures. 
+
+- size of expenditure: negative
+- time horizon: positive
+- importance of goals: lifestyle>lavish vacation
+
+Ability to bear risk is decreased by:
+- Shorter time horizon.
+- Large critical goals in relation to the size of the portfolio.
+- High liquidity needs.
+- Goals that cannot be deferred.
+- Situations where the portfolio is the sole source of support or an inability to replace losses in value.
+
+### willingness
+
+Willingness to take risk. The client’s willingness to take risk is subjective and determined through an analysis of her psychological profile.
+
+
+Willingness to bear risk is determined by 
+- statements the client makes or 
+- actions or
+- life experiences.
+
+
+Your conclusion should generally go with the more conservative of the two. If there is a conflict between the two, it should definitely be pointed out. Occasionally, a past answer has taken an average of the two if there was not a serious conflict in them. Going with the more conservative is generally best and be sure to state that you have done this.
+
+Q:
+
+A client has high standard-of-living risk (SLR). He also exhibits strong emotional biases and demands the portfolio double in value every two years, stating, “do whatever it takes.” Classify and justify the client’s ability and willingness to take risk. Treat each classification separately. Explain how the portfolio manager will resolve the conflict between this client’s ability and willingness to take risk in the very short run and in the longer run.
+
+A:
+
+Ability is low because of the high SLR.
+
+Willingness is high based on the desire for high returns and willingness to do whatever it takes.
+
+In the short run, go with the lower (ability).
+
+In the long run, work with the client and try to resolve the conflict between ability and willingness. 
 
 ## i discuss the major constraint categories included in an individual investor’s investment policy statement;
 
@@ -158,6 +230,24 @@ The following strategies are used to reduce the adverse impact of taxes:
 - Tax avoidance
 - Tax reduction
 - Wealth transfer taxes
+
+### Legal
+
+Most common: personal trust and foundation
+- revocable: grantor/trustee have control
+- irrevocalbe: grantor no longer has control
+
+Family foundations are another vehicle, similar to the irrevocable trust, used to transfer family assets to future generations
+
+### Uniquess
+
+- Special investment concerns (e.g., socially responsible investing).
+- Special instructions (e.g., gradually liquidate a holding over a period of time).
+- Restrictions on the sale of assets (e.g., a large holding of a single stock).
+- Asset classes the client specifically forbids or limits based on past experience (i.e., position limits on asset classes or totally disallowed asset classes).
+- Assets held outside the investable portfolio (e.g., a primary or secondary residence).
+- Desired bequests (e.g., the client intends to leave his home or a given amount of wealth to children, other individuals, or charity).
+- Desired objectives not attainable due to time horizon or current wealth.
 
 ## j prepare and justify an investment policy statement for an individual investor;
 
