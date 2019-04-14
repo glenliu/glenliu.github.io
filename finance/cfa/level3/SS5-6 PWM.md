@@ -162,9 +162,28 @@ Ability to bear risk is decreased by:
 - Goals that cannot be deferred.
 - Situations where the portfolio is the sole source of support or an inability to replace losses in value.
 
+
+All else equal, 
+
+- ability to take risk are positively related to
+  - portfolio size versus needs, 
+  - total wealth versus needs,
+  - time horizon 
+
+- ability to take risk are negatively related to
+ 
+  - Goal importance, 
+  - level of spending needs.
+
+Flexibility can increase the ability to take risk.
+
+
+
 ### willingness
 
-Willingness to take risk. The client’s willingness to take risk is subjective and determined through an analysis of her psychological profile.
+Willingness to take risk. The client’s willingness to take risk is subjective and determined through an analysis of her psychological profile. 
+
+Explicit statements, client actions, and situational profiling are used to indicate the client’s willingness to take risk.
 
 
 Willingness to bear risk is determined by 
@@ -253,7 +272,29 @@ Family foundations are another vehicle, similar to the irrevocable trust, used t
 
 ## k determine the strategic asset allocation that is most appropriate for an individual investor’s specific investment objectives and constraints;
 
+Eliminate portfolios that:
+- Violate constraints such as:
+  - Excess cash equivalents (cash drag).
+  - Insufficient cash equivalents to meet appropriate liquidity needs.
+  - Hold or fail to hold assets specified in the constraints. For example, retain at least 10% in tech stocks.
+- Violate the specified risk objective, such as max shortfall risk or standard deviation.
+- Generate insufficient return.
+- Have inappropriate asset classes or weightings
+  - The taught rule of thumb is 60/40 for the average investor. 
+  - Ignoring home ownership. The home is not per se a portfolio asset but it should not be ignored. 
+- Fail to address a concentration issue
+- At this point, a return to risk ranking, such as Sharpe ratio, could be appropriate if needed for the final selection.
+
 ## l compare Monte Carlo and traditional deterministic approaches to retirement planning and explain the advantages of a Monte Carlo approach.
+
+Deterministic planning techniques use single values for economic and financial variables. For instance, expected rates of return, inflation, and interest rates are assigned single point estimates and then used in a modeling framework to estimate assets available for the retirement period. Although useful in formulating expected investment outcome at the retirement stage of life, the deterministic estimation process generatesonly a single number. Investors do not have the capability of evaluating probabilities of that expected value occurring.
+
+Monte Carlo techniques take into account distributions and associated probabilities for input variables and generate a probabilistic forecast of retirement period values. 
+- Instead of seeing one single outcome, the investor can see a range of possibilities for the future.
+- Probabilistic forecasts give both the client and manager a better indication of the risk/return tradeoff in investment decisions.
+- Monte Carlo simulations explicitly show the tradeoffs of short-term risks and the risks of not meeting goals.
+- Monte Carlo is better able to incorporate tax nuances.
+- Monte Carlo can better model the complications associated with future returns by more effectively incorporating the compounding effect of reinvestment.
 
 # READING 11. TAXES AND PRIVATE WEALTH MANAGEMENT IN A GLOBAL CONTEXT
 
@@ -263,11 +304,163 @@ The candidate should be able to:
 
 ## b determine the effects of different types of taxes and tax regimes on future wealth accumulation;
 
+annual accrual taxation: FVIFAT = [1 + r(1 – ti)]^n
+
+deferred capital gains taxation: FVIFAT = (1 + r)^n (1 – tcg) + tcgB
+
+B = cost basis / asset value at start of period n
+
+annual wealth taxation: FVIFAT = [(1 + r)(1 – t_w)]^n
+
+blended taxation:
+
+weighted annual realized tax rate: wartr = piti + pdtd + pcgtcg
+
+1) Begin with the after realized tax return (r*) based on the realized tax rate (wartr).
+
+return after realized taxes: r*= r[1 – (piti + pdtd + pcgtcg)] = r(1 – wartr)
+
+2) Then calculate an effective capital gains tax rate (T*) that reflects the capital gains rate that would apply to the deferred return. This T* reflects the effect of all taxes already paid on interest, dividends, and realized capital gains and that the stated CG tax rate only applies to a portion of the return. 
+
+effective capital gains tax rate: T* = tcg[pdeferred cg / (1 – wartr)]
+
+3) Treat this effective capital gains tax rate (T*) as if it applied to 100% of the after realized tax return (which considers the taxes already paid).
+
+4) Lastly, and like the CG tax computation, this must be adjusted for any initial unrealized gain or loss [i.e., the basis (B)].
+
+future value of the investment: FVIFAT = (1 + r*)^n(1 – T*) + T* – (1 – B)tcg
+
+- (1 + r*)^n is the FV of an initial investment unit after the annual realized taxes are considered but before any deferred taxes. 
+- (1 – T*)  then treats this as if it is 100% taxed at the effective capital gains tax rate (T*). 
+- The  +T* is an addback to reflect that some of the return was already taxed annually.
+-  –(1 – B)tcg is a reduction in final result to reflect the effect of the initial unrealized gain and its tax liability
+
+The impact of tax on future value can also be assessed by computing RAE (higher is better) and TAE (lower is better), assuming all else is the same.
+
+Accrual equivalent after-tax return (RAE) is the annual return that produces the same terminal value as the taxable portfolio:
+
+RAE = (FVAT / initial investment)^1/n – 1
+ 
+Accrual equivalent tax rate (TAE) is the tax rate that makes the pretax return (R) equal to the accrual equivalent after-tax return (RAE):
+
+T_AE = 1 – (R_AE / r)
+
 ## c explain how investment return and investment horizon affect the tax impact associated with an investment;
+
+For accrual taxes:
+- If n > 1, tax drag percentage > t.
+- As n and/or r increase, tax drag percentage and amount increase.
+
+For deferred capital gains taxes:
+
+As n and/or r increase, tax drag amount increases.
+- If B = 1.0, tax drag percentage = t.
+- If B < 1.0, tax drag percentage > t.
+- If B > 1.0, tax drag percentage < t.
+
+For annual wealth taxes:
+- Tax effects are more onerous as the tax rate applies to total value, not just return.
+- As n increases, tax drag percentage and amount increase.
+- But as r increases, tax drag percentage decreases even as amount increases.
+- Tax drag percentage is lower at moderate time horizon and return.
+
 
 ## d discuss the tax profiles of different types of investment accounts and explain their effects on after-tax returns and future accumulations;
 
+![FVIF](images/FVIF.PNG)
+
+Example: Equal rates TDA vs TEA
+
+![TDATEA](images/TDATEA.PNG)
+
+Example: Unequal Current and future rates TDA vs TEA
+
+![unequalTDATEA](images/unequalTDATEA.PNG)
+
+Both TDA and TEA provide tax deferred compounding of return.
+
+Tax-deferred account (TDA) contributions provide a front-end tax advantage;
+
+contributions are pretax, but all withdrawals are taxed.
+
+FVIFAT = (1 + r)^n(1 – tn)
+
+Tax-exempt account (TEA) contributions provide a back-end tax advantage;
+
+contributions are after-tax, and withdrawals are not taxed.
+
+- If the current and the expected future tax rate are equal, TDA and TEA provide equal future value.
+- If the future tax rate is expected to be lower, use the TDA.
+- If the future tax rate is expected to be higher, use the TEA
+
+Q:
+An investor pays 20% current taxes but will pay future taxes at 30%. The investor is willing to give up $2,000 in current consumption and expects to earn 12% in a tax-advantaged account for 30 years. Assuming no contribution limits, determine which account will have the highest future after-tax accumulation.
+
+   A. A tax-deferred account.
+   
+-> B. A tax-exempt account.
+
+   C. The accounts provide the same future accumulations
+
+A:
+
+B  Because the current tax rate is less than the future tax rate, the tax-exempt account will have a higher expected future accumulation, even though contributions are made from after-tax dollars. The following calculations are unnecessary to answer the question but illustrate its proof.
+
+If the investor pays current taxes at 20% and is willing to give up $2,000 in consumption, she can contribute $2,500 to a tax-deferred account. Because contributions to TDAs are treated as tax deductions against income, the $2,500 contribution will save her $2,500 × 0.20 = $500 in taxes. Therefore, her net consumption would be reduced by only $2,000.
+
+Alternatively, she could invest $2,000 in after-tax dollars in a tax-exempt account. Future value calculations:
+
+FVIF_TDA=2500[(1+0.12)^30(1-0.30)]=52,430
+
+FVIF_TEA=(1+r)^n=2000(1+0.12)^30=59,920
+
+
+Q:
+
+Which of the following assets would be the most appropriate asset to locate in a tax-deferred account rather than a taxable account?
+A. Tax-exempt bonds.
+B. High-growth stocks.
+***C. Corporate bonds.***
+
+A:
+
+C Some countries exempt the interest income for some types of bonds from taxation. Because most of the return from bonds is income, there is no benefit to placing such tax exempt bonds in a tax deferred account because no tax is owed.
+
+The after-tax return from standard (taxable) corporate bonds would benefit from locating them in the TDA because their income return is generally taxed. 
+
+Highgrowth stocks pay small dividends and provide most of their return from capital gains. By extending the holding period, tax deferral will be possible even in a taxable account. 
+
+So the greatest benefit is from locating the corporate bonds in the TDA. 
+
+### Equal Limits on Contributions (A Special Case)
+
+If the investor has additional disposable (not needed for other purposes) funds that can be contributed, the TEA can (in this situation) be superior for maximizing future wealth even if the current and future tax rates are equal.
+ 
+The TEA is the superior choice, even though current and future tax rates are the same, because the limit on contributions is, in effect, more generous for the TEA (where the limit applies to the after-tax value) than for the TDA (where the limit applies to the
+pretax value).
+
 ## e explain how taxes affect investment risk;
+
+After-tax return is less variable than pretax return as taxes take a portion of the upside and reduce the downside.
+
+rAT = r(1 – t)
+
+σAT = σ(1 – t)
+
+Assuming there are limits on how much can be placed in the tax-deferred locations, this generally
+
+- favors holding bonds in tax-deferred accounts because the bonds produce most of their return from income.
+
+- In contrast, equities can be held in the taxable accounts. The equity return is typically made up mostly of capital gains rather than dividend income and capital gains can be deferred. By extending the holding period, the TAE can be reduced even in the fully taxable location to improve the equity after-tax return and generate tax alpha.
+
+- In more complicated situations, both tax location and asset allocation can be optimized by using leverage. Suppose an investor has $75,000 in tax-deferred accounts (either TDA or TEA) all invested in bonds and $25,000 in equities in fully taxable accounts to
+maximize tax alpha. However, the 25/75 equity/bond allocation is not optimal and 60/40 is the desired allocation. There are two possibilities:
+
+1. Shift $35,000 of the tax-deferred account holdings from bond to equity to produce the 60/40 allocation. However, this will reduce tax alpha even though it increases expected return with a shift to higher return equity.
+
+2. Or borrow and invest in the taxable account the desired amount of increased equity holdings ($35,000). Borrowing is the equivalent of shorting bonds, [i.e., you pay interest on the borrowings (a short position) while you receive interest on bonds owned (a long position)]. This optimizes tax alpha and produces the desired allocation.
+
+![TaxAlphaLeverage](images/TaxAlphaLeverage.PNG)
 
 ## f discuss the relation between after-tax returns and different types of investor trading behavior;
 
