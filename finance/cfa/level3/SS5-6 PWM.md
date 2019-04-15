@@ -302,6 +302,10 @@ The candidate should be able to:
 
 ## a compare basic global taxation regimes as they relate to the taxation of dividend income, interest income, realized capital gains, and unrealized capital gains;
 
+The tax rules of countries vary. Some combinations of rules include the following:
+
+![TaxRegimes](images/TaxRegimes.PNG)
+
 ## b determine the effects of different types of taxes and tax regimes on future wealth accumulation;
 
 annual accrual taxation: FVIFAT = [1 + r(1 – ti)]^n
@@ -464,10 +468,22 @@ maximize tax alpha. However, the 25/75 equity/bond allocation is not optimal and
 
 ## f discuss the relation between after-tax returns and different types of investor trading behavior;
 
+High turnover lowers tax alpha as the benefits of tax-deferred compounding are lost. In addition, more gains are taxed at higher short-term rather than lower long-term rates.
+
+In order from lowest tax alpha (highest turnover) to highest tax alpha (lowest turnover) are: traders, active investors, and passive investors. Exempt investors do not pay taxes.
+
 ## g explain tax loss harvesting and highest-in/first-out (HIFO) tax lot accounting;
+
+Tax loss harvesting uses investment losses to offset investment gains or income, resulting in a tax savings. This initial tax savings is overstated because the tax savings is taken now and the low cost basis is not available in the future. Harvesting is a deferral of taxes.
+
+Investors often accumulate a security position through a series of trades, each occurring at different points in time and at different prices. If a partial sale of the position is being made, it is generally best to designate the highest cost basis lot as being sold first (HIFO) to minimize the tax gain or maximize the tax loss. If future tax rates are expected to be higher than current rates, designating the lowest cost basis as being sold (LIFO) may be better as it accelerates tax payments to the present and lowers them in the future.
 
 ## h demonstrate how taxes and asset location relate to mean–variance optimization.
 
+Ideally, the efficient frontier of portfolios should be viewed on an after-tax basis. For example, an investor holds both stocks and bonds in both taxable and tax-exempt accounts. In this case, there are four different assets that could appear on the efficient
+frontier. Of course, the optimization process would have to be constrained to account for limits on the amount of funds that can be placed in tax-advantaged accounts and the type of assets that can be allocated to them.
+
+The mean-variance optimization should optimally allocate assets and determine the optimal asset location for each asset
 
 # READING 12. ESTATE PLANNING IN A GLOBAL CONTEXT
 
@@ -475,9 +491,45 @@ The candidate should be able to:
 
 ## a discuss the purpose of estate planning and explain the basic concepts of domestic estate planning, including estates, wills, and probate;
 
+A will (also known as a testament) is used to transfer estate assets at death.
+ 
+Probate is a legal process to validate and implement the will after death.
+
+Probate can be costly and make details of the will public.
+
+Joint ownership with rights of survivorship, living trusts, retirement plans, life insurance, and other means can sometimes be used to transfer assets outside the probate process.
+
 ## b explain the two principal forms of wealth transfer taxes and discuss effects ofimportant non-tax issues, such as legal system, forced heirship, and marital property regime;
 
+Civil law: 大陆法系
+a civil law system is based on old Roman law. In this system, laws are handed down (i.e., a top down system) by a legislative body 
+
+Under a separate property rights regime, which is common in civil law countries, each spouse owns and controls his or her property, separate from the other. Each spouse may, barring the presence of other forced heirship rules, bequeath assets as they wish.
+
+Under a community property rights regime, each spouse is entitled to one-half of the estate earned during the marriage. Gifts and inheritances received before or during the marriage may be held separate from marital assets. Assets not distributed under community property rights are distributed according to the will.
+
+Assets that are not considered part of marital assets under a community property rights regime are considered part of the total estate for purposes of forced heirship rules. 
+
+Also, a marital right to the estate is a form of forced heirship.
+
+Common law： 海洋法系
+
+Common law systems, based primarily on old English law, are more “bottom up.” Judges play very important roles in common law systems by refining any existing laws to meet particular situations. Once made by a judge, the decisions become precedent to be applied in future cases.
+
+
+
 ## c determine a family’s core capital and excess capital, based on mortality probabilities and Monte Carlo analysis;
+
+Core capital is the amount necessary to meet all of an individual’s liabilities plus a reserve for unexpected needs. 
+
+It is the sum of the products of expected spending for each year and the probability of living that long. 
+
+An individual has 50% probability of outliving mortality table expected life, so incorporate a safety reserve into core capital. 
+
+Monte Carlo simulation gives the expected portfolio value and distribution of possible values at retirement.
+
+The probability of running out of money is known as the probability of ruin. Level of spending and probability of ruin are usually positively correlated.
+
 
 ## d evaluate the relative after-tax value of lifetime gifts and testamentary bequests;
 
@@ -496,6 +548,7 @@ The candidate should be able to:
 ## k evaluate a client’s tax liability under each of three basic methods (credit, exemption, and deduction) that a country may use to provide relief from double taxation;
 
 ## l discuss how increasing international transparency and information exchangeamong tax authorities affect international estate planning.
+
 
 # READING 13. CONCENTRATED SINGLE-ASSET POSITIONS
 
