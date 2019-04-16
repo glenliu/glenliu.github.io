@@ -258,7 +258,7 @@ Most common: personal trust and foundation
 
 Family foundations are another vehicle, similar to the irrevocable trust, used to transfer family assets to future generations
 
-### Uniquess
+### Uniqueness
 
 - Special investment concerns (e.g., socially responsible investing).
 - Special instructions (e.g., gradually liquidate a holding over a period of time).
@@ -533,21 +533,106 @@ The probability of running out of money is known as the probability of ruin. Lev
 
 ## d evaluate the relative after-tax value of lifetime gifts and testamentary bequests;
 
-## e explain the estate planning benefit of making lifetime gifts when gift taxes arepaid by the donor, rather than the recipient;
+Relative value ratios (RV) project the future value to the recipient of making the gift now during the giver’s life versus leaving a bequest (gift) at death. An RV > 1 indicates the value of the gift now is higher.
+
+
+## e explain the estate planning benefit of making lifetime gifts when gift taxes are paid by the donor, rather than the recipient;
+
+When the donor pays the gift taxes, the future value of the gift to the recipient is increased by an amount equal to the product of the gift and estate tax rates (Tg and Te, the percent of the giver’s wealth being gifted (g/e), and the value of the gift:
+
+//todo
+
 
 ## f evaluate the after-tax benefits of basic estate planning strategies, including generation skipping, spousal exemptions, valuation discounts, and charitable gifts;
 
+Skipping a generation can avoid the double taxation of assets. It increases the FV of the gift by a factor of 1 / (1 – t) if all others factors are the same:
+
+FVno skipping = PV[(1 + r)n1 (1 − t)][(1 + r)n2 (1 − t)]
+
+FVskipping = PV[(1 + r)N(1 − Te)] [N = n1 + n2]
+
+Many countries allow: 
+
+(1) spousal exemptions. 
+
+(2) Valuation discounts can be employed to reduce the taxable value of gifts or the estate. 
+
+(3) The donor to take a tax deduction in the amount of the charitable gift. Value of a gift to charity relative to
+leaving it in a bequest is:
+
+//todo
+
 ## g explain the basic structure of a trust and discuss the differences between revocable and irrevocable trusts;
+
+In a revocable trust, the settlor can rescind the trust and is considered the legal owner of the assets for tax purposes. 
+
+In an irrevocable trust, the settlor relinquishes ownership. The trustee is considered the owner of the assets for tax purposes. An irrevocable trust protects the trust assets from claims against the settlor.
+
+In a fixed trust, the pattern of distributions to the beneficiaries is predetermined by the settlor and incorporated into the trust documents. 
+
+In a discretionary trust, the trustee determines how the assets are distributed. 
+
+A spendthrift trust is used to transfer assets to a beneficiary who is too young or is otherwise unable to manage the assets.
 
 ## h explain how life insurance can be a tax-efficient means of wealth transfer;
 
+Premiums paid on life insurance are not usually considered part of the grantor’s estate for tax purposes. In most jurisdictions, life insurance proceeds pass to beneficiaries without tax consequences, and, depending on jurisdiction, the policy might provide taxfree accumulation of wealth and/or loans to the policy holder on beneficial terms.
+
+By establishing a trust on behalf of the beneficiaries and making that trust the direct beneficiary of a life policy, the policy holder transfers assets to young, disabled, et cetera, beneficiaries outside the probate process.
+
 ## i discuss the two principal systems (source jurisdiction and residence jurisdiction) for establishing a country’s tax jurisdiction;
+
+Under source jurisdiction (a.k.a. territorial tax system) a country levies taxes on all income generated within its borders. 
+
+Under residence jurisdiction, a country taxes the global income of its residents.
 
 ## j discuss the possible income and estate tax consequences of foreign situated assets and foreign-sourced income;
 
+In response to citizens who renounce their citizenship to avoid taxes, some residence jurisdictions impose an exit tax, usually based on the gains on assets leaving, as if they were sold (deemed disposition). This could include a tax on income earned for a shadow
+period.
+
 ## k evaluate a client’s tax liability under each of three basic methods (credit, exemption, and deduction) that a country may use to provide relief from double taxation;
 
-## l discuss how increasing international transparency and information exchangeamong tax authorities affect international estate planning.
+In a residence-residence conflict, two countries claim residence for the same individual. 
+
+In a source-source conflict, two countries claim authority over the same income. 
+
+In a residence-source conflict, an individual is subject to residence jurisdiction and receives income on assets in a foreign country with source jurisdiction.
+
+Tax treaties may partially or fully resolve the double taxation of residence-source conflicts. The income is taxed by the source country and then:
+
+- Exemption method: Not taxed by the residence country.
+- Credit method: The tax owed to the residence country is computed, and a credit for taxes paid to the source country is applied:
+  - If more is owed the residence country, the difference is paid.
+  - If less is owed the residence country, the bill is zero.
+- Deduction method: Taxes owed the source country reduce the taxable income in (and thereby partial reduce the tax owed to) the residence country.
+
+EXAMPLE: Residence-source conflict
+
+An individual living in a country that bases income tax on residency has total worldwide income of 1,500,000. 600,000 of that amount is generated in a source jurisdiction country. The domestic country charges 40% income taxes on worldwide income, and the source country charges 35% taxes on income generated within its borders.
+Determine the income taxes paid on the foreign source income and the country or countries to which it is owed under the:
+
+
+|-------Method---------|-----------Source-----------|-------------Residence-----------|------Total--------------|
+|-------      ---------|-----------      -----------|-------------         -----------|------     --------------|
+|Credit method         |60w*0.35=21w                |60w*0.4-21w(credit)=3w           |24w                      |
+|Exemption method      |60w*0.35=21w                |exempt                           |24w                      |
+|Deduction method      |60w*0.35=21w                |60w-21w=39w; 39w*0.4=15.6w       |36.6w                    |
+
+## l discuss how increasing international transparency and information exchange among tax authorities affect international estate planning.
+
+In the estate planning process, financial advisers should attempt to structure estates to hold and transfer assets in the most tax-efficient ways. This could include holding foreign assets and even holding funds in a foreign country to more efficiently provide
+living and/or business expenses. 
+
+Tax avoidance is legal. 
+
+Tax evasion is hiding, misrepresenting, or otherwise not recognizing income so as to illegally avoid taxation.
+
+Many countries enter into global treaties which provide for the sharing of information.
+
+QIs collect all the information required by the United States but provide the information on their U.S. customers only. 
+
+A similar agreement exists in the European Union, by which EU member banks exchange customer information with each other.
 
 
 # READING 13. CONCENTRATED SINGLE-ASSET POSITIONS
