@@ -31,7 +31,7 @@ Describe a situational profile according to:
 i. Source of wealth.
 
 Information related to source of wealth describes how an investor accumulated wealth.
-- At one end of the spectrum is wealth acquired through active means (e.g.,entrepreneurial activities). This indicates knowledge and experience with risktaking activities. 
+- At one end of the spectrum is wealth acquired through active means (e.g.,entrepreneurial activities). This indicates knowledge and experience with risk taking activities. 
 - The other end of the spectrum is wealth acquired through passive means (e.g., inheritance or long-term employment in a stable corporation). The latter may indicate an investor with less knowledge and experience of risk-taking activities.
 
 
@@ -801,7 +801,54 @@ A perfect hedge is generally inappropriate if it will cause the underlying gain 
 
 ## j describe strategies for managing concentrated positions in privately held businesses;
 
+Privately held businesses may be more concentrated (the owner could own 100% of the business and it may be close to 100% of her assets), the standalone and nonsystematic risk tends to be very high, and the asset is generally illiquid.
+
+Exit strategies for the business must be considered. Exit strategy analysis should consider:
+- The value of the business.
+- Tax rates that would apply to the potential exit strategies.
+- Availability and terms of credit, as borrowing may be involved in financing any transaction.
+- The buying power of potential purchasers.
+- Currency values if the transaction involves foreign currencies.
+
+The strategies to consider in managing a private business position include:
+
+- Strategic buyers take a buy and hold perspective and generally offer the highest price to the seller. Strategic buyers seek to combine the business with an existing business of the buyer.
+
+- A financial buyer or a financial sponsor is often a private equity fund planning to restructure the business, add value, and resell the business (typically in a 3 to 5 year period).
+
+- Recapitalization is generally used for established but less mature (middle market) companies. In a leveraged recapitalization the owner may retain 20% to 40% of the equity capital and sell 60% to 80% of his shares back to the company. The owner continues to manage the business with a significant financial stake. A private equity firm could arrange the financing for the company to purchase the owner’s stock. In exchange, the private equity firm receives equity in the company. This could be part of a phased exit strategy for the owner; sell and receive cash for a portion of his equity in the initial transaction, then participate in and sell his remaining shares when the private equity firm resells their position in a few years。
+
+- In a sale to (other) management or key employees, the owner sells his position to existing employees of the company. There are drawbacks:
+  - Generally the buyers will only purchase at a discounted price.
+  - The buyers may lack financial resources and expect the existing owner to finance a significant portion of the purchase with a loan or a promissory note.
+  - The promissory note is often contingent on future performance of the business with no assurance current employees or managers are capable of running the business and making the payments. This structure may be called a management buyout obligation (MBO) because existing managers buy the business in exchange for an obligation to pay for the business in the future.
+  - Negotiation with employees to sell the business to them may fail and damage the continuing employer/employee relationship needed to continue operating the business.
+
+- In a divestiture, sale, or disposition of non-core business assets, the owner sells nonessential business assets and then directs the company to use the proceeds to pay a large dividend to, or repurchase stock from, the owner. In either case, the
+owner receives cash while retaining the rest of the stock and control of the business.
+
+- A sale or gift to family members could be structured with tax advantages such as the estate tax freeze or limited partnership valuation discounts discussed earlier. The existing owner could do an MBO. Unfortunately, neither a gift nor MBO sale
+provides the existing owner much immediate cash flow.
+
+- A personal line of credit secured by company shares. The owner can borrow from the company and pledge her company stock as collateral.
+
+- With an initial public offering (IPO) the owner sells a portion of his shares to the public and transforms the remaining shares into liquid public shares.
+
+- With an employee stock ownership plan (ESOP), the owner sells stock to the ESOP, which in turn sells the shares to company employees. In a leveraged ESOP, the company borrows the money to finance the stock purchase.
+
 ## k describe strategies for managing concentrated positions in real estate;
+
+A single investment in a real estate asset can be large and constitute a significant portion of an investor’s assets, bringing a high level of concentrated, property-specific risk.
+
+Real estate is generally illiquid and, if held for a long time, may have a significant unrealized taxable gain. A seller considering sale or monetization of a property should consider its current value relative to historical and expected value in the future, taxes on any transaction, availability of credit, and interest rate levels. Strategies to consider
+include:
+
+- Mortgage financing can be an attractive strategy to raise funds without loss of control of the property. With a nonrecourse loan the lender’s only recourse is to seize the property if the loan is not paid. The borrower effectively has a put option
+on the property. If the property value falls below the loan amount, the borrower can default on the loan, keep the loan proceeds, and “put” the property to the lender.
+
+- A donor-advised fund or charitable trust can allow the property owner to take a tax deduction, gift more money to the charity, and influence the use of the donation.
+
+- A sale and leaseback can provide immediate funds while retaining use of the property
 
 ## l evaluate and recommend techniques for tax efficiently managing the risks of concentrated positions in publicly traded common stock, privately held businesses, and real estate.
 
