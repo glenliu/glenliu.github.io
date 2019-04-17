@@ -641,21 +641,163 @@ The candidate should be able to:
 
 ## a explain investment risks associated with a concentrated position in a singleasset and discuss the appropriateness of reducing such risks;
 
+- Systematic risk is the risk that cannot be diversified away through holding a portfolio of risky assets. In the single factor CAPM, this would be beta. In multifactor models there will be more than one systematic risk.
+
+- Company-specific risk is the nonsystematic risk of an investment that can be diversified away. It would derive from events that affect a specific investment but not the overall market. A corporate bankruptcy as a result of financial fraud would be an extreme example of company-specific risk. Nonsystematic risk increases the standard deviation of returns without additional expected return.
+
+- Property-specific risk for real estate is the direct counterpart to company-specific risk for a company. It is the additional, diversifiable risk associated with owning a specific property.
+
 ## b describe typical objectives in managing concentrated positions;
+
+There are three common objectives when managing a concentrated position:
+1. Reduce the risk caused by the wealth concentration.
+2. Generate liquidity to meet diversification or spending needs.
+3. Optimize tax efficiency to maximize after-tax ending value.
+
+Reducing the concentrated position is not appropriate for all clients. There are other client specific objectives and constraints to consider:
+- Restrictions on sale. Stock ownership in a public company may be received by a company executive as part of a compensation package, with company expectations or regulatory requirements that the executive will hold the stock for a certain length of time.
+- A desire for control. Majority ownership brings control over the business.
+- To create wealth. An entrepreneur may assume high specific risk in expectation of building the value of the business and his wealth.
+- The asset may have other uses. Real estate owned personally could also be a key asset used in another business of the owner.
 
 ## c discuss tax consequences and illiquidity as considerations affecting the management of concentrated positions in publicly traded common shares, privately held businesses, and real estate;
 
+Sale of a concentrated position may trigger a large capital gains tax liability. A large concentrated position is often accumulated and held for many years, resulting in a zero or low tax basis. A plan to defer, reduce, or eliminate the tax may be desirable.
+
+Illiquidity and/or high transaction costs can be a factor even if there is no tax due. A public company trading with insufficient volume may require a price discount to sell.
+
+The expense of finding a buyer for a private business or real estate can be substantial.
+
+The intended use by the prospective buyer may affect the price.
+
 ## d discuss capital market and institutional constraints on an investor’s ability to reduce a concentrated position;
+
+Institutional and capital market constraints such as tax law can significantly affect the costs of selling or monetizing a concentrated position. Legal issues can depend on the form of asset ownership: sole proprietorship, limited partnership, limited company, or public stock. Other specific issues that may exist include:
+
+- Margin lending rules limit the percentage of the asset’s value that can be borrowed. Derivative positions can be used to reduce the risk of the asset position and increase the percentage of value that can be borrowed. Rule-based systems tend to be rigid and define the exact percentage that can be borrowed, while risk based systems consider the underlying economics of the transaction.
+- Securities law and regulations may define the owner as an “insider” (who is presumed to have material, nonpublic information) and impose restrictions, regulations, and reporting requirements on the position.
+- Contractual restrictions and employer mandates may impose restrictions (such as minimum holding periods or blackout periods when sales may not be made) beyond those of securities law and regulation.
+- Capital market limitations in the form of market structure and regulation can have indirect consequences. Monetization strategies commonly require over-thecounter derivative trades with a dealer to hedge the security’s risk and increase the LTV ratio. To offer such trades, dealers must be able to hedge the risks they assume. This may be impossible. For example, if the asset is an initial public offering (IPO) or trades infrequently, there will not be a price history on which the dealer can base a hedge. Borrowing and shorting the underlying asset is often required for the dealer to hedge their risk. This is prohibited in some markets.
 
 ## e discuss psychological considerations that may make an investor reluctant to reduce his or her exposure to a concentrated position;
 
+Cognitive biases are generally easier to overcome with education than are emotional biases.
+
+Typical cognitive biases include 
+- conservatism in maintaining existing beliefs;
+- confirmation in seeking support for what is already believed; 
+- illusion of control when the investor believes he can control what will happen to the investment; 
+- anchoring and adjustment in making decisions in reference to the current position held; and 
+- availability in making decisions based on ease of recalling information.
+
+Typical emotional biases include
+- overconfidence,
+- familiarity, and
+- illusion of knowledge leading the investor to overestimate the probability the investment will produce favorable returns; 
+- status quo bias and a failure to consider making changes; 
+- naive extrapolation of past results; 
+- endowment in expecting to be able to sell the asset for more than the investor would pay for it; 
+- and loyalty bias in retaining employer stock or feeling an obligation to retain an inherited position.
+
 ## f describe advisers’ use of goal-based planning in managing concentrated positions;
+
+A goal-based decision process modifies traditional mean-variance analysis to accommodate the insights of behavioral finance theory. The portfolio is divided into tiers of a pyramid, or risk buckets, with each tier or bucket designed to meet progressive levels of client goals.
+
+1. Allocate funds to a ***personal risk bucket*** to protect the client from poverty or a drastic decline in lifestyle. Low-risk assets such as ***money market and bank CDs, as well as the personal residence***, are held in this bucket. Safety is emphasized, but a below-market return is likely.
+
+2. Next, allocate funds to a  ***market risk bucket*** to maintain the client’s existing standard of living. Portfolio assets in this bucket would be allocated to ***stocks and bonds*** earning an expected market return.
+
+3. Remaining portfolio funds are allocated to an ***aspirational risk bucket*** holding positions such as a private business, concentrated stock holdings, real estate investments, and other riskier positions. If successful, these high-risk investments could substantially improve the client’s standard of living.
+
+To implement a goal-based plan, the manager and client must determine the primary capital necessary to meet the goals of the ***first two*** risk buckets and the amount of any remaining surplus capital to meet aspirational goals. If a concentrated holding in the aspirational bucket leaves insufficient funds for the first two primary capital buckets, sale or monetization of the concentrated position must be discussed with the client
 
 ## g explain uses of asset location and wealth transfers in managing concentrated positions;
 
+Asset location determines the method of taxation that will apply. Location in a tax deferred account would defer all taxes to a future date. In a taxable account, interest, dividends, and capital gains may be subject to different tax rates (or deferral possibilities in the case of when to realize capital gains).
+
+Wealth transfer involves estate planning and gifting to dispose of excess wealth. The specific strategies used depend on the tax laws of the country and the owner’s situation.
+
+Key considerations include:
+
+1. Advisors can have the greatest impact by working with clients before significant unrealized gains occur. If there are no unrealized gains, there are generally no financial limitations on disposing of the concentrated position.
+
+2. Donating assets with unrealized gains to charity is generally tax-free even if there are gains.
+
+3. An estate tax freeze is a strategy to transfer future appreciation and tax liability to a future generation. This strategy usually involves a partnership or corporate structure. A gift tax would be due on the value of the asset when the transfer is made; however, the asset (including any future appreciation in value) will be exempt from future estate and gift taxes in the giver’s estate. Any tax owed is “frozen,” meaning paid or fixed near an initial value.
+
+A five-step process can be used to make decisions for managing a concentrated position:
+Step 1: Establish written objectives and constraints for the client. Nonfinancial issues such as retaining control of the asset and wealth transfer goals should be included in the document.
+Step 2: Identify the techniques and strategies that best meet these objectives and constraints.
+Step 3: Consider the tax advantages and disadvantages of each technique.
+Step 4: Consider the other advantages and disadvantages of each technique.
+Step 5: Document the decisions made.
+
+Three broad techniques can be used to manage concentrated positions:
+
+- Sell the asset: This will trigger a tax liability and loss of control.
+- Monetize the asset: Borrow against its value and use the loan proceeds to accomplish client objectives.
+- Hedge the asset value: Often done using derivatives to limit downside risk. Hedging techniques often utilize over-the-counter (OTC) or exchange-traded derivatives.
+
 ## h describe strategies for managing concentrated positions in publicly traded common shares;
 
+Monetization generally involves receiving cash for a position without triggering a tax event. It is a two-step process:
+
+Step 1: Hedge a large part of the risk in the position. This is often complicated by tax regulations.
+
+Step 2: Borrow using the hedged position as collateral. The more effective the hedge, the higher the loan to value (LTV) ratio for the loan.
+
+To illustrate potential monetization tools, consider an investor with 100,000 shares of PBL, which is trading for $50 per share. Four tools can be considered for hedging the asset.
+
+1. Short sale against the box. The investor borrows 100,000 shares of PBL and sells them short. The investor is long and short the stock, a “riskless position” that is expected to earn the risk-free rate of return. The investor can use the short sale proceeds to meet portfolio objectives.
+
+2. Equity forward sale contract. The investor enters a forward contract to sell the 100,000 shares of PBL. The investor has a known sale price and does not share in any upside or downside price movement of PBL from that contract price.
+
+3. Forward conversion with options. A pair of options is used to hedge the stock position, selling calls and buying puts with the same strike price. A hedged ending value of $50 is established.
+
+4. Total return equity swap. The investor enters a swap to pay the total return on the $5,000,000 of PBL and receives LIBOR.
+
+Selecting the tool will depend on tax treatment. The goal is to select the tool that will not trigger an existing tax liability.
+
+It is also possible to use modified hedging to minimize downside risk while retaining upside in the underlying position.
+
+Protective puts (sometimes called portfolio insurance): The investor would purchase puts on 100,000 shares of PBL.
+
+There are several ways to lower the cost of the protection:
+- Purchase an out-of-the-money put. 
+- Use a pair of puts, buying a put with a higher strike price of XH and selling a put with a lower strike price of XL.
+- Add exotic features to the option (not found in standard options). For example, a knock-out put expires prior to its stated expiration if the stock price rises above a specified level. This may reduce the protection, and the option will cost less.
+- No-cost or zero-premium collars are a common way to lower initial cost, in this case to zero, by giving up some stock upside. A put is purchased and a call is sold with different strike prices selected so the premiums are equal.
+
+Prepaid variable forwards (PVF) are economically similar to a collar and loan in one transaction. The owner of 100,000 PBL shares (currently priced at $50) could enter a PVF with a dealer. The dealer would pay the owner $45 per share now, equivalent to borrowing $45 per share. The loan will be repaid by delivering shares of PBL at a future date. The PVF could specify delivery of all 100,000 shares if PBL is below $50 per share on the repayment date but require delivery of a smaller number of shares if the price of PBL rises above $50.
+
 ## i discuss tax considerations in the choice of hedging strategy;
+
+A ****mismatch in character****, two items in a strategy that trigger different tax treatments.
+
+A hedging strategy needs to consider any mismatch and select the tool or strategy that maximizes after-tax value for the investor.
+
+Many tax codes treat employer stock options as an alternative to salary and tax any gains on the options as ordinary income. Hedging the options could produce a mismatch in character. As an example, a gain on stock options of $100,000 is taxed as ordinary income at 30%, while offsetting losses of $100,000 on the derivatives hedge are used to reduce long-term gains that are taxed at 10%. The tax of $30,000 is reduced by only $10,000 of capital gains tax not paid and only if the investor has $100,000 of capital gains to shelter. Whatever the strategy, it is essential to verify how it will be treated for tax purposes.
+
+****Yield enhancement with covered calls**** is another potential strategy. The owner of shares could sell call options. The premium income received can be viewed as either enhancing the income yield of the stock or protecting against the stock price decline.
+
+Two tax-optimization equity strategies combine tax planning with investment strategy.
+
+1. ****Index tracking with active tax management****. Cash from a monetized concentrated stock position is invested to track a broad market index on a pretax basis and outperform the index on an after-tax basis. For example, if dividends are taxed at a higher rate than capital gains, the tracking portfolio could be structured with a lower dividend yield but higher expected price appreciation.
+
+2. A ****completeness portfolio structures**** the other portfolio assets for greatest diversification benefit to complement (complete) the concentrated position. For example, if the concentrated position is an auto stock, the rest of the assets are selected to have low correlation with auto stocks such that the resulting total portfolio better tracks the return of the chosen benchmark.
+
+Both of these tax-optimization strategies allow the investor to ****retain ownership**** of the concentrated position but may take time and sufficient other assets and funds to implement. Both strategies ****provide diversification**** while ****deferring the gain****.
+
+A perfect hedge is generally inappropriate if it will cause the underlying gain to be taxed or if the necessary derivatives do not exist. A ****cross hedge**** may be used instead. The investor who holds a large position in an auto stock but finds it cannot be shorted to create a hedge could consider ***three cross hedge possibilities***:
+
+1. Short shares of a ****different auto stock**** or another stock that is highly correlated with the concentrated position. The highly correlated short position will increase (decrease) in value to offset decreases (increases) in the auto stock.
+
+2. Short an index that is ****highly correlated**** with the concentrated position. Shorting a different stock or an index will introduce company-specific risk. A negative event could affect the concentrated position but have no offsetting effect on the value of the short position.
+
+3. ****Purchasing puts**** on the concentrated position is also considered a cross-hedge in that the put and stock are different types of assets. 
+
+****Exchange funds**** are another possibility. Consider 10 investors, each of whom has a concentrated position in a single stock with a low cost basis. Each investor’s position is in a different stock. The investors contribute their holdings into a newly formed exchange fund, and each now owns a pro rata share of the new fund. The investor now participates in a diversified portfolio and defers any tax event until shares of the fund are sold.
+
 
 ## j describe strategies for managing concentrated positions in privately held businesses;
 
