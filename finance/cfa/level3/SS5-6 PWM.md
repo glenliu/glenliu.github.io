@@ -858,25 +858,119 @@ The candidate should be able to:
 
 ## a compare the characteristics of human capital and financial capital as components of an individual’s total wealth;
 
+Total wealth is composed of both human capital and financial capital. 
+
+Human capital (HC) is the discounted present value of expected future labor income. Estimation includes 
+- the future amount, 
+- the probability the individual will be alive to earn it, and 
+- a discount rate related to the riskiness of the amounts. 
+
+Financial capital (FC) is the sum of all the other assets of an individual.
+
 ## b discuss the relationships among human capital, financial capital, and net wealth;
 
+Net wealth is the sum of the individual’s FC and HC less any liabilities owed by the individual. A typical individual might start an employment career with high HC and low FC. As the individual’s remaining work career decreases with age, HC generally declines over time while FC increases as the individual saves and invests
 
 ## c discuss the financial stages of life for an individual;
 
+Generally, HC is highest in early career and declines until retirement. 
+
+FC is likely to peak at retirement. 
+
+The life stages are 
+- Education, 
+- Early Career, 
+- Career Development,
+- Peak Accumulation,
+-  Preretirement, 
+- Early Retirement, and
+- Late Retirement.
+
+In all stages, there can be unpredicted needs for health care and/or to care for family.
+
 ## d describe an economic (holistic) balance sheet;
+
+The economic (holistic) balance sheet extends the traditional balance sheet assets to include HC. 
+
+Liabilities are extended to include consumption and bequest goals. 
+
+This more complete economic view allows better planning of resource consumption to meet remaining lifetime goals.
 
 ## e discuss risks (earnings, premature death, longevity, property, liability, and health risks) in relation to human and financial capital;
 
+Earnings risk. Job loss and other career disruptions can reduce HC and may even lead to the need to consume FC prematurely.
+
+Premature death risk. Can be a serious risk early in the career when substantial HC could be lost and cause unexpected expenses that consume limited FC.
+
+Longevity risk. Individuals who live too long are at risk of outliving their FC.
+
+Property risk. Loss in value of physical property (FC).
+
+Liability risk. If legally responsible for damages, leading to a reduction in FC.
+
+Health risk. Direct loss of FC to pay illness or injury related expenses and may reduce HC through diminished or inability to work.
+
 ## f describe types of insurance relevant to personal financial planning;
+
+Life insurance protects the survivors from the adverse financial consequences of the insured’s premature death.
+
+Disability income insurance provides partial replacement of the insured’s job income if the job is lost.
+
+Property insurance provides compensation for losses in value of real property.
+
+Homeowners insurance covers the home and automobile insurance covers the car.
+
+Health and medical insurance covers health care expense.
+
+Liability insurance covers losses if the insured is found legally responsible for damages to another.
 
 ## g describe the basic elements of a life insurance policy and how insurers price a life insurance policy;
 
+Temporary life insurance is for a set period of time. Permanent insurance builds up value sufficient to pay for insuring the remaining lifetime of the insured. 
+
+Pricing reflects mortality estimates that determine how many in the group are expected to die during the insurance period and allow calculating the net premium to charge to make those payouts. Load is an estimate of company expenses and profit that is added to determine the gross premium charged for the insurance.
+
 ## h discuss the use of annuities in personal financial planning;
+
+Annuities are the economic opposite of life insurance, pay once and receive payouts back for remaining life to insure against longevity risk.
+
+- Immediate annuities begin payout immediately and ***deferred*** at a future time. 
+
+- Fixed annuity payouts do not change in amount, and ***variable**** payouts are linked to change in a reference asset.
 
 ## i discuss the relative advantages and disadvantages of fixed and variable annuities;
 
+Fixed versus variable annuities:
+
+- Fixed provide a known future payout, while variable have a better chance of keeping up with inflation.
+
+- Fixed will be priced to reflect bond market rates at the time of purchase, while variable will perform in line with changes in the reference asset and are more likely to allow withdrawals.
+
+- Fees for variable are generally higher.
+
+- Both may be subject to some taxes.
+
+- Both earn a mortality credit:
+  - For life insurance, the ultimate cost is lower if you die and the one-time fixed payout occurs sooner, while those who live longer end up paying more for the same payout.
+
+  - For annuities, the issue reverses; annuitants who live longer end up collecting more and are subsidized by those who die sooner and collect less.
+
 ## j analyze and critique an insurance program;
+
+|       Severity    |    Regularly      |  Infrequent    |
+|--------------------|----------------------|-----------------------|
+| More severe | Risk avoid        | Risk transfer |
+| Less severe | Risk reduction | Risk retention (self-insured) |
 
 ## k discuss how asset allocation policy may be influenced by the risk characteristics of human capital;
 
+Asset allocation should consider the investor’s total economic wealth, FC and HC. For example, an individual employed in a high-risk profession would, all else the same, choose lower risk FC. If the HC is positively correlated with the stock market, then it will be best to select asset classes other than equity for any risky assets that are used.
+
+ Of course, the individual should try and avoid FC tied directly to her employer.
+
 ## l recommend and justify appropriate strategies for asset allocation and risk reduction when given an investor profile of key inputs.
+
+- Determine and take the appropriate amount of systematic (market) risk through an asset allocation of total wealth.
+- Reduce where appropriate idiosyncratic (non-market) risks:
+  - Through asset diversification.
+  - Use of insurance to transfer risks.
