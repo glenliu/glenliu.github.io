@@ -349,6 +349,7 @@ Definition
 - Liquid asset classes: such as publicly listed equities and bonds.
 - Less liquid asset classes: such as direct real estate, infrastructure, and private equity.
 
+Why difficult
 - When make asset-allocation decisions, there are two problems for the less liquid asset classes:
   - Due to the lack of accurate indexes, it is more challenging to make capital market assumptions for these less liquid asset classes 
   - Even if there were accurate indexes, there are no low-cost passive investment vehicles to track them.
@@ -358,6 +359,8 @@ To address these issues:
 - Exclude illiquid asset classes when running an MVO, but use them to meet separately set target asset allocations.
 - Include the illiquid asset classes in MVO and model the inputs of the specific (not asset class) investments you plan to use (i.e., the risk estimate will be based on both nonsystematic and systematic).
 - Include the illiquid asset classes in MVO using highly diversified asset class inputs, recognizing that the actual investments made may have different characteristics. 
+
+
 
 ### e. explain absolute and relative risk budgets and their use in determining and implementing an asset allocation. 
 
@@ -379,6 +382,14 @@ By estimating each asset classes’ marginal contribution to total risk (MCTR), 
 (2) identify optimal allocations: The optimal allocations to each asset class occur when the ratio of excess return to MCTR is equal for all asset classes and is equal to the portfolio Sharpe ratio. 
 
 (3) develop a risk budget.
+
+ $ MCTR_i=\beta_i * \sigma_p $
+
+ $ ACTR_i=\omega_i * MCTR_i $
+
+Optimal:
+
+ $ ExcessReturn_i/MCTR_i= ExcessReturn_j/MCTR_j=SR_p $
 
 ### f. describe how client needs and preferences regarding investment risks can be incorporated into asset allocation. 
 
@@ -423,23 +434,146 @@ R= RF+βmkt,j*(Rmkt-RF)
 
 ### j. describe and evaluate characteristics of liabilities that are relevant to asset allocation. 
 
+Liability-relative asset allocation is aimed at the general issue of rendering decisions about asset allocation in conjunction with the investor’s liabilities.
+- Liability-relative investors view assets as an inventory of capital, which is available to achieve goals and to pay future liabilities.
+- Were developed in an institutional investor context, but these ideas have also been applied to individual investors.
+  - Because many large institutional investors possess legal liabilities and operate in regulated environments in which an institution’s inability to meet its liabilities with current capital has serious consequences.
+
+Liability-relative Asset Allocations Methods include:
+1. Surplus optimization
+2. Hedging/Return-seeking Portfolio Approach
+3. Integrated asset-liability Approach
 
+The plan surplus and the funding ratio are calculated as follows:
+
+plan surplus = market value of investment portfolio assets − present value of the pension liabilities
+
+funding ratio = market value of assets / present value of liabilities
+
+
+The following characteristics of liabilities are relevant to the asset allocation decision:
+- Fixed versus contingent: Fixed liabilities have cash flows whose amount and timing are specified in advance, such as a fixed-rate corporate bond. Contingent liabilities have cash flows that depend on uncertain future events, such as the pension liability associated with a defined pension plan.
+- Legal versus quasi-legal: Legal liabilities are obligations defined in a legal agreement. Quasi-legal liabilities are not legal obligations but are cash outflows expected to occur in the future and are essential to the mission of the institution. University endowments can be considered to have quasi-legal liabilities.
+- Duration and convexity measure the change in value of a liability for a given change in interest rates. In the CFA curriculum, we typically talk about durationand convexity in relation to fixed-income securities, but the concept can be applied to any liability.
+- Liability value versus size of sponsoring organization: A large liability in relation to the size of the sponsoring organization will necessarily be accounted for in the asset allocation decision; a small liability can usually be ignored as its effect on the optimal asset allocation is minimal.
+- Factors that affect future cash flows: These factors include inflation, interest rates, risk premiums, and other economic conditions. DB pension obligations are
+influenced by the choice of the discount rate, for example.
+- Timing considerations, including longevity risk.
+- Regulations affecting the determination of the liability’s value, typically found in the insurance industry
 
 ### k. discuss approaches to liability-relative asset allocation. 
 
-
 ### l. recommend and justify a liability-relative asset allocation. 
 
+Three approaches to liability-relative asset allocation. They are summarized:
+- Surplus optimization: This is an extension of MVO in which we determine an efficient frontier based on the surplus with its volatility as our measure of risk,
+stated either in money or percentage terms.
+- Two-portfolio approach: In this approach, we separate the asset portfolio into two subportfolios: a hedging portfolio and a return-seeking portfolio.
+- Integrated asset-liability approach: This approach integrates both the assets and the liabilities in a joint optimization method.
+
+#### Surplus Optimization
+We can define the surplus return as:
+
+Rs,m = surplus return = (change in asset value − change in liability value) / initial asset value
+
+Then the objective function to maximize is:
+
+Um = E(Rs,m) − 0.005 × λ × Vars,m
+
+where:
+
+E(Rs,m) = expected surplus return
+
+Vars,m = variance of surplus return
+
+We then proceed with the same MVO as previous, except we also include the expected returns and variances of the liabilities. The correlations reflect the extent to which the assets are useful to hedge the liabilities.
+
+Expected returns and variances of liabilities
+- We assume that the liabilities have the same expected returns and volatilities as US corporate bonds;
+- An alternative approach is to deploy a set of underlying factors that drive the returns of the assets.
+
+- Asset liability management (ALM) considers the allocation of assets with respect to a given liability or set of liabilities.
+- The ALM approach maximize the difference (the surplus) between assets and liabilities at each level of risk (much like the efficient frontier represents the maximum return at each level of risk).
+
+The comparison between the two asset mixes (asset-only and surplus):
+- The asset mixes are very different on the conservative side of the two frontiers.
+- The most conservative mix for the surplus efficient frontier consists mostly of the US corporate bond index because it results in the lowest volatility of surplus over the one-year horizon.
+- In contrast, the most conservative mix for the asset-only efficient frontier consists chiefly of cash.
+- The two asset mixes (asset-only and surplus) become similar as the degree of risk aversion decreases, and they are identical for the most aggressive portfolio (private equity).
+- Bonds disappear from the frontier about halfway between the most conservative and the most aggressive mixes.
+
+#### Hedging/Return-seeking Portfolio Approach
+
+In this approach, the liability-relative asset allocation task is divided into two parts, thus this approach is also called two-portfolio approach.
+- We distinguish as “basic” the two-portfolio approach in the case in which there is a surplus 
+- In the basic case, the first part of the asset allocation task consists of hedging the liabilities through a hedging portfolio.
+  - In the second part, the surplus (or some part of it) is allocated to a return-seeking portfolio, which can be managed independently of the hedging portfolio (e.g. using MVO).
+- And as “variants” the approach as applied when there is not a positive surplus
+- A partial hedge, whereby capital allocated to the hedging portfolio is reduced in order to generate higher expected returns
+- And dynamic versions whereby the investor increases the allotment to the hedging portfolio as the funding ratio increases.
+
+Compared to basic approach
+- These variants do not hedge the liabilities to the full extent possible given the assets and thus are less conservative than the basic approach discussed above.
+- Still, there can be benefits to a partial hedge when the sponsor is able to increase contributions if the funding ratio does not increase in the future to 1 or above.
+
+An essential issue involves the composition of the hedging portfolio
+- The designated cash flows can be hedged via cash flow matching, duration matching, or immunization, e.g. frozen DB pension plan.
+- What’s the most important is the hedging portfolio must include assets whose returns are driven by the same factors that drive the returns of the liabilities.
+
+There are two limitations of this approach:
+- If the funding ratio is less than one, it’s difficult to create a hedging portfolio that completely hedges the liabilities.
+  - In this case, the sponsor might increase contributions enough to generate a positive surplus.
+- Or applications of variants of the two-portfolio approach are possible, such as partial hedge variant.
+- A hedging portfolio may not be available to hedge certain kinds of risk (like earthquakes).
+  - In these cases, the investor might be able to partially hedge the portfolio with instruments that share some of the same risks. The investor has “basis risk” when imperfect hedges are employed.
+- As an aside, the investor might be able to set up a contract with someone who, for a fee, will take on the liability risk that cannot be hedged. Insurance contracts have this defining characteristic.
+
+
+#### integrated asset liability approach 
+
+- The approach, integrating the liability portfolio with the asset portfolio, requires a formal method for selecting liabilities and for linking the asset performance with changes in the liability values.
+  - The previous two approaches are most appropriate when asset allocation decisions are made after, and relatively independently of, decisions regarding the portfolio of liabilities.
+  - However, the integrated asset-liability approach integrates and jointly optimizes asset and liability decisions.
+    - Loss in stress scenarios in banks
+  - Catastrophic risk in property/casualty insurance company
+- This approach can be implemented in a factor-based model, linking the assets and liabilities to the underlying driving factors.
+- It has the potential to improve the institution’s overall surplus.
+
+
+#### Comparing
+
+Surplus optimization and the hedging/return-seeking portfolio
+- The surplus optimization approach links assets and the present value of liabilities through a correlation coefficient. The two-portfolio model does not require this input.
+- Implementation of the basic two-portfolio approach depends on having an overfunded plan. A variant of the two-portfolio approach might be applied, however.
+- Surplus optimization does not require an overfunded status. Both approaches address the present value of liabilities, but in different ways.
+
+![LDI_Approaches](LDI_Approaches.PNG)
 
 ### m. recommend and justify an asset allocation using a goals-based approach. 
 
-
+The goals-based approach is useful for individual investors, who typically have a number of (sometimes conflicting) objectives, with different time horizons and different levels of urgency.
+- The investor’s portfolio is composed of subportfolios, and each investment goal is addressed individually with these subportfolios.
+- Taxable and tax-exempt investments are part of the opportunity set.
+- Minimum expectations are specified for each goal
 
 ### n. describe and critique heuristic and other approaches to asset allocation. 
 
+Additional ad hoc approaches to asset allocation include:
+- 120 minus your age.
+- 60/40 split.
+- Endowment model or Yale model.
+- Risk parity.
+- 1/N rule
 
 ### o. discuss factors affecting rebalancing policy. 
 
+The following indicate wider corridors for asset classes:
+- Higher transaction costs.
+- Higher investor risk tolerance.
+- Higher correlation of the asset class with the rest of the portfolio.
+- Higher volatility of asset classes indicates a narrower corridor to control risk.
+
+Ultimately, the choice of corridor width depends on a trade-off between risk control, transaction costs, and correlations between classes. In complex situations, a quantified cost-benefit analysis will be required.
 
 
 
@@ -460,51 +594,11 @@ Can be used to:
 - Address the limitation of single period: consider tax, interim cash flows in multiple period framework. = simulate future return paths over time.
 - Guide individuals for risk tolerance level, illustrate range and likelihood of possible outcomes given various assumptions.
 
-#### Less-liquid asset class in MVO
-
-Why difficult:
-- few indexes
-- Even index exist, they are not investable
-- Risk-return characteristics of a specific RE, PE or infrastructure are different to its asset class.
-
-How to address:
-- Exclude illiquid asset class
-- model the input of the specific investment (risk incl. nonsystematic and systematic)
-- Incl the illiquid asset class using highly diversified asset class inputs, using reported AL investment indexes
-
-3. Module 19.2: Reverse Optimization, Black Litterman, Resampling,and Other Approaches
-4. Module 19.3: Example
-5. Module 19.4: Issues for Individuals
-6. Module 19.5: A Risk Budgeting Approach
-
- $ MCTR_i=\beta_i * \sigma_p $
-
- $ ACTR_i=\omega_i * MCTR_i $
-
-Optimal:
-
- $ ExcessReturn_i/MCTR_i= ExcessReturn_j/MCTR_j=SR_p $
 
 
-### 7. Module 19.6: An ALM Approach
 
-#### Characteristics of liability:
-- Fixed vs. contingent
-- Legal vs quasi-legal
-- Duration and convexity
-- Value vs size
-- Factors affecting cash flow
-- Timing
-- Regulator rules
 
-#### 3 approaches for liability relative asset allocation
-- Surplus optimization
-- Two-portfolio approach (hedging or return-seeking)
-- Integrated asset-liability
 
-### 8. Module 19.7: Goals-Based and Miscellaneous Approaches
-
-### 9. Module 19.8: Rebalancing Policy
 
 
 # Study Session 10—Asset Allocation and Related Decisions in Portfolio Management (2)
