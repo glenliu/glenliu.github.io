@@ -391,6 +391,48 @@ Optimal:
 
  $ ExcessReturn_i/MCTR_i= ExcessReturn_j/MCTR_j=SR_p $
 
+
+#### Risk budget
+A risk budget is simply a particular allocation of portfolio risk. The goal of risk budgeting is to maximize return per unit of risk—whether overall market risk or active risk.
+- The risk budgeting process is the process of finding an optimal risk budget.
+  -  The marginal contribution to total risk (MCTR) identifies the rate at which risk would change with a small (or marginal) change in the current weights.
+
+MCTRi =  βi × σ p
+
+  -  The absolute contribution to total risk (ACTR) for an asset class measures how much it contributes to portfolio return volatility.
+
+ACTR =wi x MCTR   = wi × βi × σp
+
+  - Excess return=expected return - risk-free rate
+    - Sometimes, it is based on reverse-optimized returns
+
+  - An asset allocation is optimal when the ratio of excess return (over the risk-free rate) to MCTR is the same for all assets and matches the Sharpe ratio of the tangency portfolio.
+    - Ratio of excess return to MCTR=(Expected return – Risk-free rate)/MCTR
+    - Critically, beta takes account not only of the asset’s own volatility but also of the asset’s correlations with other portfolio assets.
+  - The objective of risk budgeting in asset allocation is to use risk efficiently in the pursuit of return. A risk budget specifies the total amount of risk and how much of that risk should be budgeted for each allocation.
+
+#### Risk parity
+
+- Risk parity portfolio
+  - A risk parity asset allocation is based on the notion that each asset (asset class or risk factor) should contribute equally to the total risk of the portfolio for a portfolio to be well diversified.
+
+wi x Cov(ri,rp)=1/n σp^2                      ACTR= wi × βi × σp = 1/n  × σp
+
+
+- Construct the overall portfolio
+  - Deriving a risk parity–based asset allocation (risk parity portfolio)
+  - Borrow or to lend so that the overall portfolio corresponds to the investor’s risk appetite.
+
+Advantage
+- The sources of risk are diversified (asset classes)
+-  Back tests of levered risk parity portfolios have produced promising results
+
+Disadvantage
+- It ignores expected returns
+- The contribution to risk is highly dependent on the formation of the opportunity set (fixed-income vs equity)
+- Back tests argue that they suffer from look-back bias
+- Dependent on the ability to use extremely large amounts of leverage at low borrow rates (which may not have been feasible)
+
 ### f. describe how client needs and preferences regarding investment risks can be incorporated into asset allocation. 
 
 Ways to incorporate client risk preferences into asset allocation include:
@@ -438,7 +480,7 @@ Liability-relative asset allocation is aimed at the general issue of rendering d
 - Liability-relative investors view assets as an inventory of capital, which is available to achieve goals and to pay future liabilities.
 - Were developed in an institutional investor context, but these ideas have also been applied to individual investors.
   - Because many large institutional investors possess legal liabilities and operate in regulated environments in which an institution’s inability to meet its liabilities with current capital has serious consequences.
-
+
 Liability-relative Asset Allocations Methods include:
 1. Surplus optimization
 2. Hedging/Return-seeking Portfolio Approach
@@ -497,8 +539,8 @@ Expected returns and variances of liabilities
 
 The comparison between the two asset mixes (asset-only and surplus):
 - The asset mixes are very different on the conservative side of the two frontiers.
-- The most conservative mix for the surplus efficient frontier consists mostly of the US corporate bond index because it results in the lowest volatility of surplus over the one-year horizon.
-- In contrast, the most conservative mix for the asset-only efficient frontier consists chiefly of cash.
+  - The most conservative mix for the surplus efficient frontier consists mostly of the US corporate bond index because it results in the lowest volatility of surplus over the one-year horizon.
+  - In contrast, the most conservative mix for the asset-only efficient frontier consists chiefly of cash.
 - The two asset mixes (asset-only and surplus) become similar as the degree of risk aversion decreases, and they are identical for the most aggressive portfolio (private equity).
 - Bonds disappear from the frontier about halfway between the most conservative and the most aggressive mixes.
 
@@ -506,11 +548,11 @@ The comparison between the two asset mixes (asset-only and surplus):
 
 In this approach, the liability-relative asset allocation task is divided into two parts, thus this approach is also called two-portfolio approach.
 - We distinguish as “basic” the two-portfolio approach in the case in which there is a surplus 
-- In the basic case, the first part of the asset allocation task consists of hedging the liabilities through a hedging portfolio.
+  - In the basic case, the first part of the asset allocation task consists of hedging the liabilities through a hedging portfolio.
   - In the second part, the surplus (or some part of it) is allocated to a return-seeking portfolio, which can be managed independently of the hedging portfolio (e.g. using MVO).
 - And as “variants” the approach as applied when there is not a positive surplus
-- A partial hedge, whereby capital allocated to the hedging portfolio is reduced in order to generate higher expected returns
-- And dynamic versions whereby the investor increases the allotment to the hedging portfolio as the funding ratio increases.
+  - A partial hedge, whereby capital allocated to the hedging portfolio is reduced in order to generate higher expected returns
+  - And dynamic versions whereby the investor increases the allotment to the hedging portfolio as the funding ratio increases.
 
 Compared to basic approach
 - These variants do not hedge the liabilities to the full extent possible given the assets and thus are less conservative than the basic approach discussed above.
@@ -523,10 +565,10 @@ An essential issue involves the composition of the hedging portfolio
 There are two limitations of this approach:
 - If the funding ratio is less than one, it’s difficult to create a hedging portfolio that completely hedges the liabilities.
   - In this case, the sponsor might increase contributions enough to generate a positive surplus.
-- Or applications of variants of the two-portfolio approach are possible, such as partial hedge variant.
+  - Or applications of variants of the two-portfolio approach are possible, such as partial hedge variant.
 - A hedging portfolio may not be available to hedge certain kinds of risk (like earthquakes).
   - In these cases, the investor might be able to partially hedge the portfolio with instruments that share some of the same risks. The investor has “basis risk” when imperfect hedges are employed.
-- As an aside, the investor might be able to set up a contract with someone who, for a fee, will take on the liability risk that cannot be hedged. Insurance contracts have this defining characteristic.
+  - As an aside, the investor might be able to set up a contract with someone who, for a fee, will take on the liability risk that cannot be hedged. Insurance contracts have this defining characteristic.
 
 
 #### integrated asset liability approach 
@@ -535,7 +577,7 @@ There are two limitations of this approach:
   - The previous two approaches are most appropriate when asset allocation decisions are made after, and relatively independently of, decisions regarding the portfolio of liabilities.
   - However, the integrated asset-liability approach integrates and jointly optimizes asset and liability decisions.
     - Loss in stress scenarios in banks
-  - Catastrophic risk in property/casualty insurance company
+    - Catastrophic risk in property/casualty insurance company
 - This approach can be implemented in a factor-based model, linking the assets and liabilities to the underlying driving factors.
 - It has the potential to improve the institution’s overall surplus.
 
@@ -556,14 +598,29 @@ The goals-based approach is useful for individual investors, who typically have 
 - Taxable and tax-exempt investments are part of the opportunity set.
 - Minimum expectations are specified for each goal
 
+![GBAA](images/GBAA.png)
+
 ### n. describe and critique heuristic and other approaches to asset allocation. 
 
 Additional ad hoc approaches to asset allocation include:
 - 120 minus your age.
+  - 120 – Age = Percentage allocated to stocks, which leads directly to an age-based stock versus fixed income split
+  - The heuristic lines lack some of the nuances of the various glide path lines, but it would appear that an age-based heuristic leads to asset allocations that are broadly similar to those used by target-date funds.
 - 60/40 split.
+  - An asset allocation consisting of 60% equities and 40% fixed income.
+  - Equity allocation: supplying a long-term growth foundation; fixedincome allocation: risk reduction benefits
+  - There is some evidence that the global financial asset market portfolio is close to this prototypical 60/40 split.
 - Endowment model or Yale model.
+  - High allocations to non-traditional assets
+  - A commitment to active management
+  - Seeks to earn illiquidity premiums
+  - Endowments with long time horizons are well positioned to capture
 - Risk parity.
+  - The idea with the risk parity asset allocation approach is that diversification is achieved by ensuring that each asset class contributes the same amount to the total portfolio risk.
+  - This addresses critique 4 of MVO that diversification across asset classes does not guarantee diversification across risk sources.
+  - The criticism of this approach is that it ignores expected returns and focuses only on risk.
 - 1/N rule
+  - In empirical studies comparing approaches, however, the 1/N rule has been found to perform considerably better, based on Sharpe ratios and certainty equivalents, than theory might suggest. One possible explanation is that the 1/N rule sidesteps problems caused by optimizing when there is estimation error in inputs.
 
 ### o. discuss factors affecting rebalancing policy. 
 
@@ -573,7 +630,9 @@ The following indicate wider corridors for asset classes:
 - Higher correlation of the asset class with the rest of the portfolio.
 - Higher volatility of asset classes indicates a narrower corridor to control risk.
 
-Ultimately, the choice of corridor width depends on a trade-off between risk control, transaction costs, and correlations between classes. In complex situations, a quantified cost-benefit analysis will be required.
+Ultimately, the choice of corridor width depends on a trade-off between risk control, transaction costs, and correlations between classes. 
+
+In complex situations, a quantified cost-benefit analysis will be required.
 
 
 
@@ -595,12 +654,6 @@ Can be used to:
 - Guide individuals for risk tolerance level, illustrate range and likelihood of possible outcomes given various assumptions.
 
 
-
-
-
-
-
-
 # Study Session 10—Asset Allocation and Related Decisions in Portfolio Management (2)
 
 ## Reading 20: Asset Allocation With Real-World Constraints
@@ -615,30 +668,145 @@ The candidate should be able to:
 
 ### a. discuss asset size, liquidity needs, time horizon, and regulatory or other considerations as constraints on asset allocation. 
 
+#### Asset size
 
+Economies and diseconomies of scale
+- The advantages subject to large assets are:
+  - Have sufficient size to build a diversified portfolio of investment strategies.
+- The disadvantages subject to large assets are:
+  -  The illiquidity occurred when invest in small-cap stocks, either buy or sell;
+  -  Invest in small-cap stock will cause the market wildly fluctuate;
+  -  Capital inflow may cause active investment managers to pursue ideas outside of their core investment thesis;
+  -  Organizational hierarchies may slow down decision making and reduce incentives.
+
+- The disadvantages subject to small assets are:
+  -  Insufficient amount to meet the minimum requirement for some investments;
+  -  Lower governance capacity-sophistication and manpower resourceto develop the required knowledge base for complex asset classes and investment vehicles;
+  -  Higher internal management fees;
+  -  Too small to diversify across the range of asset classes.
+
+#### Liquidity
+The asset owner’s liquidity needs should be matched to the liquidity characteristics of an asset when optimizing asset allocation.
+
+Investor behavior often changes during periods of negative returns, so any liquidity analysis should include an evaluation of liquidity requirements in times of market stress.
+
+Longer time horizons typically allow for greater risk exposure due to the time diversification of risk.
+
+Changes in goals, liabilities, and human capital as time passes mean the asset allocation process is a dynamic one that must be regularly revisited.
+
+|Portfolio Owner                    | Typical Liquidity Needs                                                         |
+|--------------------------------------|--------------------------------------------------------------------------------|
+|Banks                                    |High liquidity needed to support day to day operations and stand ready to repay deposits|
+|Sovereign Wealth Funds, Endowments, Pension Plans, Foundations | Longer time horizons and lower liquidity needs|
+|Property and Casualty Insurance |Relatively high due to unpredictability of claims    |
+|Life and Auto Insurance     |Relatively low due to predictability of claims                      |
+|Individuals                            |Varies by individual circumstance                                        |
 
 ### b. discuss tax considerations in asset allocation and rebalancing. 
 
+After-Tax Portfolio Optimization
+
+The return will be affected by the tax:
+  rat = rpt(1 – t)  
+rat = the expected after-tax return
+rpt = the expected pre-tax (gross) return
+t = the expected tax rate
+
+ If the expected return composed by different integral:
+ rat = pd rpt(1 – td) + pa rpt(1 – tcg)
+pd = the proportion of rpt attributed to dividend income
+pa = the proportion of rpt attributed to price appreciation
+td = the dividend tax rate
+tcg = the capital gains tax rate
+
+As the tax and tax loss carry forward exist, the expected volatility of willbe reduced as well.
+σat = σpt(1 – t)
+σat = the expected after-tax standard deviation
+σpt = the expected pre-tax standard deviation
+
+As the expected return and after-tax standard deviation differ from the original data, the optimal portfolio would change as well.
+
+Taxes and Portfolio Rebalancing
+- As the after-tax volatility would be reduced by tax, and the correlations of asset classes will remain after the charge of tax, the asset class movements should be larger for a taxable investor than an otherwise equal tax-exempt investor to remain a same risk portfolio.
+- In another words, the rebalancing ranges for a taxable portfolio can be wider than those of a tax-exempt portfolio with a similar risk profile:
+ Rpt=Rat/(1-t)
+
+Where
+Rat=the after-tax rebalancing range
+Rpt= the pre-tax rebalancing range
+
+
+Strategies to Reduce Tax Impact
+- Tax loss harvesting refers to sell securitizes in loss statue along with the selling of profitable securitizes when realize profit.
+- Strategic asset location refers to placing less tax-efficient assets in accounts with more favorable tax treatment.
+  - As a general rule, the portion of a taxable asset owner’s assets that are eligible for lower tax rates and deferred capital gains tax treatment should first be allocated to the investor’s taxable accounts. (一般原则：债券放入tax deferred account, 股票放入taxable account)
+  - One important exception to this general rule regarding asset location applies to assets held for near-term liquidity needs.
 
 ### c. recommend and justify revisions to an asset allocation given change(s) in investment objectives and/or constraints. 
 
+Asset allocations should be reviewed in the light of changing goals, beliefs, or other constraints.
+
+Asset allocations may change automatically along a predetermined glide path in reaction to milestones or predictable events that change an investor’s risk ability and willingness to take risk.
 
 ### d. discuss the use of short-term shifts in asset allocation. 
 
+tactical asset allocations (TAAs)
+
+Short-term alterations to the long-term strategic asset allocation are known as tactical asset allocations (TAAs). The permitted size of alterations is likely to be dictated by the investment policy statement.
+
+TAAs aim to enhance returns by altering asset classes, sectors, or risk-factor premium weightings.
+
+#### Constraints
+
+The success of the TAA should be judged against the benchmark of the SAA. 
+- The size of deviations may often be limited to a range around this allocation. 
+- There may also be an allowable range of predicted volatility or a tracking error budget versus the SAA.
+
+#### Evaluation
+The performance of TAAs can be measured by comparing realized portfolio results with TAA implemented to what would have happened under strategic asset allocation (SAA). Success is indicated by a better Sharpe ratio, information ratio, or t-stat of the excess returns. Actual TAA results that plot on the efficient frontier also indicate success. 
+- Comparing the Sharpe ratios under the TAAs and the SAAs.
+- Calculating the information ratio or t-stat of the excess realized returns relative to the SAA.
+- Comparing the realized risk and return of the TAA to portfolios lying on the SAA’s efficient frontier. It may be less optimal than other portfolios on that frontier.
+- Perform attribution analysis on the excess return to identify the contribution of specific under- or over-weightings.
+
+#### Drawbacks
+- TAAs can result in excessive trading and tax costs and
+- in the concentration of risk in specific assets in the portfolio.
+
+#### Discretionary TAA 
+relies on ***qualitative*** interpretation of macroeconomic variables.
+
+- macroeconomic data, such as bond yields and credit spreads, monetary policy, GDP growth, earnings and inflation predictions, and other leading economic indicators.
+- fundamental data, such as  deviation of P/E, P/B ratios and dividend yield from their historic means
+- sentiment indicators:
+  - Economic sentiment: CPI
+  - Market sentiment: Margin borrowing, short interest, volatility
+
+#### Systematic TAA
+
+ uses ***quantitative*** signals to dictate shifts in weightings, whereas discretionary allocation relies on qualitative interpretation of data and manager skill in identifying shorter-term trends.
+
+
+- Value ratios: 
+  - EQ: Divendend yield, cash flow yied, earnings yield
+  - FX: Short term interest rate differentials, Carrry in currencies
+  - CO: Roll yield, Carry in commodities
+  - FI: yield spread, YTM and term premiums
+- Momentum, Trend: most recnet 12-month trend; MA crossover
 
 ### e. identify behavioral biases that arise in asset allocation and recommend methods to overcome them. 
 
+How to deal with behavior biases
+- Loss-aversion: In goals-based investing, loss-aversion bias can be mitigated by framing risk in terms of shortfall probability or by funding high-priority goals with low-risk assets.
+- Illusion of Control: The illusion of control can be mitigated by using the global market portfolio as the starting point in developing the asset allocation.
+- Mental Accounting: Goals-based investing incorporates mental accounting directly into the asset allocation solution. Each goal is aligned with a discrete sub-portfolio, and the investor can specify the acceptable level of risk for each goal. Provided each of the subportfolios lies along the same efficient frontier, the sum of the subportfolios will also be efficient.
+- Representative Bias: The strongest defenses against recency bias are an objective asset allocation process and a strong governance framework.
+- Framing Bias: The framing effect can be mitigated by presenting the possible asset allocation choices with multiple perspectives on the risk/reward trade-off.
+- Availability Bias: Familiarity bias (a bias stems from availability bias) can be mitigated by using the global market portfolio as the starting point in developing the asset allocation, where deviations from this baseline portfolio must be thoughtfully considered and rigorously vetted.
 
+A strong governance process guards against most behavioral biases and should include clearly defined objectives (short and long term), responsibilities, and decision-making process along with a framework for monitoring, reviewing, and performing periodic internal audits.
 
 ## Reading 21: Currency Management: An Introduction
-
-1. Exam Focus
-2. Module 21.1: Managing Currency Exposure
-3. Module 21.2: Active Strategies: Fundamentals and Technical
-4. Module 21.3: Active Strategies: Carry and Volatility Trading
-5. Module 21.4: Implementation and Forwards
-6. Module 21.5: Implementation and Options
-
 
 The candidate should be able to:
 
