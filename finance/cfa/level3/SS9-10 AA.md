@@ -445,7 +445,7 @@ Ways to incorporate client risk preferences into asset allocation include:
 Monte Carlo simulation can be used to 
 
 - (1) address the limitations of MVO 
-  - as a singleperiod model and 
+  - as a single period model and 
   - the related issues of rebalancing and taxes (realized C/G) in a multiperiod framework (interim cash flow) and 
 (2) guide individual investors to identify their risk tolerance level.
 
@@ -788,18 +788,18 @@ relies on ***qualitative*** interpretation of macroeconomic variables.
 
 
 - Value ratios: 
-  - EQ: Divendend yield, cash flow yied, earnings yield
-  - FX: Short term interest rate differentials, Carrry in currencies
+  - EQ: Dividend yield, cash flow yield, earnings yield
+  - FX: Short term interest rate differentials, Carry in currencies
   - CO: Roll yield, Carry in commodities
   - FI: yield spread, YTM and term premiums
-- Momentum, Trend: most recnet 12-month trend; MA crossover
+- Momentum, Trend: most recent 12-month trend; MA crossover
 
 ### e. identify behavioral biases that arise in asset allocation and recommend methods to overcome them. 
 
 How to deal with behavior biases
 - Loss-aversion: In goals-based investing, loss-aversion bias can be mitigated by framing risk in terms of shortfall probability or by funding high-priority goals with low-risk assets.
 - Illusion of Control: The illusion of control can be mitigated by using the global market portfolio as the starting point in developing the asset allocation.
-- Mental Accounting: Goals-based investing incorporates mental accounting directly into the asset allocation solution. Each goal is aligned with a discrete sub-portfolio, and the investor can specify the acceptable level of risk for each goal. Provided each of the subportfolios lies along the same efficient frontier, the sum of the subportfolios will also be efficient.
+- Mental Accounting: Goals-based investing incorporates mental accounting directly into the asset allocation solution. Each goal is aligned with a discrete sub-portfolio, and the investor can specify the acceptable level of risk for each goal. Provided each of the subportfolios lies along the same efficient frontier, the sum of the sub-portfolios will also be efficient.
 - Representative Bias: The strongest defenses against recency bias are an objective asset allocation process and a strong governance framework.
 - Framing Bias: The framing effect can be mitigated by presenting the possible asset allocation choices with multiple perspectives on the risk/reward trade-off.
 - Availability Bias: Familiarity bias (a bias stems from availability bias) can be mitigated by using the global market portfolio as the starting point in developing the asset allocation, where deviations from this baseline portfolio must be thoughtfully considered and rigorously vetted.
@@ -812,17 +812,109 @@ The candidate should be able to:
 
 ### a. analyze the effects of currency movements on portfolio risk and return. 
 
+An investment in assets priced in a currency other than the investor’s domestic currency (a foreign asset priced in a foreign currency) has two sources of risk and return: 
+(1) the return on the assets in the foreign currency and 
+(2) the return on the foreign currency from any change in its exchange rate with the investor’s domestic currency. 
 
+These returns are multiplicative and an investor’s returns in domestic currency can be calculated as:
+
+Equation 1: RDC = (1 + RFC)(1 + RFX) − 1 = RFC + RFX + (RFC)(RFX)
+
+RDC ≈ RFC + RFX
+
+Equation 2: RDC=Sum Wi(RDC,i)
+
+Equation 3: σ2(RDC) ≈ σ2(RFC) + σ2(RFX) + 2σ(RFC)σ(RFX)ρ(RFC,RFX)
+
+Equation 4: σ(RDC) = σ(RFX)(1 + RFC)
+
+where for Equation 4:
+
+RFC = the return on a foreign currency denominated risk-free asset
+
+
+#### FX Swap
+
+FX swaps are distinct from currency swaps.
+- Similar to currency swaps, FX swaps involve an exchange of principal amounts in different currencies at swap initiation that is reversed at
+swap maturity.
+- Unlike currency swaps, FX swaps have no interim interest payments and are nearly always of much shorter term than currency swaps.
+- FX swaps are important for managing currency risk because they are used to “roll” forward contracts forward as they mature.
+- If a trader wanted to adjust the size of the currency hedge (i.e., the size of the outstanding forward position), the forward leg of the FX swap can be of a different size than the spot transaction when the hedge is rolled
 
 ### b. discuss strategic choices in currency management.
 
+- Passive hedging is rule-based and typically matches the portfolio’s currency exposure to the portfolio’s benchmark in order to eliminate currency risk relative to the benchmark.
+- Discretionary hedging allows the manager to deviate modestly from passive hedging. The primary goal is currency risk reduction while seeking some modest value added return.
+- Active currency management allows wider discretion to selectively hedge or not hedge and to deviate substantially from the benchmark. The goal is value added, not risk reduction. At the extreme, an active manager can treat currency as an asset class and take positions independent of the portfolio assets. For example, a manager who is bearish on the Swedish krona (SEK) can short the SEK even if no SEK assets are owned.
+- Currency overlay management is a broad term referring to the use of a separate currency manager. The asset manager first takes positions in the markets considered most attractive, without regard to the resulting currency exposures. The overlay manager then adjusts the currency exposures. The overlay manager’s mandate can be passive, discretionary, or active.
+
+Arguments made for not hedging currency risk include the following:
+- Avoid the time and cost of hedging or trading currencies.
+- Currency effects are a “zero-sum game”; if one currency appreciates, another must depreciate.
+- In the long run, currencies revert to a theoretical fair value.
+
+Arguments for active currency management include the following:
+- In the short run, currency movement can be extreme.
+- Inefficient pricing of currencies can be exploited to add to portfolio return.
+- Inefficient pricing of currency can arise as many foreign exchange (FX) trades are dictated by international trade transactions or central bank policies
+
+
+Strategic Diversification issues:
+- In the longer run, currency volatility has been lower than in the short run, reducing the need to hedge currency in portfolios with a long-term
+perspective.
+- Positive correlation between returns of the asset measured in the foreign currency (RFC) and returns from the foreign currency (RFX) increase volatility of return to the investor (RDC) and increase the need for currency hedging. Negative correlation dampens return volatility and decreases the need to hedge.
+- Correlation tends to vary by time period, providing diversification in some periods and not in others, suggesting a varying hedge ratio is appropriate.
+- Empirical evidence indicates higher, positive correlation in bonds than in equity portfolios, suggesting that hedging is more appropriate for bond
+portfolios. This makes theoretical sense because interest rate movement tends to drive both bond prices and currency values.
+- The hedge ratio (the percentage of currency exposure to hedge) varies by manager preference.
+
+Strategic Cost issues:
+- The bid/asked transaction cost on a single currency trade is generally small, but ***repeated transaction costs*** add up. Full hedging and frequent rebalancing can be costly.
+- Purchasing options to hedge involves an upfront ***option premium*** cost. If the option expires out-of-the-money, the premium is lost.
+- ***Forward*** currency contracts are often shorter term than the hedging period, requiring contracts be ***rolled over*** as they mature (an FX swap). The hedge lowers return volatility but the rollover can create cash flow volatility with realized gains and losses on the maturing contracts. Financing cash outflows when interest rates are high can be costly as the interest that would have been earned on the funds is lost.
+- ***Overhead costs ***can be high. A back office and trading infrastructure are needed for currency hedging. Cash accounts in multiple currencies may have to be maintained to support settlements and margin requirements.
+- ***One hundred percent*** hedging has an opportunity cost with no possibility of favorable currency movement. Some managers elect to ***"split the difference"v between 0 and 100% hedging and adopt a 50% strategic hedge ratio.
+- Hedging every currency movement is costly and managers generally chose ***partial hedges***. They may hedge and rebalance monthly rather than daily or accept some amount of negative currency return rather than zero.
 
 ### c. formulate an appropriate currency management program given financial market conditions and portfolio objectives and constraints. 
 
+Factors that favor a benchmark neutral or fully hedged currency strategy are:
+- A short time horizon for portfolio objectives.
+- High risk aversion.
+- High short-term income and liquidity needs.
+- Significant foreign currency bond exposure.
+- Low hedging costs.
+- Clients who doubt the benefits of discretionary management.
+- A client who is unconcerned with the opportunity costs of missing positive currency returns.
 
 ### d. compare active currency trading strategies based on economic fundamentals, technical analysis, carry-trade, and volatility trading. 
 
+1. Economic fundamentals assumes that purchasing power parity (PPP) determines exchange rates in the very long run. In the shorter run, currency appreciation is associated with:
+- Currencies that are undervalued relative to fundamental value (based on PPP).
+- Currencies with a faster rate of increase in fundamental value.
+- Countries with lower inflation.
+- Countries with higher real or nominal interest rates.
+- Countries with a decreasing country risk premium.
 
+2. Technical analysis:
+- Overbought (or oversold) currencies reverse.
+- A currency that declines to its support level will reverse upward unless it pierces the support level, in which case, it can decline substantially.
+- A currency that increases to its resistance level will reverse downward unless it pierces the resistance level, in which case, it can increase
+substantially.
+- If a shorter term moving average crosses a longer term moving average, the price will continue moving in the direction of the shorter term moving
+average.
+
+3. The carry trade exploits the forward rate bias (i.e., forward exchange rates are not a valid predictor of currency market movement).
+- Borrow the lower interest rate currency (often a developed market).
+- Convert it to the higher rate currency (often an emerging market) at the spot exchange rate.
+- Invest and earn the higher interest rate.
+This is a risky, not a hedged, trade. If the higher interest rate currency appreciates or depreciates less than “implied” by the forward rate, the trade will be profitable.
+In times of severe economic stress, the carry trade can be very unprofitable as the higher interest rate (and riskier) currency collapses.
+
+4. Volatility trading profits from changes in volatility.
+- If volatility is expected to increase, enter a straddle (purchase a call and put with the same strike price, typically using at-the-money options). A strangle (buy an out-of-the-money call and put) can also be used. The strangle will cost less but will have less upside if volatility increases.
+- If volatility is expected to decline, enter a reverse straddle or strangle (i.e., sell the options)
 
 ### e. describe how changes in factors underlying active trading strategies affect tactical trading decisions. 
 
