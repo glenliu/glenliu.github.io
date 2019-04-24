@@ -918,20 +918,121 @@ In times of severe economic stress, the carry trade can be very unprofitable as 
 
 ### e. describe how changes in factors underlying active trading strategies affect tactical trading decisions. 
 
+|Expectations                        |                                                     |Actions                                                         |
+| --------                                    |   --------------                                 | -----------                                                       |
+|Relative currency               | Appreciation                               |Reduce the hedge on or increase  the long position in the currency         |
+|                                             |Depreciation                                |Increase the hedge on or decrease the long position in the currency        |
+|Volatility                             |Rising                                            |Long straddle(or strangle)                        |
+|                                            |Falling                                            |Short straddle(or strangle)                       |
+|Market conditions            |Stable                                            | A carry trade                                            |
+|                                           |Crisis                                              | Discontinue the carry trade                    |
 
 
 ### f. describe how forward contracts and FX (foreign exchange) swaps are used to adjust hedge ratios. 
 
+Typically, forward contracts are preferred for currency hedging because:
+- They can be customized, while futures contracts are standardized.
+- They are available for almost any currency pair, while futures trade in size for only a limited number of currencies.
+- Futures contracts require margin which adds operational complexity and can require periodic cash flows.
+- Trading volume of FX forwards and swaps dwarfs that of FX futures, providing better liquidity.
 
+A hedge can be a static hedge, which is established and held until expiration, or a dynamic hedge, which is periodically rebalanced.
+
+The choice of hedging approach should consider:
+- Shorter term contracts or dynamic hedges with more frequent rebalancing tend to increase transaction costs but improve the hedge results.
+- Higher risk aversion suggests more frequent rebalancing.
+- Lower risk aversion and strong manager views suggest allowing the manager greater discretion around the strategic hedging policy.
+
+Hedging also exposes the portfolio to roll yield or roll return. Roll yield is a return from the movement of the forward price over time toward the spot price of an asset. It can be thought of as the profit or loss on a forward or futures contract if the spot price is unchanged at contract expiration.
+
+Forward Premiums or Discounts and Currency Hedging Costs
+
+|If the hedge requires:|           FP/B > SP/B, iB < iP; The forward price curve is upwardsloping.   | FP/B < SP/B, iB > iP; The forward price curve is downward-sloping|
+|-------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+|A long forward position in Currency B, the hedge earns:|Negative roll yield, which increases hedging cost and discourages hedging.|Positive roll yield, which decreases hedging cost and encourages hedging.|
+|A short forward position in currency B the hedge earns:|Positive roll yield, which decreases hedging cost and encourages hedging.|Negative roll yield, which increases hedging cost and discourages hedging.|
+
+
+#### EXAMPLE 9: Hedging and roll yield
+
+A portfolio’s reporting currency is the Korean won (KRW) and the portfolio holds investments denominated in EUR, USD, and CHF. Current exchange rate information is provided below along with the manager’s expectation for the spot rate in six months.
+
+|Currency    |Spot EX Rate |Six-Month Forward EX Rate |Manager’s forecast|
+|----------------|--------------------|-----------------------------------------|---------------------------|
+|KRW/EUR | 1,483.99         |1,499.23                                   | 1,450.87                 |
+|KRW/USD | 1,108.78        | 1,112.56                                   | 1,146.63                 |
+|KRW/CHF |1,265.22         |1,257.89                                    | 1,212.55                 |
+
+
+1. Which foreign currencies trade at a forward premium or discount?
+2. Which foreign currency hedges would earn a positive roll yield?
+3. Which foreign currencies would an active currency manager hedge?
+4. Comment on how the roll yield affects the decision to hedge the EUR or USD.
+5. Calculate the implied unannualized roll yield of a currency hedged for the portfolio’s long exposure to CHF.
+
+Answer:
+
+1. The EUR and USD trade at a forward premium; forward price is above spot price.
+
+2. The hedge will requite a forward sale of the currency and sale at a forward premium will earn positive roll yield. Those are the EUR and USD.
+
+3. An active manager will selectively hedge those currencies where the hedge is expected to improve return. The manager will compare expected unhedged with hedged returns. The manager is initially long each foreign currency so increases in the currency’s value are a gain.
+
+|         |Unhedged                                        | Hedged                                        |
+| ------ | ---------------                                      |  --------------------                            |
+|EUR| (1,450.87)/(1,483.99)-1=-2.23%  | (1,499.23/1,483.99)-1=1.03%   |
+|USD| (1,146.63/1,108.78)-1=3.41%     |(1,112.56/1,1108.78)-1=0.34%   |
+|CHF| (1,212.55/1,265.22)-1=-4.16%    |(1,257.89/1,265.22)-1=-0.58%    |
+
+Comparing unhedged expected returns with hedged returns, the manager will hedge the EUR and CHF.
+
+4. Selling forward the USD and EUR will result in positive roll yield which will reduce hedging costs. However, roll yield is only one factor to consider. The positive roll yield for selling the USD forward is not as attractive as the expected appreciation of leaving the USD unhedged.
+
+5. The implied roll yield is the forward premium or discount. It is also the hedged currency return:
+(F0 – S0) / S0 = (F0 / S0) - 1 = (1,257.89 / 1,265.22) - 1 = -0.58%
+
+This example demonstrates two issues involved with forward currency hedging. In essence, they are the same issue viewed from two different perspectives:
+1. Positive (negative) roll yield will reduce (increase) hedging cost compared to the initial spot price.
+2. Hedging locks in the Forward price as an end of period exchange ram
 
 ### g. describe trading strategies used to reduce hedging costs and modify the risk–return characteristics of a foreign-currency portfolio.
 
+The cost of hedging a currency exposure:
+- Positive roll will reduce and negative roll will increase hedging costs.
+- Hedging with forward (or futures) has no explicit option premium cost, but it has implicit cost; it removes upside as well as downside.
+- Active managers can selectively over- or under-hedge. Buy more or sell less of the currency expected to appreciate.
+- An at-the-money (ATM) put (a protective put or portfolio insurance) is the most expensive (upfront premium cost) form of option hedging (e.g., buy a 50 delta put).
+
+Option hedging costs can be reduced by decreasing upside potential or increasing downside risk. To hedge an existing currency exposure:
+- Buy an out-of-the-money (OTM) put.
+- Use a collar; buy an OTM put and sell an OTM call. P低-C高: Short the risk reversal
+- Use a put spread; buy an OTM put and sell a further OTM put. P低-P低低
+- Use a seagull spread; buy an OTM put, sell a further OTM put and sell an OTM call.  P低-P低低-C高
+- Use exotic options that require addition conditions before they can be exercised or which can expire early.
 
 
 ### h. describe the use of cross-hedges, macro-hedges, and minimum-variance-hedge ratios in portfolios exposed to multiple foreign currencies. 
+No need to hedge if they are highly correlated while  long one and short the other -> natural hedge.
 
+If hedge:
+  - cross-hedges, (sometimes called a proxy hedge) uses a hedging vehicle that is different from, and not perfectly correlated with, the exposure being hedged.
+  - macro-hedges, type of cross hedge that addresses ***portfolio-wide risk factors*** rather than the risk of individual portfolio assets. One type of currency macro hedge uses a derivatives contract based on a ***fixed basket*** of currencies to modify currency exposure at a macro (portfolio) level.
+  - minimum-variance-hedge ratios: a mathematical approach to determining the hedge ratio. Regress past changes in value of the portfolio (RDC) to the past changes in value of the hedging instrument (the foreign currency) to find the hedge ratio that would have minimized standard deviation of RDC. The hedge ratio is the beta (slope coefficient) of that regression.
+
+Positive correlation between RFX and RFC; MVHR > 1.
+
+Negative correlation between RFX and RFC; MVHR < 1.
+
+R_DC = 0.12+1.25(% ∆S_USD/EUR ) +  ε
 
 ### i. discuss challenges for managing emerging market currency exposures. 
 
+Non-deliverable forwards (NDFs) settle the net gain or loss in a single currency (rather than exchanging currencies)
+
+Non-deliverable forwards (NDFs): Emerging market governments frequently restrict movement of their currency into or out of the country to settle normal derivative transactions. NDFs are an alternative to deliverable forwards and require a cash settlement of gains or losses in a developed market currency at settlement rather than a currency exchange.
+
+A benefit of NDFs is lower credit risk because delivery of the notional amounts of both currencies is not required. Only the gains to one party are paid at settlement.
+
+An additional point to consider with NDFs is that they exist because the emerging market government is restricting currency markets. Changes in government policy can lead to sharp movements in currency values (i.e., there is tail risk).
 
 
