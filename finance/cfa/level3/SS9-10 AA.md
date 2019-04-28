@@ -748,6 +748,19 @@ Asset allocations should be reviewed in the light of changing goals, beliefs, or
 
 Asset allocations may change automatically along a predetermined glide path in reaction to milestones or predictable events that change an investor’s risk ability and willingness to take risk.
 
+
+Q. The changes that were allowed in OHF’s strategic asset allocation in Phase 4 are best classified as relating to changes in:
+
+A constraints.
+B beliefs.
+C goals.
+
+Solution
+
+B is correct. In Phase 4, lower oil prices and reduced production would have resulted in substantial declines in cash inflows that management perceived to be long term in nature. To compensate for these changes, management sought both lower withdrawals and increased equity exposure to bolster its declining cash inflows.
+
+
+
 ### d. discuss the use of short-term shifts in asset allocation. 
 
 tactical asset allocations (TAAs)
@@ -951,6 +964,22 @@ Forward Premiums or Discounts and Currency Hedging Costs
 |-------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 |A long forward position in Currency B, the hedge earns:|Negative roll yield, which increases hedging cost and discourages hedging.|Positive roll yield, which decreases hedging cost and encourages hedging.|
 |A short forward position in currency B the hedge earns:|Positive roll yield, which decreases hedging cost and encourages hedging.|Negative roll yield, which increases hedging cost and discourages hedging.|
+
+
+#### question bank
+
+Because of equity investments in Australia and Switzerland, FB has long currency exposure to AUD and CHF. The appropriate risk-neutral strategy is to over-hedge (hedge ratio > 1) AUD and not hedge CHF. 
+- The AUD is selling at a forward premium of 2.27%, which means that the expected roll yield for a short hedge in AUD is 2.27%. 
+- Furthermore, the AUD is expected to depreciate by 3.28%, which means the short position in the AUD gains 3.28%. 
+Thus, a short hedge of the AUD is appropriate. 
+
+- The CHF is at a forward discount of 2.64%, which means that the expected roll yield for a short hedge of CHF is −2.64%. 
+- The CHF is expected to appreciate 1.32%, which means that a short position in CHF would lose 1.32%. 
+Thus, in this instance it would not be appropriate to hedge the CHF.
+
+Currency Pair	Current Spot Rate	Six-Month Forward Rate	Six-Month Forecast Spot Rate	Forward Premium/Discount	Spot Appreciation/Depreciation
+BRL/AUD	2.1046	2.1523	2.0355	2.27%	−3.28%
+BRL/CHF	2.5309	2.4641	2.5642	−2.64%	1.32%
 
 
 #### EXAMPLE 9: Hedging and roll yield
