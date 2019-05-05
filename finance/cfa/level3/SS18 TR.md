@@ -82,6 +82,7 @@ For a purchase:
 For a sale:
 - An increase in price is an account benefit (a negative cost).
 - A decrease in price is a cost.
+
 Total IS can be computed as the difference in the value of the hypothetical portfolio if the trade was fully executed at the DP (with no costs) and the value of the actual portfolio.
 
 - Missed trade (also called opportunity, or unrealized profit/loss) is the difference in the initial DP and CP applied to the number of shares in the order not filled. It can generally be calculated as:
@@ -110,7 +111,7 @@ EXAMPLE: Of implementation shortfall and decomposition
 Answer:
 The DP is $20.00. There was a delay, in this case due to the use of a limit order to buy below the market price.
 
- The BP* is $20.05. The increase of $0.05 is a cost in a buy order. The order is partially filled at an EP of $20.06 and there is missed trade cost. 200 shares were not filled and the CP is 20.09. Commissions were $18.00.
+The BP* is $20.05. The increase of $0.05 is a cost in a buy order. The order is partially filled at an EP of $20.06 and there is missed trade cost. 200 shares were not filled and the CP is 20.09. Commissions were $18.00.
  
 The gain or loss on the paper portfolio versus the actual portfolio gain or loss is the total implementation shortfall. 
 
@@ -185,6 +186,7 @@ $0.084 = $0.018 + 0.018 + 0.040 + 0.008
 
 42bp = 9bp + 9 + 20 + 4
 
+
 ===================================================
 
 Market adjusted IS = IS - Beta * E(Rm)
@@ -236,6 +238,7 @@ Disadvantages of Implementation Shortfall:
 
 
 ## h explain the use of econometric methods in pretrade analysis to estimate implicit transaction costs;
+
 Econometric models can be used to forecast transaction costs. Using market microstructure theory, it has been shown that trading costs are nonlinearly related to:
 - Security liquidity: trading volume, market cap, spread, price.
 - Size of the trade relative to liquidity.
