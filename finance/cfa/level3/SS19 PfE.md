@@ -270,15 +270,18 @@ There are six levels of investment policy decision-making, by which the fund’s
   - the fund’s starting value and its net external cash inflows are invested at the risk-free rate
 3. Asset categories. 
   - assumes that the fund’s net contributions value is invested based on the fund sponsor’s policy allocations to the specified asset category benchmarks. 
-  - This is a pure index fund approach reflecting SAA
+  - This is a ****pure index fund*** approach reflecting SAA
   
   ![L3AssetCategory](images/L3AssetCategory.PNG) 
+  
 4. Benchmarks.
   - assumes that the beginning value and external cash flows of the fund are passively invested in the aggregate of the managers’ respective benchmarks. 
   - This is also a pure index fund approach but reflecting the sponsor’s TAA decisions. 
-  - The difference between the manager benchmarks and the asset category benchmarks (aggregated) is also known as the “misfit return” or “style bias.”
+  - The difference between the manager benchmarks and the asset category benchmarks (aggregated) is also known as the ***“misfit return” or “style bias.”***
   
   ![L4Benchmark](images/L4Benchmark.PNG)
+  
+  ![MacroPerfAttr](images/MacroPerfAttr.PNG)
   
 5. Investment managers.
   - assumes that the beginning value and external cash flows of the fund invested are the actual results of the managers. 
