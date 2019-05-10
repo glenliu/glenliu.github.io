@@ -1,9 +1,9 @@
 
 # Reading 16: Capital Market Expectations
 
-1. Exam Focus
 
-2. Module 16.1: Formulating Capital Market Expectations
+
+## Module 16.1: Formulating Capital Market Expectations
 
 ## a: Discuss the role of, and a framework for, capital market expectations in the portfolio management process.
 
@@ -67,7 +67,7 @@ Problems of forecasting
       - expected nominal earning growth: i+g
       - repricing return: delta P/E
 
-4. Module 16.3: Risk Premiums, Financial Equilibrium, and Surveys
+## Module 16.3: Risk Premiums, Financial Equilibrium, and Surveys
 
 - Risk premium: R = rf+inflation+default+illiquidity+maturity+tax
 - Financial Equilibrium: 
@@ -76,6 +76,59 @@ Problems of forecasting
     - assuming full integration: ERP=Rho*Sigma*MSR + illiquidity
     - assuming full segmentation: ERP=Sigma*MSR + illiquidity
     - weighted average of the two
+    
+EXAMPLE: Using market risk premiums to calculate expected returns, betas, and covariancesSuppose an analyst is valuing two equity markets. Market A is a developed market, and Market B is an emerging market. The investor’s time horizon is five years. The other pertinent facts are:
+
+Sharpe ratio of the global investable portfolio 0.29
+Standard deviation of the global investable portfolio 9%
+Risk-free rate of return 5%
+Degree of market integration for Market A 80%
+Degree of market integration for Market B 65%
+Standard deviation of Market A 17%
+Standard deviation of Market B 28%
+Correlation of Market A with global investable portfolio 0.82
+Correlation of Market B with global investable portfolio 0.63
+Estimated illiquidity premium for A 0.0%
+Estimated illiquidity premium for B 2.3%
+
+Calculate the assets’ expected returns, betas, and covariance.
+
+Answer:
+
+First, we calculate the equity risk premium for both markets assuming full integration. Note that for the emerging market, the illiquidity risk premium is included:
+ERPi = ρi,Mσi(market Sharpe ratio)
+ERPA = (0.82)(0.17)(0.29) = 4.04%
+ERPB = (0.63)(0.28)(0.29) + 0.0230 = 7.42%
+
+Next, we calculate the equity risk premium for both markets assuming full segmentation:
+ERPi = σi(market Sharpe ratio)
+ERPA = (0.17)(0.29) = 4.93%
+ERPB = (0.28)(0.29) + 0.0230 = 10.42%
+
+Note that when we calculate the risk premium under full segmentation, we use the local market as the reference market instead of the global market, so the correlation between the local market and itself is 1.0.
+
+We then weight the integrated and segmented risk premiums by the degree of integration and segmentation in each market to arrive at the weighted average equity risk premium.
+ 
+ERPi = (degree of integration of i)(ERP assuming full integration) + (degree of segmentation of i)(ERP assuming full segmentation)
+ERPA = (0.80)(0.0404) + (1 − 0.80)(0.0493) = 4.22%
+ERPB = (0.65)(0.0742) + (1 − 0.65)(0.1042) = 8.47%
+
+The expected return in each market figures in the risk-free rate:
+
+Ra^=5%+4.22%=9.22%
+RB^=5%+8.46%=13.46%
+
+The betas in each market, which will be needed for the covariance, are calculated as:
+Betai=Rho(i,M) Sigma_i / Sigma_M
+
+BetaA=0.82*17/9=1.55
+BetaB=0.63*28/9=1.96
+
+Lastly, we calculate the covariance of the two equity markets:
+
+Cov(i,j)= Betai Betaj Sigma_M^2
+
+Cov(A,B)=1.55*1.96*9.0=246.08
 
 ## d. explain the use of survey and panel methods and judgment in setting capital market expectations. 
 
@@ -91,7 +144,7 @@ Understanding the business cycle can help the analyst identify inflection points
 
 The inventory cycle is often measured using the inventory to sales ratio. The measure increases when businesses gain confidence in the future of the economy and add to their inventories in anticipation of increasing demand for their output. As a result, employment increases with subsequent increases in economic growth. This continues until some precipitating factor, such as a tightening in the growth of the money supply, intervenes. At this point, inventories decrease, employment declines, and economic growth slows.
 
-5. Module 16.4: The Business Cycle
+## Module 16.4: The Business Cycle
 
 inflection point
 
@@ -171,7 +224,7 @@ Business spending:
 
 ## h. demonstrate the use of the Taylor rule to predict central bank behavior. 
 
-6. Module 16.5: Monetary Policy and Interest Rates
+## Module 16.5: Monetary Policy and Interest Rates
 
 Taylor rule: rtarget = rneutral + [0.5(GDPexpected − GDPtrend) + 0.5(iexpected − itarget)]
 
