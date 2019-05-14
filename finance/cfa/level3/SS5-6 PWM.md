@@ -4,25 +4,25 @@ The candidate should be able to:
 
 ## a discuss how source of wealth, measure of wealth, and stage of life affect an individual investors’ risk tolerance;
 
--Source of Wealth：财富的来源
-- Entrepreneurial activity：企业家的活动所带来的财富，属于 active，相对承担风险的能力更强
--  Inheritance（继承）
+- Source of Wealth：财富的来源
+  - Entrepreneurial activity：企业家的活动所带来的财富，属于 active，相对承担风险的能力更强
+  - Inheritance（继承）
   - one-time windfalls（意外之财）
   - built up over long periods of safe employment （工资），属于 passive，相对承担风险的能力更弱
   
 备注：区分 active 和 passive，主要看自有资金是否承担风险，有风险就是 active，没有风险就是 passive
 
-- Measure of wealth：财富的衡量
+- Measure of wealth：财富的衡量
 
- Positive correlation between level of risk tolerance & client’s perception of wealth：风险承受能力与客户财富的感知（收益率）是正相关
+   Positive correlation between level of risk tolerance & client’s perception of wealth：风险承受能力与客户财富的感知（收益率）是正相关
 
 备注：return 的目标越大，则 asset base 越小，降低了家庭承受风险的能力（Return 的目标在 10%以上，则asset base 越小）
 
 - Stage of life：生命阶段
- - Foundation phase：基础阶段
- - Accumulation phase：积累阶段
- - Maintenance phase (retirement)：维护阶段（退休）
- - Distribution phase：分发阶段（遗产分配）
+  - Foundation phase：基础阶段
+  - Accumulation phase：积累阶段
+  - Maintenance phase (retirement)：维护阶段（退休）
+  - Distribution phase：分发阶段（遗产分配）
 
 
 Situational profiling is a first step at determining investor attitudes toward risk.
@@ -65,27 +65,27 @@ Pyramiding is the concept applied to investor portfolio formation in which portf
   - base decisions on feelings.
   - not like making their own investment decisions
   - but are difficult to advise and will sometimes even avoid professional help.
-  -  their portfolios exhibit low turnover. 
+  - their portfolios exhibit low turnover. 
   
 - Methodical investors 
- - risk averse 
- - base decisions on thinking.
- - base decisions on facts,  gather lots of data
- - conservative
- - look for more information.
+  - risk averse 
+  - base decisions on thinking.
+  - base decisions on facts,  gather lots of data
+  - conservative
+  - look for more information.
  
 - Individualistic investors 
- - less risk averse 
- - base decisions on thinking
- - do their own research 
- - are very confident in their ability to make investment decisions
+  - less risk averse 
+  - base decisions on thinking
+  - do their own research 
+  - are very confident in their ability to make investment decisions
  
 - Spontaneous investors 
- - less risk averse 
- - base decisions on feelings
- - constantly adjust their portfolios， high turnover.
- - acknowledge their lack of investment expertise but at the same time tend to doubt investment advice.
- - chase fads, and continually want to do something
+  - less risk averse 
+  - base decisions on feelings
+  - constantly adjust their portfolios， high turnover.
+  - acknowledge their lack of investment expertise but at the same time tend to doubt investment advice.
+  - chase fads, and continually want to do something
 
 ## d explain potential benefits, for both clients and investment advisers, of having a formal investment policy statement;
 
@@ -147,8 +147,8 @@ If there are inconsistencies, they must be resolved by working with the client.
 
 ## h discuss the effects that ability and willingness to take risk have on risk tolerance;
 
-### ablity
-ability of the portfolio to sustain losses without putting the client’s goals in jeopardy;
+### Ablity
+Ability of the portfolio to sustain losses without putting the client’s goals in jeopardy;
 how much volatility the portfolio can withstand and still meet the client’s required expenditures. 
 
 - size of expenditure: negative
@@ -179,7 +179,7 @@ Flexibility can increase the ability to take risk.
 
 
 
-### willingness
+### Willingness
 
 Willingness to take risk. The client’s willingness to take risk is subjective and determined through an analysis of her psychological profile. 
 
@@ -287,7 +287,7 @@ Eliminate portfolios that:
 
 ## l compare Monte Carlo and traditional deterministic approaches to retirement planning and explain the advantages of a Monte Carlo approach.
 
-Deterministic planning techniques use single values for economic and financial variables. For instance, expected rates of return, inflation, and interest rates are assigned single point estimates and then used in a modeling framework to estimate assets available for the retirement period. Although useful in formulating expected investment outcome at the retirement stage of life, the deterministic estimation process generatesonly a single number. Investors do not have the capability of evaluating probabilities of that expected value occurring.
+Deterministic planning techniques use single values for economic and financial variables. For instance, expected rates of return, inflation, and interest rates are assigned single point estimates and then used in a modeling framework to estimate assets available for the retirement period. Although useful in formulating expected investment outcome at the retirement stage of life, the deterministic estimation process generates only a single number. Investors do not have the capability of evaluating probabilities of that expected value occurring.
 
 Monte Carlo techniques take into account distributions and associated probabilities for input variables and generate a probabilistic forecast of retirement period values. 
 - Instead of seeing one single outcome, the investor can see a range of possibilities for the future.
@@ -308,15 +308,17 @@ The tax rules of countries vary. Some combinations of rules include the followin
 
 ## b determine the effects of different types of taxes and tax regimes on future wealth accumulation;
 
-annual accrual taxation: FVIFAT = [1 + r(1 – ti)]^n
+Annual accrual taxation: FVIF_at = [1 + R(1 – Ti)]^n
 
-deferred capital gains taxation: FVIFAT = (1 + r)^n (1 – tcg) + tcgB
+FVIF: Future value of an investment factor (e.g., the FV of an initial dollar invested at the end of time period n)
+
+Deferred capital gains taxation: FVIFcg = (1 + R)^n (1 – Tcg) +TcgB
 
 B = cost basis / asset value at start of period n
 
-annual wealth taxation: FVIFAT = [(1 + r)(1 – t_w)]^n
+Annual wealth taxation: FVIFwt = [(1 + R)(1 – Tw)]^n
 
-blended taxation:
+Blended taxation:
 
 weighted annual realized tax rate: wartr = piti + pdtd + pcgtcg
 
