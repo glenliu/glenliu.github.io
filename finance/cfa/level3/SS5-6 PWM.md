@@ -932,6 +932,18 @@ Temporary life insurance is for a set period of time. Permanent insurance builds
 
 Pricing reflects mortality estimates that determine how many in the group are expected to die during the insurance period and allow calculating the net premium to charge to make those payouts. Load is an estimate of company expenses and profit that is added to determine the gross premium charged for the insurance.
 
+2015Q8
+
+Life insurance protects human capital, which is defined as the present value of future labor income. Information that affects human capital: (1) salary level and (2) correlation between wage growth and risky-asset returns. Higher salary (wages) implies higher future wages and thus higher human capital. Higher correlation implies more volatile (riskier) wages; using a higher discount rate to account for results in a lower value for human capital. The case also provides asset levels for Debra and Kelly. All else constant, financial wealth is a substitute for life insurance. The higher the financial wealth, the lower the demand for insurance.
+
+Less life insurance:
+
+Debra has a higher correlation between wage growth and risky-asset returns because she is employed in a financial firm and part of her income is based on equity returns. Ignoring salary level differential, Debra’s higher wage growth correlation implies lower human capital as her wages are riskier and thus should be subject to a higher discount rate. Therefore, higher wage growth correlation is a factor that reduces life insurance need.
+
+More life insurance:
+ 
+Ignoring wage correlation differences, Debra’s higher salary (i.e. USD 100,000 for her, compared to USD 75,000 for Kelly) implies higher human capital, thus a higher life insurance need. In addition, financial wealth can be viewed as a substitute for life insurance. Increasing financial wealth reduces the adverse financial impact of human capital loss on surviving heirs. Based on financial wealth, Debra has a higher life insurance need (she has financial wealth of USD 200,000, compared to USD 500,000 for Kelly).
+
 ## h discuss the use of annuities in personal financial planning;
 
 Annuities are the economic opposite of life insurance, pay once and receive payouts back for remaining life to insure against longevity risk.
