@@ -542,7 +542,7 @@ Relative value ratios (RV) project the future value to the recipient of making t
 
 When the donor pays the gift taxes, the future value of the gift to the recipient is increased by an amount equal to the product of the gift and estate tax rates (Tg and Te, the percent of the giver’s wealth being gifted (g/e), and the value of the gift:
 
-//todo
+![gift]|(images/gift.PNG)
 
 
 ## f evaluate the after-tax benefits of basic estate planning strategies, including generation skipping, spousal exemptions, valuation discounts, and charitable gifts;
@@ -562,7 +562,7 @@ Many countries allow:
 (3) The donor to take a tax deduction in the amount of the charitable gift. Value of a gift to charity relative to
 leaving it in a bequest is:
 
-//todo
+
 
 ## g explain the basic structure of a trust and discuss the differences between revocable and irrevocable trusts;
 
@@ -617,9 +617,9 @@ Determine the income taxes paid on the foreign source income and the country or 
 
 |-------Method---------|-----------Source-----------|-------------Residence-----------|------Total--------------|
 |-------      ---------|-----------      -----------|-------------         -----------|------     --------------|
-|Credit method         |60w*0.35=21w                |60w*0.4-21w(credit)=3w           |24w                      |
-|Exemption method      |60w*0.35=21w                |exempt                           |24w                      |
-|Deduction method      |60w*0.35=21w                |60w-21w=39w; 39w*0.4=15.6w       |36.6w                    |
+|Credit method         |60w x 0.35=21w                |60w x 0.4-21w(credit)=3w           |24w                      |
+|Exemption method      |60w x 0.35=21w                |exempt                           |24w                      |
+|Deduction method      |60w x 0.35=21w                |60w-21w=39w; 39w x 0.4=15.6w       |36.6w                    |
 
 ## l discuss how increasing international transparency and information exchange among tax authorities affect international estate planning.
 
@@ -677,8 +677,11 @@ The intended use by the prospective buyer may affect the price.
 Institutional and capital market constraints such as tax law can significantly affect the costs of selling or monetizing a concentrated position. Legal issues can depend on the form of asset ownership: sole proprietorship, limited partnership, limited company, or public stock. Other specific issues that may exist include:
 
 - Margin lending rules limit the percentage of the asset’s value that can be borrowed. Derivative positions can be used to reduce the risk of the asset position and increase the percentage of value that can be borrowed. Rule-based systems tend to be rigid and define the exact percentage that can be borrowed, while risk based systems consider the underlying economics of the transaction.
+
 - Securities law and regulations may define the owner as an “insider” (who is presumed to have material, nonpublic information) and impose restrictions, regulations, and reporting requirements on the position.
+
 - Contractual restrictions and employer mandates may impose restrictions (such as minimum holding periods or blackout periods when sales may not be made) beyond those of securities law and regulation.
+
 - Capital market limitations in the form of market structure and regulation can have indirect consequences. Monetization strategies commonly require over-thecounter derivative trades with a dealer to hedge the security’s risk and increase the LTV ratio. To offer such trades, dealers must be able to hedge the risks they assume. This may be impossible. For example, if the asset is an initial public offering (IPO) or trades infrequently, there will not be a price history on which the dealer can base a hedge. Borrowing and shorting the underlying asset is often required for the dealer to hedge their risk. This is prohibited in some markets.
 
 ## e discuss psychological considerations that may make an investor reluctant to reduce his or her exposure to a concentrated position;
@@ -728,10 +731,15 @@ Key considerations include:
 3. An estate tax freeze is a strategy to transfer future appreciation and tax liability to a future generation. This strategy usually involves a partnership or corporate structure. A gift tax would be due on the value of the asset when the transfer is made; however, the asset (including any future appreciation in value) will be exempt from future estate and gift taxes in the giver’s estate. Any tax owed is “frozen,” meaning paid or fixed near an initial value.
 
 A five-step process can be used to make decisions for managing a concentrated position:
+
 Step 1: Establish written objectives and constraints for the client. Nonfinancial issues such as retaining control of the asset and wealth transfer goals should be included in the document.
+
 Step 2: Identify the techniques and strategies that best meet these objectives and constraints.
+
 Step 3: Consider the tax advantages and disadvantages of each technique.
+
 Step 4: Consider the other advantages and disadvantages of each technique.
+
 Step 5: Document the decisions made.
 
 Three broad techniques can be used to manage concentrated positions:
@@ -771,6 +779,8 @@ There are several ways to lower the cost of the protection:
 - No-cost or zero-premium collars are a common way to lower initial cost, in this case to zero, by giving up some stock upside. A put is purchased and a call is sold with different strike prices selected so the premiums are equal.
 
 Prepaid variable forwards (PVF) are economically similar to a collar and loan in one transaction. The owner of 100,000 PBL shares (currently priced at $50) could enter a PVF with a dealer. The dealer would pay the owner $45 per share now, equivalent to borrowing $45 per share. The loan will be repaid by delivering shares of PBL at a future date. The PVF could specify delivery of all 100,000 shares if PBL is below $50 per share on the repayment date but require delivery of a smaller number of shares if the price of PBL rises above $50.
+
+![concentrated](images/concentrated.PNG)
 
 ## i discuss tax considerations in the choice of hedging strategy;
 
@@ -842,11 +852,12 @@ provides the existing owner much immediate cash flow.
 
 A single investment in a real estate asset can be large and constitute a significant portion of an investor’s assets, bringing a high level of concentrated, property-specific risk.
 
-Real estate is generally illiquid and, if held for a long time, may have a significant unrealized taxable gain. A seller considering sale or monetization of a property should consider its current value relative to historical and expected value in the future, taxes on any transaction, availability of credit, and interest rate levels. Strategies to consider
-include:
+Real estate is generally illiquid and, if held for a long time, may have a significant unrealized taxable gain. A seller considering sale or monetization of a property should consider its current value relative to historical and expected value in the future, taxes on any transaction, availability of credit, and interest rate levels. 
 
-- Mortgage financing can be an attractive strategy to raise funds without loss of control of the property. With a nonrecourse loan the lender’s only recourse is to seize the property if the loan is not paid. The borrower effectively has a put option
-on the property. If the property value falls below the loan amount, the borrower can default on the loan, keep the loan proceeds, and “put” the property to the lender.
+Strategies to consider include:
+
+- Mortgage financing can be an attractive strategy to raise funds without loss of control of the property. With a non-recourse loan the lender’s only recourse is to seize the property if the loan is not paid. The borrower effectively has a put option
+on the property. If the property value falls below the loan amount, the borrower can default on the loan, keep the loan proceeds, and "put" the property to the lender.
 
 - A donor-advised fund or charitable trust can allow the property owner to take a tax deduction, gift more money to the charity, and influence the use of the donation.
 
@@ -868,10 +879,17 @@ Human capital (HC) is the discounted present value of expected future labor inco
 - a discount rate related to the riskiness of the amounts. 
 
 Financial capital (FC) is the sum of all the other assets of an individual.
+- Vested pension
+
+
+
 
 ## b discuss the relationships among human capital, financial capital, and net wealth;
 
 Net wealth is the sum of the individual’s FC and HC less any liabilities owed by the individual. A typical individual might start an employment career with high HC and low FC. As the individual’s remaining work career decreases with age, HC generally declines over time while FC increases as the individual saves and invests
+
+Net Wealth = Net Worth + PV of earnings + PV of Pension (unvested)
+               - PV of lifetime consumption - Bequest
 
 ## c discuss the financial stages of life for an individual;
 
@@ -884,7 +902,7 @@ The life stages are
 - Early Career, 
 - Career Development,
 - Peak Accumulation,
--  Preretirement, 
+- Preretirement, 
 - Early Retirement, and
 - Late Retirement.
 
@@ -902,6 +920,8 @@ This more complete economic view allows better planning of resource consumption 
 
 Earnings risk. Job loss and other career disruptions can reduce HC and may even lead to the need to consume FC prematurely.
 
+  - Regular occupation, not any job
+
 Premature death risk. Can be a serious risk early in the career when substantial HC could be lost and cause unexpected expenses that consume limited FC.
 
 Longevity risk. Individuals who live too long are at risk of outliving their FC.
@@ -911,6 +931,12 @@ Property risk. Loss in value of physical property (FC).
 Liability risk. If legally responsible for damages, leading to a reduction in FC.
 
 Health risk. Direct loss of FC to pay illness or injury related expenses and may reduce HC through diminished or inability to work.
+
+![insurance](images/insurance.PNG)
+
+![disability](images/disability.PNG)
+
+![healthinsr](images/healthinsr.PNG)
 
 ## f describe types of insurance relevant to personal financial planning;
 
@@ -968,6 +994,9 @@ Fixed versus variable annuities:
   - For life insurance, the ultimate cost is lower if you die and the one-time fixed payout occurs sooner, while those who live longer end up paying more for the same payout.
 
   - For annuities, the issue reverses; annuitants who live longer end up collecting more and are subsidized by those who die sooner and collect less.
+  
+  
+![annuity](images/annuity.PNG)
 
 ## j analyze and critique an insurance program;
 
