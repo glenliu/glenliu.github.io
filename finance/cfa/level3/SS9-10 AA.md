@@ -458,8 +458,8 @@ Monte Carlo simulation complements MVO by addressing the limitations of MVO as a
 ### h. describe the use of investment factors in constructing and analyzing an asset allocation. 
 
 Factor-based asset allocation also requires three sets of inputs: returns, risks (standard deviations), and pair-wise correlations for these factors in the opportunity set, in order to get an optimized solution.
-- MVO and more sophisticated approaches that overcome some of the limitations or weaknesses of as applied to an opportunity set consisting of *** traditional, non-overlapping ***  asset classes.
-- An alternative approach used by some practitioners is to move away from an opportunity set of asset classes to an opportunity set consisting of investment *** factors *** , or factor-based asset allocation.
+- MVO and more sophisticated approaches that overcome some of the limitations or weaknesses of as applied to an opportunity set consisting of ***traditional, non-overlapping***  asset classes.
+- An alternative approach used by some practitioners is to move away from an opportunity set of asset classes to an opportunity set consisting of investment ***factors*** , or factor-based asset allocation.
 
 The factors are typically similar to the fundamental (or structural) factors in widely used multi-factor investment models. Typical factors used in asset allocation include size, valuation, momentum, liquidity, duration (term), credit, and volatility.
 - Returns can be combined from shorting large-cap stocks and going long small-cap stocks, for an example, “Size factor return = Small-cap stock return – Large-cap stock return”.
@@ -589,7 +589,7 @@ Surplus optimization and the hedging/return-seeking portfolio
 - Implementation of the basic two-portfolio approach depends on having an overfunded plan. A variant of the two-portfolio approach might be applied, however.
 - Surplus optimization does not require an overfunded status. Both approaches address the present value of liabilities, but in different ways.
 
-![LDI_Approaches](LDI_Approaches.PNG)
+![LDI_Approaches](images/LDI_Approaches.PNG)
 
 ### m. recommend and justify an asset allocation using a goals-based approach. 
 
