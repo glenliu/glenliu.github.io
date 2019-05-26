@@ -55,7 +55,7 @@ Problems of forecasting
    - ERP+bond yield
    - shrinkage estimate (weighted average)
    - Time series model: 
-      - volatility clustering: sigma^2=beta*sigma^2+(1-beta)eplison^2
+      - volatility clustering: σ^2=beta*σ^2+(1-beta)eplison^2
    - multifactor model
    - rigorous approach: Level 1 -> Level 2
 
@@ -71,10 +71,10 @@ Problems of forecasting
 
 - Risk premium: R = rf+inflation+default+illiquidity+maturity+tax
 - Financial Equilibrium: 
-  - ICAPM: Ri=Rf+beta(Rm-Rf) => RPi=Rho*Sigmai*market sharpe ratio
+  - ICAPM: Ri=Rf+beta(Rm-Rf) => RPi=Rho*σi*market sharpe ratio
   -  adjust market impeferction (Singer & Terhaar)
-    - assuming full integration: ERP=Rho*Sigma*MSR + illiquidity
-    - assuming full segmentation: ERP=Sigma*MSR + illiquidity
+    - assuming full integration: ERP=Rho*σ*MSR + illiquidity
+    - assuming full segmentation: ERP=σ*MSR + illiquidity
     - weighted average of the two
     
 EXAMPLE: Using market risk premiums to calculate expected returns, betas, and covariancesSuppose an analyst is valuing two equity markets. Market A is a developed market, and Market B is an emerging market. The investor’s time horizon is five years. The other pertinent facts are:
@@ -119,14 +119,14 @@ Ra^=5%+4.22%=9.22%
 RB^=5%+8.46%=13.46%
 
 The betas in each market, which will be needed for the covariance, are calculated as:
-Betai=Rho(i,M) Sigma_i / Sigma_M
+Betai=Rho(i,M) σ_i / σ_M
 
 BetaA=0.82*17/9=1.55
 BetaB=0.63*28/9=1.96
 
 Lastly, we calculate the covariance of the two equity markets:
 
-Cov(i,j)= Betai Betaj Sigma_M^2
+Cov(i,j)= Betai Betaj σ_M^2
 
 Cov(A,B)=1.55*1.96*9.0=246.08
 

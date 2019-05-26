@@ -134,11 +134,11 @@ Optimal asset allocation
  Utility function
 - Mean-variance utility:
 
-U=E(r_p)-1/2 lambda sigma_p^2
+U=E(r_p)-1/2 lambda σ_p^2
 
 - Optimal allocation to the risky asset
 
-omega^*=1/lamba * [(miu-r_f)/sigma^2]
+omega^*=1/lamba * [(miu-r_f)/σ^2]
 
 Active management security selection is based on investor insights or expectations.
 
@@ -383,7 +383,7 @@ By estimating each asset classes’ marginal contribution to total risk (MCTR), 
 
 (3) develop a risk budget.
 
- $ MCTR_i=\beta_i * \sigma_p $
+ $ MCTR_i=\beta_i * \σ_p $
 
  $ ACTR_i=\omega_i * MCTR_i $
 

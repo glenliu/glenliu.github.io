@@ -970,6 +970,55 @@ More life insurance:
  
 Ignoring wage correlation differences, Debra’s higher salary (i.e. USD 100,000 for her, compared to USD 75,000 for Kelly) implies higher human capital, thus a higher life insurance need. In addition, financial wealth can be viewed as a substitute for life insurance. Increasing financial wealth reduces the adverse financial impact of human capital loss on surviving heirs. Based on financial wealth, Debra has a higher life insurance need (she has financial wealth of USD 200,000, compared to USD 500,000 for Kelly).
 
+
+=======================================
+EXHIBIT 3HYPOTHETICAL WHOLE LIFE INSURANCE POLICY
+|Item                                   |Amout              |
+|                                        |               |
+|Death benefit                         	|$300,000|
+|Expected holding period              	|25 years|
+|Annual premium, paid at start of year |	$2,750|
+|Estimated cash value at the end of 25 years|	$60,000|
+|Discount rate                       |	6%         |     
+|Dividend reinvestment rate         |	6%|              
+|Estimated annual dividend, paid at year end|	$850|
+
+Q: Using the information in Exhibit 3, the surrender cost index per $1,000 per year for the hypothetical whole life policy is closest to:
+
+|Step	|Item	                            |Calculation	       |Value|
+|------|------------------------------------|--------------------------|---|
+|1	|FV of premiums: annuity in advance|	$2,750 × FVAADV (25y, 6%)|	$159,930|
+|2	|FV of dividends: annuity in arrears|	$850 × FVA (25y, 6%)|	46,635|
+|   |	Time value–adjusted net payment	 	|                      |113,295|
+  	 	 
+|3	|Estimated cash value (at end of 25 years)	           | 	|60,000|
+|4  |25-year cost of insurance	                          |  	|$53,295|
+ 		 	 
+|5	|Annual payment to equal cost of insurance	|$53,295/FVAADV(25y, 6%)|	$916|
+|6	|Cost per $1,000 coverage per year|	$916/($300,000/$1,000)|	$3.05|
+
+PV premium - FV dividends - Cash Value (FV) ==> Annuitize  ==> div by per 1000 policy
+
+Q: Net Payment Cost Index, ignoring CSV
+
+Step	Item	Calculation	Value
+
+1	FV of premiums: annuity in advance	$2,750 ×FVAADV(25y, 6%)	$159,930
+
+2	FV of dividends: annuity in arrears	$850 × FVA(25y, 6%)	46,635
+
+ 	Time Value adjusted net payment	 	113,295
+	
+3	Ignores CSV	 
+	 
+4	25 year Cost of insurance	 	113,295
+ 	 	 	 
+5	Annual payment to equal cost of insurance	$113,295/FVAADV(25y, 6%)	$1,948
+
+6	Cost per $1,000 coverage per year	$1,948/($300,000/$1,000)	$6.49
+
+PV premium - FV dividends  ==> Annuitize  ==> div by per 1000 policy
+
 ## h discuss the use of annuities in personal financial planning;
 
 Annuities are the economic opposite of life insurance, pay once and receive payouts back for remaining life to insure against longevity risk.
