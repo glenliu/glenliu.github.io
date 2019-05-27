@@ -226,7 +226,7 @@ Adding to the sample size with liquid stocks first reduces tracking error; but a
 
 Tracking error initially declines as sample size increases because the manager first purchases the most liquid, lowest transaction cost stocks. But after a point, as less liquid stocks with higher transaction costs are added to increase the sample size, tracking error increases.
 
-TChe tracking error of an indexed equity fund increases with:
+The tracking error of an indexed equity fund increases with:
 - Management fees charged to manage the fund.
 - Paying commissions (or bid-asked spread) to execute trades.
 - The addition of less liquid securities with higher transaction costs to the sample.
@@ -517,6 +517,8 @@ AS= 1/2 Sum ABS(wib-wip)
 
 
 ![ActiveRisk](images/ActiveRisk.png)
+
+![Approaches_SystemDiscretionary](images/Approaches_SystemDiscretionary.PNG)
 
 ![Approaches_Use_of_Building_Blocks](images/Approaches_Use_of_Building_Blocks.PNG)
 

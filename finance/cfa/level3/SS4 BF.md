@@ -38,26 +38,45 @@ The candidate should be able to:
 ## b discuss commonly recognized behavioral biases and their implications for financial decision making;
 ## c identify and evaluate an individual’s behavioral biases;
 
-  - Cognitive Errors: Belief Perseverance
-    - Conservatism bias.
-    - Confirmation bias.
-    - Representativeness bias.
-    - Control bias.
-    - Hindsight bias.
-  - Cognitive Errors: Information Processing
-    - Anchoring and adjustment.
-    - Mental accounting bias.
-    - Framing bias.
-    - Availability bias.
-  - Emotional Biases
-    - Loss aversion bias.
-    - Overconfidence bias.
-    - Self-control bias.
-    - Status quo bias.
-    - Endowment bias.
-    - Regret-aversion bias
+### Cognitive Errors: Belief Perseverance
+
+RICCH
+
+- Conservatism bias. people maintain their prior views or forecasts by inadequately incorporating new information.
+- Confirmation bias. Individuals tend to notice only information that agrees with their perceptions or beliefs. They look for confirming evidence while discounting or even ignoring evidence that contradicts their beliefs or their perceptions.
+- Representativeness bias. people tend to classify new information based on past experiences and classifications. This bias occurs because people attempting to derive meaning from their
+experiences tend to classify objects and thoughts into personalized categories.
+- illusion of control. people tend to believe that they can control or influence outcomes when, in fact, they cannot. expectancy of a personal success probability inappropriately higher than
+the objective probability would warrant.
+- Hindsight bias. a bias with selective perception and retention aspects. People may see past events as having been predictable and reasonable to expect.
+
+
+### Cognitive Errors: Information Processing
+
+FAMA
+
+- Framing bias. a person answers a question differently based on the way in which it is asked (framed).
+- Anchoring and adjustment. the use of a psychological heuristic influences the way people estimate probabilities. When required to estimate a value with unknown magnitude, people generally begin by envisioning some initial default number an "anchor“ which they then adjust up or down to reflect subsequent information and analysis.
+- Mental accounting bias. people treat one sum of money differently from another equalsized sum based on which mental account the money is assigned to.
+- Availability bias. people take a heuristic (sometimes called a rule of thumb or a mental shortcut) approach to estimating the probability of an outcome based on how easily the outcome comes to mind.
+	
+	
+### Emotional Biases
+
+LOSSER
+
+- Loss aversion bias. people tend to strongly prefer avoiding losses as opposed to achieving gains. A number of studies on loss aversion suggest that, psychologically, losses are significantly more powerful than gains;
+- Overconfidence bias. people demonstrate unwarranted faith in their own intuitive reasoning, judgments, and/or cognitive abilities. This overconfidence may be the result of overestimating knowledge levels, abilities, and access to information.
+  - Prediction overconfidence leads to underestimating risk and setting confidence intervals too narrow. Certainty overconfidence relates to over-stated probabilities of success.
+  - Self-attribution bias, the combination of self-enhancing bias and self-protecting bias, contributes to overconfidence. By self-enhancing, individuals take all the credit for their successes. By self-protecting, they place the blame for failure on someone or something else.
+- Self-control bias. people fail to act in pursuit of their long-term, overarching goals because of a lack of self-discipline. There is an inherent conflict between short-term satisfaction and achievement of some long-term goals.
+- Status quo bias. an emotional bias in which people do nothing (i.e., maintain the "status quo") instead of making a change. People art generally more comfortable keeping things the same than with change and thus do not necessarily look for opportunities where change is beneficial.
+- Endowment bias. people value an asset more when they hold rights to it than when they do not. Endowment bias is inconsistent with standard economic theory, which asserts that the price a person is willing to pay-for a good should equal the price at which that person would be willing to sell the same good.
+- Regret-aversion bias. people tend to avoid making decisions that will result in action out of fear that the decision will turn out poorly. Simply put, people try to avoid the pain of regret associated with bad decisions.
 
 ## d evaluate how behavioral biases affect investment policy and asset allocation decisions and recommend approaches to mitigate their effects.
+
+![SuggestDeviation](images/SuggestDeviation.PNG)
 
 - Goals-based investing
  recognizes that individuals are subject to loss aversion and mental accounting. Builds a portfolio in layers, each consisting of assets used to meet individual goals. 
