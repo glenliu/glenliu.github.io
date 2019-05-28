@@ -457,22 +457,22 @@ Assuming there are limits on how much can be placed in the tax-deferred location
 
 - favors holding bonds in tax-deferred accounts because the bonds produce most of their return from income.
 
-- In contrast, equities can be held in the taxable accounts. The equity return is typically made up mostly of capital gains rather than dividend income and capital gains can be deferred. By extending the holding period, the TAE can be reduced even in the fully taxable location to improve the equity after-tax return and generate tax alpha.
+- In contrast, equities can be held in the taxable accounts. The equity return is typically made up mostly of capital gains rather than dividend income and capital gains can be deferred. By extending the holding period, the TAE can be reduced even in the fully taxable location to improve the equity after-tax return and generate tax α.
 
 - In more complicated situations, both tax location and asset allocation can be optimized by using leverage. Suppose an investor has $75,000 in tax-deferred accounts (either TDA or TEA) all invested in bonds and $25,000 in equities in fully taxable accounts to
-maximize tax alpha. However, the 25/75 equity/bond allocation is not optimal and 60/40 is the desired allocation. There are two possibilities:
+maximize tax α. However, the 25/75 equity/bond allocation is not optimal and 60/40 is the desired allocation. There are two possibilities:
 
-1. Shift $35,000 of the tax-deferred account holdings from bond to equity to produce the 60/40 allocation. However, this will reduce tax alpha even though it increases expected return with a shift to higher return equity.
+1. Shift $35,000 of the tax-deferred account holdings from bond to equity to produce the 60/40 allocation. However, this will reduce tax α even though it increases expected return with a shift to higher return equity.
 
-2. Or borrow and invest in the taxable account the desired amount of increased equity holdings ($35,000). Borrowing is the equivalent of shorting bonds, [i.e., you pay interest on the borrowings (a short position) while you receive interest on bonds owned (a long position)]. This optimizes tax alpha and produces the desired allocation.
+2. Or borrow and invest in the taxable account the desired amount of increased equity holdings ($35,000). Borrowing is the equivalent of shorting bonds, [i.e., you pay interest on the borrowings (a short position) while you receive interest on bonds owned (a long position)]. This optimizes tax α and produces the desired allocation.
 
-![TaxAlphaLeverage](images/TaxAlphaLeverage.PNG)
+![TaxαLeverage](images/TaxαLeverage.PNG)
 
 ## f discuss the relation between after-tax returns and different types of investor trading behavior;
 
-High turnover lowers tax alpha as the benefits of tax-deferred compounding are lost. In addition, more gains are taxed at higher short-term rather than lower long-term rates.
+High turnover lowers tax α as the benefits of tax-deferred compounding are lost. In addition, more gains are taxed at higher short-term rather than lower long-term rates.
 
-In order from lowest tax alpha (highest turnover) to highest tax alpha (lowest turnover) are: traders, active investors, and passive investors. Exempt investors do not pay taxes.
+In order from lowest tax α (highest turnover) to highest tax α (lowest turnover) are: traders, active investors, and passive investors. Exempt investors do not pay taxes.
 
 ## g explain tax loss harvesting and highest-in/first-out (HIFO) tax lot accounting;
 
@@ -643,7 +643,7 @@ The candidate should be able to:
 
 ## a explain investment risks associated with a concentrated position in a singleasset and discuss the appropriateness of reducing such risks;
 
-- Systematic risk is the risk that cannot be diversified away through holding a portfolio of risky assets. In the single factor CAPM, this would be beta. In multifactor models there will be more than one systematic risk.
+- Systematic risk is the risk that cannot be diversified away through holding a portfolio of risky assets. In the single factor CAPM, this would be β. In multifactor models there will be more than one systematic risk.
 
 - Company-specific risk is the nonsystematic risk of an investment that can be diversified away. It would derive from events that affect a specific investment but not the overall market. A corporate bankruptcy as a result of financial fraud would be an extreme example of company-specific risk. Nonsystematic risk increases the standard deviation of returns without additional expected return.
 

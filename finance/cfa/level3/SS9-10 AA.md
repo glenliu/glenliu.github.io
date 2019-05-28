@@ -134,11 +134,11 @@ Optimal asset allocation
  Utility function
 - Mean-variance utility:
 
-U=E(r_p)-1/2 lambda σ_p^2
+U=E(r_p)-1/2 λ σ_p^2
 
 - Optimal allocation to the risky asset
 
-omega^*=1/lamba * [(miu-r_f)/σ^2]
+ω^*=1/lamba * [(miu-r_f)/σ^2]
 
 Active management security selection is based on investor insights or expectations.
 
@@ -214,7 +214,7 @@ The candidate should be able to:
 
 MVO requires three sets of inputs: returns, risks (standard deviations), and pair-wise correlations for the assets in the opportunity set, and the objective function expressed as follows:
 
-Um=E(Rm)-1/2 lambda Var_m
+Um=E(Rm)-1/2 λ Var_m
 
 There are some issues to consider:
 
@@ -291,8 +291,8 @@ Reverse optimization is a powerful tool that helps explain the implied returns a
 
 - Some practitioners will find the link between reverse optimization and CAPM equilibrium elegant.
   - First, use the weights associated with the asset classes (or various indexes) to form a working version of the global market portfolio;
-  - And use the beta of each asset relative to our working version of the global market portfolio;
-  - Then to infer what expected returns would be if all assets were priced by the CAPM according to their market beta. Where, we assume a risk-free rate of 2.5% and a global market risk premium of 4%;
+  - And use the β of each asset relative to our working version of the global market portfolio;
+  - Then to infer what expected returns would be if all assets were priced by the CAPM according to their market β. Where, we assume a risk-free rate of 2.5% and a global market risk premium of 4%;
   - Run a new MVO;
 
 #### Black–Litterman model 
@@ -368,7 +368,7 @@ The goal of risk budgeting is to maximize return per unit of risk, where we can 
 
 Marginal contribution to total risk:
 
-MCTRi = (beta of asset classi with respect to the portfolio)(total portfolio risk as measured by standard deviation)
+MCTRi = (β of asset classi with respect to the portfolio)(total portfolio risk as measured by standard deviation)
 
 Absolute contribution to total risk:
 
@@ -383,9 +383,9 @@ By estimating each asset classes’ marginal contribution to total risk (MCTR), 
 
 (3) develop a risk budget.
 
- $ MCTR_i=\beta_i * \σ_p $
+ $ MCTR_i=\β_i * \σ_p $
 
- $ ACTR_i=\omega_i * MCTR_i $
+ $ ACTR_i=\ω_i * MCTR_i $
 
 Optimal:
 
@@ -408,7 +408,7 @@ ACTR =wi x MCTR   = wi × βi × σp
 
   - An asset allocation is optimal when the ratio of excess return (over the risk-free rate) to MCTR is the same for all assets and matches the Sharpe ratio of the tangency portfolio.
     - Ratio of excess return to MCTR=(Expected return – Risk-free rate)/MCTR
-    - Critically, beta takes account not only of the asset’s own volatility but also of the asset’s correlations with other portfolio assets.
+    - Critically, β takes account not only of the asset’s own volatility but also of the asset’s correlations with other portfolio assets.
   - The objective of risk budgeting in asset allocation is to use risk efficiently in the pursuit of return. A risk budget specifies the total amount of risk and how much of that risk should be budgeted for each allocation.
 
 #### Risk parity
@@ -1030,7 +1030,7 @@ The cost of hedging a currency exposure:
 - Positive roll will reduce and negative roll will increase hedging costs.
 - Hedging with forward (or futures) has no explicit option premium cost, but it has implicit cost; it removes upside as well as downside.
 - Active managers can selectively over- or under-hedge. Buy more or sell less of the currency expected to appreciate.
-- An at-the-money (ATM) put (a protective put or portfolio insurance) is the most expensive (upfront premium cost) form of option hedging (e.g., buy a 50 delta put).
+- An at-the-money (ATM) put (a protective put or portfolio insurance) is the most expensive (upfront premium cost) form of option hedging (e.g., buy a 50 Δ put).
 
 Option hedging costs can be reduced by decreasing upside potential or increasing downside risk. To hedge an existing currency exposure:
 - Buy an out-of-the-money (OTM) put.
@@ -1046,7 +1046,7 @@ No need to hedge if they are highly correlated while  long one and short the oth
 If hedge:
   - cross-hedges, (sometimes called a proxy hedge) uses a hedging vehicle that is different from, and not perfectly correlated with, the exposure being hedged.
   - macro-hedges, type of cross hedge that addresses ***portfolio-wide risk factors*** rather than the risk of individual portfolio assets. One type of currency macro hedge uses a derivatives contract based on a ***fixed basket*** of currencies to modify currency exposure at a macro (portfolio) level.
-  - minimum-variance-hedge ratios: a mathematical approach to determining the hedge ratio. Regress past changes in value of the portfolio (RDC) to the past changes in value of the hedging instrument (the foreign currency) to find the hedge ratio that would have minimized standard deviation of RDC. The hedge ratio is the beta (slope coefficient) of that regression.
+  - minimum-variance-hedge ratios: a mathematical approach to determining the hedge ratio. Regress past changes in value of the portfolio (RDC) to the past changes in value of the hedging instrument (the foreign currency) to find the hedge ratio that would have minimized standard deviation of RDC. The hedge ratio is the β (slope coefficient) of that regression.
 
 Positive correlation between RFX and RFC; MVHR > 1.
 

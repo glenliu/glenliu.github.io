@@ -332,7 +332,7 @@ Constructing a suitable factor model would involve the following:
 - Determine the manager’s active exposure to each factor.
 - Determine the active impact. This is the added return due to the manager’s active exposures.
 
-The results of the fundamental factor micro attribution will indicate the source of portfolio returns, based upon actual factor exposures versus the manager’s normal factor exposures (e.g., sector rotation), the manager’s ability to time the market (e.g., adjust the portfolio beta and/or duration in response to market expectations), and so on
+The results of the fundamental factor micro attribution will indicate the source of portfolio returns, based upon actual factor exposures versus the manager’s normal factor exposures (e.g., sector rotation), the manager’s ability to time the market (e.g., adjust the portfolio β and/or duration in response to market expectations), and so on
 
 ### fundamental factor model vs return based style analysis
 
@@ -371,17 +371,17 @@ The manager’s contribution to the portfolio return (i.e., the return to active
 
 4. Trading activity: The residual effect; assumed to measure the return to active trading (buying and selling) over the period.
 
-## p calculate, interpret, and contrast alternative risk-adjusted performance measures, including (in their ex post forms) alpha, information ratio, Treynor measure, Sharpe ratio, and M2;
+## p calculate, interpret, and contrast alternative risk-adjusted performance measures, including (in their ex post forms) α, information ratio, Treynor measure, Sharpe ratio, and M2;
 
 The final stage of the performance evaluation process, performance appraisal, measures compare returns on a risk-adjusted basis. The following are five methods of performance appraisal in their ex post (historical) forms:
 
-1. Ex post alpha (Jensen’s alpha): Alpha is the difference between the account return and the return required to compensate for systematic risk. Alpha uses the ex post SML as a benchmark to appraise performance.
+1. Ex post α (Jensen’s α): α is the difference between the account return and the return required to compensate for systematic risk. α uses the ex post SML as a benchmark to appraise performance.
 
 2. Information ratio: Excess return is measured against variability of excess return.
 
-3. The Treynor measure: The Treynor measure calculates the account’s excess return above the risk-free rate, relative to the account’s beta (i.e., systematic risk).
+3. The Treynor measure: The Treynor measure calculates the account’s excess return above the risk-free rate, relative to the account’s β (i.e., systematic risk).
 
-TR=(Rp-Rf)/Beta
+TR=(Rp-Rf)/β
 
 ![TR](images/TR.PNG)          ![TR2](images/TR2.PNG)
 
@@ -400,11 +400,11 @@ M^2=Rf+SR*SDm
 
 ### Summary
 
-- Alpha and Treynor both measure risk as systematic risk (beta). They will agree in that a manager with positive alpha will have a Treynor in excess of the market Treynor. They may not always agree in relative ranking. A manager with the highest alpha may not have the highest Treynor.
+- α and Treynor both measure risk as systematic risk (β). They will agree in that a manager with positive α will have a Treynor in excess of the market Treynor. They may not always agree in relative ranking. A manager with the highest α may not have the highest Treynor.
 
-- Both Alpha and Treynor are criticized because they depend on beta and assumptions of the CAPM. The criticisms include 
+- Both α and Treynor are criticized because they depend on β and assumptions of the CAPM. The criticisms include 
   - (1) the assumption of a single priced risk rather than some form of multifactor risk pricing and 
-  - (2) the use of a market proxy, such as the S&P 500, to stand for the market. Roll’s critique shows that small changes in what is assumed to be the market can significantly change the alpha and Treynor calculations and even reverse the conclusions of superior or inferior performance and rankings.
+  - (2) the use of a market proxy, such as the S&P 500, to stand for the market. Roll’s critique shows that small changes in what is assumed to be the market can significantly change the α and Treynor calculations and even reverse the conclusions of superior or inferior performance and rankings.
 
 - Superior (inferior) Sharpe will mean superior (inferior) M2. Both measure risk as total risk (standard deviation).
 
@@ -412,15 +412,15 @@ M^2=Rf+SR*SDm
 
 - Any ex post calculation is a sample of true results and actual results can be different in the future. Even if results do reflect true manager skill, the manager can change approach or style in the future.
 
-- Alpha, Treynor, and Sharpe are the more widely used measures.
+- α, Treynor, and Sharpe are the more widely used measures.
 
-- Also remember from Levels I and II that the highest relative return measure does not necessarily mean the highest return. For example, a very low risk portfolio with low beta or standard deviation could have a higher alpha and Sharpe but a very risky portfolio with lower alpha and Sharpe can still have the higher absolute return.
+- Also remember from Levels I and II that the highest relative return measure does not necessarily mean the highest return. For example, a very low risk portfolio with low β or standard deviation could have a higher α and Sharpe but a very risky portfolio with lower α and Sharpe can still have the higher absolute return.
 
-## q explain how a portfolio’s alpha and beta are incorporated into the information ratio, Treynor measure, and Sharpe ratio;
+## q explain how a portfolio’s α and β are incorporated into the information ratio, Treynor measure, and Sharpe ratio;
 
-- Treynor considers only beta, market-related risk.
-- Sharpe is based on total portfolio risk (standard deviation of total return), which includes both beta (market related) risk and alpha (value added) related risk.
-- The information ratio considers only value added and its variability. It is based only on alpha risk.
+- Treynor considers only β, market-related risk.
+- Sharpe is based on total portfolio risk (standard deviation of total return), which includes both β (market related) risk and α (value added) related risk.
+- The information ratio considers only value added and its variability. It is based only on α risk.
 
 ## r demonstrate the use of performance quality control charts in performance appraisal;
 

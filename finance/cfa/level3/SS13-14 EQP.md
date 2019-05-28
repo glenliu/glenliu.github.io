@@ -125,7 +125,7 @@ Reconstitute: add/remove to index
 ## b compare passive factor-based strategies to market-capitalization-weighted indexing;
 Passive strategy can be achieved by either:
 - market-capitalization-weighted investment strategy 
-- passive factor-based strategy (also known as smart beta). Goal: improve on the risk/return performance by offseting higher cost
+- passive factor-based strategy (also known as smart β). Goal: improve on the risk/return performance by offseting higher cost
    - growth factor
    - value factor
    - size factor
@@ -306,7 +306,7 @@ Top-down strategies could focus on geography, industry, equity style rotation, v
 - Volatility: Volatility trading can be conducted through VIX futures, variance swaps, or option volatility strategies such as straddles.
 - Thematic investment strategies: Focus on opportunities presented by new technologies, changes in regulations, and economic cycles. Themes could be long term and structural such as the shift to cloud computing, blockchain technology, or clean energy. Themes might also be shorter term in nature such as the impact on the value of a currency of a major political vote.
 
-The proliferation over recent years of structured products and focused ETFs has provided managers with greater flexibility in implementing passive factor investing (sometimes referred to as ‘smart beta’ products), allowing the manager to target a specific style or sector at a time when they believe it will outperform.
+The proliferation over recent years of structured products and focused ETFs has provided managers with greater flexibility in implementing passive factor investing (sometimes referred to as ‘smart β’ products), allowing the manager to target a specific style or sector at a time when they believe it will outperform.
 
 ## d analyze factor-based active strategies, including their rationale and associated processes;
 Quantitative strategies often use factor-based models, which aim to identify factors that drive performance historically and are likely to continue to do so in the future. 
@@ -465,16 +465,16 @@ The candidate should be able to:
 ## a describe elements of a manager’s investment philosophy that influence the portfolio construction process;
 
 The three main building blocks of active return (excess return above a benchmark) for an active equity manager are:
-- Active rewarded ***factor (beta) weightings*** (taking exposures that differ from the benchmark). Factor exposures include market, size, value, momentum, liquidity, et cetera.
-- Alpha skills— ***factor timing*** timing rewarded and unrewarded factors, sectors, and securities. This primarily generates excess return through ***identifying mispricings***.
-- Position sizing—large positions affect all three sources of active returns, but will primarily generate high idiosyncratic risk (good/bad luck). It may be a required part of a concentrated manager’s alpha-generating strategy
+- Active rewarded ***factor (β) weightings*** (taking exposures that differ from the benchmark). Factor exposures include market, size, value, momentum, liquidity, et cetera.
+- α skills— ***factor timing*** timing rewarded and unrewarded factors, sectors, and securities. This primarily generates excess return through ***identifying mispricings***.
+- Position sizing—large positions affect all three sources of active returns, but will primarily generate high idiosyncratic risk (good/bad luck). It may be a required part of a concentrated manager’s α-generating strategy
 
 
 Active return =Return from factor tilts + Security selection
 
 RA=∑(βpk−βbk)×Fk+(α+ε)
 
-- The alpha (α) is the active return of the portfolio
+- The α (α) is the active return of the portfolio
 - ε is the idiosyncratic return (noise/luck), resulting from a random shock.
 
 A manager’s choices with respect to portfolio concentration are a function of his beliefs regarding the nature of his investment skill.
@@ -484,7 +484,7 @@ A manager’s choices with respect to portfolio concentration are a function of 
 - The ***stock picker*** believes that he is skilled at forecasting securityspecific performance over a specific horizon.
   - Assume a higher degree of idiosyncratic risk (α + ε).
   - Concentrated portfolio
-  - the return not explained by exposure to rewarded factors—alpha (α) is the active return attributable to manager skill, and ε is the idiosyncratic return—noise or luck (good or bad) (In practice it is very difficult to distinguish between α and ε)
+  - the return not explained by exposure to rewarded factors—α (α) is the active return attributable to manager skill, and ε is the idiosyncratic return—noise or luck (good or bad) (In practice it is very difficult to distinguish between α and ε)
 
 E(RA) = IC * sqrt(BR) * σRA * TC
 
@@ -536,7 +536,7 @@ An effective risk management process requires that the portfolio manager do the 
 
 Absolute risk measures focus on the size and composition of absolute portfolio variance (i.e., without reference to any benchmark variance) 
 
-Portfolio variance can also be separated into variance attributed to factor exposures and unexplained variance. A manager that generates most of her returns from exposure to rewarded factors (such as a multi-factor diversified manager) would expect to see a large contribution to risk explained by rewarded factors and a low contribution to risk from unexplained idiosyncratic risks. The contribution to portfolio variance of a factor is analogous to the contribution to portfolio variance of an asset, with weights replaced by beta sensitivities and assets replaced by factors. 
+Portfolio variance can also be separated into variance attributed to factor exposures and unexplained variance. A manager that generates most of her returns from exposure to rewarded factors (such as a multi-factor diversified manager) would expect to see a large contribution to risk explained by rewarded factors and a low contribution to risk from unexplained idiosyncratic risks. The contribution to portfolio variance of a factor is analogous to the contribution to portfolio variance of an asset, with weights replaced by β sensitivities and assets replaced by factors. 
 
 ![CV](images/CV.PNG)
 
@@ -568,7 +568,7 @@ Rg = Ra - σ^2/2
 Risk constraints can be classified as 
 - heuristic (based on experience like arbitrary position limits), appear as controls imposed on the permissible portfolio composition through some exogenous classification structure. Such constraints are often based on experience or practice, rather than empirical evidence of their effectiveness.
   - Exposure concentrations by security, sector, industry, or geography;
-  - Net exposures to risk factors, such as beta, size, value, and momentum;
+  - Net exposures to risk factors, such as β, size, value, and momentum;
   - Net exposures to currencies;
   - Degree of leverage;
   - Degree of illiquidity;
@@ -619,11 +619,11 @@ Funds aiming to deliver different required characteristics will have different w
 
 - Portfolios that can achieve desired risk exposures with fewer positions are likely to have more focus on risk management in the portfolio construction process. While this will not guarantee excess return, it does indicate risk efficiency is likely higher.
 - If two portfolios have similar risk factor exposures, the product with the lower absolute volatility and lower active risk will likely be preferred (assuming similar costs).
-- If two portfolios have similar active and absolute risks, similar costs, similar manager alpha skills, then the portfolio with the highest Active Share is preferable because this will leverage the alpha skill of the manager and have higher expected return.
+- If two portfolios have similar active and absolute risks, similar costs, similar manager α skills, then the portfolio with the highest Active Share is preferable because this will leverage the α skill of the manager and have higher expected return.
 - When selecting equity managers to create the equity allocation of a multi-asset fund, managers should be combined to create an overall equity allocation in the portfolio that is well-constructed. A risk factor exposure that is desired but not present in one manager could be compensated for by adding a different manager that specializes in generating exposure to that risk factor.
 
 
-## h discuss the long-only, long extension, long/short, and equitized market-neutral approaches to equity portfolio construction, including their risks, costs, and effects on potential alphas.
+## h discuss the long-only, long extension, long/short, and equitized market-neutral approaches to equity portfolio construction, including their risks, costs, and effects on potential αs.
 
 An investor’s choice between following long-only or long/short strategies is influenced by several factors, including:
 - Long-term risk premiums.

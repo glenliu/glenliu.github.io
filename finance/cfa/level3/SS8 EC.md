@@ -7,8 +7,8 @@
 
 ## a: Discuss the role of, and a framework for, capital market expectations in the portfolio management process.
 
-Alpha research
-Beta research
+α research
+β research
 
 7 steps to CME:
 
@@ -55,7 +55,7 @@ Problems of forecasting
    - ERP+bond yield
    - shrinkage estimate (weighted average)
    - Time series model: 
-      - volatility clustering: σ^2=beta*σ^2+(1-beta)eplison^2
+      - volatility clustering: σ^2=β*σ^2+(1-β)eplison^2
    - multifactor model
    - rigorous approach: Level 1 -> Level 2
 
@@ -63,21 +63,21 @@ Problems of forecasting
    - disadvantage: not account for current market condition, suitable for long term valuation
    - GGM
    - G&K model:
-      - expected income return: D1/P0-deltaS
+      - expected income return: D1/P0-ΔS
       - expected nominal earning growth: i+g
-      - repricing return: delta P/E
+      - repricing return: Δ P/E
 
 ## Module 16.3: Risk Premiums, Financial Equilibrium, and Surveys
 
 - Risk premium: R = rf+inflation+default+illiquidity+maturity+tax
 - Financial Equilibrium: 
-  - ICAPM: Ri=Rf+beta(Rm-Rf) => RPi=Rho*σi*market sharpe ratio
+  - ICAPM: Ri=Rf+β(Rm-Rf) => RPi=ρ*σi*market sharpe ratio
   -  adjust market impeferction (Singer & Terhaar)
-    - assuming full integration: ERP=Rho*σ*MSR + illiquidity
+    - assuming full integration: ERP=ρ*σ*MSR + illiquidity
     - assuming full segmentation: ERP=σ*MSR + illiquidity
     - weighted average of the two
     
-EXAMPLE: Using market risk premiums to calculate expected returns, betas, and covariancesSuppose an analyst is valuing two equity markets. Market A is a developed market, and Market B is an emerging market. The investor’s time horizon is five years. The other pertinent facts are:
+EXAMPLE: Using market risk premiums to calculate expected returns, βs, and covariancesSuppose an analyst is valuing two equity markets. Market A is a developed market, and Market B is an emerging market. The investor’s time horizon is five years. The other pertinent facts are:
 
 - Sharpe ratio of the global investable portfolio 0.29
 - Standard deviation of the global investable portfolio 9%
@@ -91,7 +91,7 @@ EXAMPLE: Using market risk premiums to calculate expected returns, betas, and co
 - Estimated illiquidity premium for A 0.0%
 - Estimated illiquidity premium for B 2.3%
 
-Calculate the assets’ expected returns, betas, and covariance.
+Calculate the assets’ expected returns, βs, and covariance.
 
 Answer:
 
@@ -118,15 +118,15 @@ The expected return in each market figures in the risk-free rate:
 - Ra^=5%+4.22%=9.22%
 - RB^=5%+8.46%=13.46%
 
-The betas in each market, which will be needed for the covariance, are calculated as:
+The βs in each market, which will be needed for the covariance, are calculated as:
 
-- Betai=Rho(i,M) σ_i / σ_M
-- BetaA=0.82*17/9=1.55
-- BetaB=0.63*28/9=1.96
+- βi=ρ(i,M) σ_i / σ_M
+- βA=0.82*17/9=1.55
+- βB=0.63*28/9=1.96
 
 Lastly, we calculate the covariance of the two equity markets:
 
-- Cov(i,j)= Betai Betaj σ_M^2
+- Cov(i,j)= βi βj σ_M^2
 
 - Cov(A,B)=1.55*1.96*9.0=246.08
 

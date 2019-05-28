@@ -189,7 +189,7 @@ $0.084 = $0.018 + 0.018 + 0.040 + 0.008
 
 ===================================================
 
-Market adjusted IS = IS - Beta * E(Rm)
+Market adjusted IS = IS - β * E(Rm)
 <0: Negative trading cost: => Benefit: Negative cost means a benefit to the portfolio. The purchase was executed above the original benchmark price (DP) but, when the general increase in market prices is considered, the execution was more favorable than expected
 
 

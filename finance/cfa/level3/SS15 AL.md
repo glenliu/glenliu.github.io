@@ -132,7 +132,7 @@ Advantages of direct equity real estate investing:
 Disadvantages of direct equity real estate investing:
 - Lack of divisibility means a single investment may be a large part of the investor’s portfolio.
 - High information cost, high commissions, high operating and maintenance costs, and hands-on management requirements.
-- Special geographical risks, such as neighborhood deterioration 
+- Special geographical risks, such as neighboρod deterioration 
 - political risk of changing tax codes.
 
 ## h discuss the major issuers and suppliers of venture capital, the stages through which private companies pass (seed stage through exit), the characteristic sources of financing at each stage, and the purpose of such financing;
@@ -273,7 +273,7 @@ A discretionary CTA trading strategy generates returns on the managers’ tradin
 The primary benefit to managed futures is increased risk-adjusted performance and diversification, although the performance seems to be related to specific strategies and time periods. 
 Private funds seem to add value; 
 publicly traded funds have performed poorly both stand-alone and in portfolios. 
-Even though CTAs often exhibit negative correlations with equities, correlations among CTAs themselves can range from significantly to modestly positive. The CTA beta (relative to other CTAs) can be a good indicator of future risk-adjusted performance
+Even though CTAs often exhibit negative correlations with equities, correlations among CTAs themselves can range from significantly to modestly positive. The CTA β (relative to other CTAs) can be a good indicator of future risk-adjusted performance
 
 
 ## t describe strategies and risks associated with investing in distressed securities;
