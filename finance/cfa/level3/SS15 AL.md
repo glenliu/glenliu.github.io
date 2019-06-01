@@ -19,11 +19,17 @@ Alternative investments can provide:
 ## b explain and justify the major due diligence checkpoints involved in selecting active managers of alternative investments;
 
 Assess the market opportunity offered. Are there exploitable inefficiencies in the market for the type of investments in which the manager specializes?
+
 Assess the investment process. Does the manager seem to have a competitive edge over others in that market?
+
 Assess the organization of the manager and its operations. Is it stable and well run? What has been the staff turnover?
+
 Assess the people by meeting with them and assessing their character.
+
 Assess the terms and structure (amount and time period) of the investment.
+
 Assess the service providers (i.e., lawyers, brokers, ancillary staff, etc.) by investigating the outside firms that support the manager’s business.
+
 Review documents such as the prospectus or private-placement memorandum and the audits.
 
 ## c explain distinctive issues that alternative investments raise for investment advisers of private wealth clients;
@@ -76,8 +82,8 @@ Benchmarks of real estate：房地产的基准（指数）
 - NAREIT：间接投资的指数，real-time, market-cap-weighted index of al REITs actively traded on the New York Stock Exchange and American Stock Exchange
 注意：NCREIF smooth 版本会低估波动率（underestimate volatility）
 
- ** Smoothing ** occurs when only infrequent pricing is available or used to calculate return and risk measures.
-- The infrequent data points will appear to indicate ** low volatility ** and lead to a downward (not overstated) calculation for standard deviation. Standard deviation is a measure of standalone risk (i.e., before considering diversification and the impact on portfolio risk).
+ ***Smoothing*** occurs when only infrequent pricing is available or used to calculate return and risk measures.
+- The infrequent data points will appear to indicate ***low volatility*** and lead to a downward (not overstated) calculation for standard deviation. Standard deviation is a measure of standalone risk (i.e., before considering diversification and the impact on portfolio risk).
 - Smoothed data will also appear uncorrelated (correlation closer to zero) with regularly priced traditional asset classes. Most risky assets have some degree of
 positive correlation (above zero) with each other. So, including an alternative asset class with smoothed data and apparently lower correlation will overstate
 diversification benefit.
@@ -238,10 +244,15 @@ Incentive fees are paid to encourage the manager to earn ever higher profits. Th
 ## q describe the purpose and characteristics of fund-of-funds hedge funds;
 
 A fund-of-funds (FOF) consists of approximately 10 to 30 hedge funds. The point is to achieve diversification, but the extra layer of management means an extra layer of fees.
+
 Often, an FOF offers more liquidity for the investor, but the cost is cash drag. 
+
 Despite the drawbacks, FOF are good entry-level investments because the manager of the FOF exercises due diligence.
+
 An FOF may serve as a better benchmark because it suffers from less survivorship bias.
+
 An FOF can suffer from **style drift**. Often two FOF that are classified as having the same style have a low correlation of returns.
+
 FOF returns have been more highly correlated with equity markets than those of individual hedge funds. This characteristic has important implications for their use as a diversifier in an equity portfolio (i.e., as correlation increases, diversification decreases)
 
 ## r discuss concerns involved in hedge fund performance evaluation;
@@ -271,8 +282,11 @@ CTAs that specialize in systematic trading strategies typically apply sets of ru
 A discretionary CTA trading strategy generates returns on the managers’ trading expertise, much like any active portfolio manager. CTAs can also be classified according to whether they trade in financial markets, currency markets, or diversified markets.
 
 The primary benefit to managed futures is increased risk-adjusted performance and diversification, although the performance seems to be related to specific strategies and time periods. 
+
 Private funds seem to add value; 
+
 publicly traded funds have performed poorly both stand-alone and in portfolios. 
+
 Even though CTAs often exhibit negative correlations with equities, correlations among CTAs themselves can range from significantly to modestly positive. The CTA β (relative to other CTAs) can be a good indicator of future risk-adjusted performance
 
 
