@@ -18,13 +18,13 @@ Alternative investments can provide:
 
 ## b explain and justify the major due diligence checkpoints involved in selecting active managers of alternative investments;
 
-Assess the market opportunity offered. Are there exploitable inefficiencies in the market for the type of investments in which the manager specializes?
-Assess the investment process. Does the manager seem to have a competitive edge over others in that market?
-Assess the organization of the manager and its operations. Is it stable and well run? What has been the staff turnover?
-Assess the people by meeting with them and assessing their character.
-Assess the terms and structure (amount and time period) of the investment.
-Assess the service providers (i.e., lawyers, brokers, ancillary staff, etc.) by investigating the outside firms that support the manager’s business.
-Review documents such as the prospectus or private-placement memorandum and the audits.
+- Assess the market opportunity offered. Are there exploitable inefficiencies in the market for the type of investments in which the manager specializes?
+- Assess the investment process. Does the manager seem to have a competitive edge over others in that market?
+- Assess the organization of the manager and its operations. Is it stable and well run? What has been the staff turnover?
+- Assess the people by meeting with them and assessing their character.
+- Assess the terms and structure (amount and time period) of the investment.
+- Assess the service providers (i.e., lawyers, brokers, ancillary staff, etc.) by investigating the outside firms that support the manager’s business.
+- Review documents such as the prospectus or private-placement memorandum and the audits.
 
 ## c explain distinctive issues that alternative investments raise for investment advisers of private wealth clients;
 
@@ -52,6 +52,7 @@ Private equity subgroups include start-up companies, middle-market private compa
 Commodity investments can also be grouped into direct and indirect subgroups. 
 - Direct investment is either through the purchase of the physical commodity or the purchase of derivatives (e.g., futures) on those assets. 
 - Indirect investment in commodities is usually done through investment in companies whose principal business is associated with a commodity (e.g., investing in a metal via ownership of shares in a mining company).
+
 Many commodities have a low correlation with stocks and bonds and a positive correlation with inflation.
 
 
@@ -60,9 +61,9 @@ Managed futures funds share many characteristics with hedge funds.
 - Also, managed futures funds generally take positions based on indices, while hedge funds tend to focus more on individual asset price anomalies. In other words, hedge funds tend to have more of a micro focus, while managed futures tend to have a macro focus.
 
 Buyout funds are the largest segment of the private equity market. 
-Middle-market buyout funds concentrate on divisions spun off from larger, publicly traded corporations and private companies that, due to their relatively small size, cannot efficiently obtain capital. 
-Mega-cap buyout funds concentrate on taking publicly traded firms private. 
-In either case, the target represents an investment opportunity through the identification of under-valued assets, the ability to restructure the debt of the firm, and/or improved (i.e., more efficient) management and operations.
+- Middle-market buyout funds concentrate on divisions spun off from larger, publicly traded corporations and private companies that, due to their relatively small size, cannot efficiently obtain capital. 
+- Mega-cap buyout funds concentrate on taking publicly traded firms private. 
+- In either case, the target represents an investment opportunity through the identification of under-valued assets, the ability to restructure the debt of the firm, and/or improved (i.e., more efficient) management and operations.
 
 Infrastructure funds specialize in purchasing public infrastructure assets (e.g., airports, toll roads) from cities, states, and municipalities. 
 
@@ -73,14 +74,12 @@ investments. It may also be part of the private equity class.
 
 Benchmarks of real estate：房地产的基准（指数）
 - NCREIF：直接投资的指数，value weighted and includes sub-indices grouped by real estate sector and geographical region，分为 NCREIF smooth 版本和 NCREIF unsmooth/corrected 版本
-- NAREIT：间接投资的指数，real-time, market-cap-weighted index of al REITs actively traded on the New York Stock Exchange and American Stock Exchange
+- NAREIT：间接投资的指数，real-time, market-cap-weighted index of all REITs actively traded on the New York Stock Exchange and American Stock Exchange
 注意：NCREIF smooth 版本会低估波动率（underestimate volatility）
 
- ** Smoothing ** occurs when only infrequent pricing is available or used to calculate return and risk measures.
-- The infrequent data points will appear to indicate ** low volatility ** and lead to a downward (not overstated) calculation for standard deviation. Standard deviation is a measure of standalone risk (i.e., before considering diversification and the impact on portfolio risk).
-- Smoothed data will also appear uncorrelated (correlation closer to zero) with regularly priced traditional asset classes. Most risky assets have some degree of
-positive correlation (above zero) with each other. So, including an alternative asset class with smoothed data and apparently lower correlation will overstate
-diversification benefit.
+ ***Smoothing*** occurs when only infrequent pricing is available or used to calculate return and risk measures.
+- The infrequent data points will appear to indicate ***low volatility*** and lead to a downward (not overstated) calculation for standard deviation. Standard deviation is a measure of standalone risk (i.e., before considering diversification and the impact on portfolio risk).
+- Smoothed data will also appear uncorrelated (correlation closer to zero) with regularly priced traditional asset classes. Most risky assets have some degree of positive correlation (above zero) with each other. So, including an alternative asset class with smoothed data and apparently lower correlation will overstate diversification benefit.
 - Any strategy using exchange-traded derivatives is going to have readily available pricing data and is not likely to be subject to smoothing. 
 
 
@@ -137,9 +136,18 @@ Disadvantages of direct equity real estate investing:
 
 ## h discuss the major issuers and suppliers of venture capital, the stages through which private companies pass (seed stage through exit), the characteristic sources of financing at each stage, and the purpose of such financing;
 
-Early: Seed money => Prototype, startup funds => Product dev and marketing, First stage => manufacturing and sales
-Expansion:  second stage, 3rd stage for further expansion; Mezzanine or bride financing => prepare for IPO
-Exit: IPO, merger, acquisition
+Early: 
+- Seed money => Prototype, 
+- Startup funds => Product dev and marketing,
+- First stage => manufacturing and sales
+
+Expansion: 
+- Second stage, 3rd stage for further expansion; 
+- Mezzanine or bride financing => prepare for IPO
+
+Exit: 
+- IPO, 
+- Merger, acquisition
 
 ## i compare venture capital funds and buyout funds;
 
@@ -187,11 +195,14 @@ Any strategy for private equity investment must address the following issues:
 ## m compare indirect and direct commodity investment;
 
 Direct commodity investment entails either purchasing the actual commodities or gaining exposure via derivatives. 
+
 Indirect commodity investment is the purchase of indirect claims (e.g., shares in a corporation) that deal in the commodity.
+
 Direct investment gives more exposure, but cash investment in commodities can incur carrying costs.
+
 Indirect investment may be more convenient, but it may provide very little exposure to the commodity, especially if the company is hedging the risk itself.
-The increase in the number of investable indices in commodities and their associated futures is indicative of the advantages of investing via derivatives. These indices also
-make investing in commodities available to smaller investors.
+
+The increase in the number of investable indices in commodities and their associated futures is indicative of the advantages of investing via derivatives. These indices also make investing in commodities available to smaller investors.
 
 ## n describe the principal roles suggested for commodities in a portfolio and explain why some commodity classes may provide a better hedge against inflation than others;
 
@@ -204,9 +215,11 @@ Principal roles:
 - demand relative to economic activity
 
 Given the zero-sum nature of futures, the indices cannot use a market-cap method of weighting. 
+
 Two methods of weighting are 
 - 1) basing weights on world production of the underlying commodities and
 - 2) basing weights on the perceived relative worldwide importance of the commodity. 
+
 The various indices use either arithmetic or geometric averaging to calculate component returns.
 
 
@@ -231,17 +244,27 @@ can range from net long to net short.
 ## p discuss the typical structure of a hedge fund, including the fee structure, and explain the rationale for high-water mark provisions;
 
 The most common compensation structure of a hedge fund consists of an assets-under-management (AUM) fee of about 1% to 2% and an incentive fee of 20% of profits.
-High water marks (HWMs) are typically employed to avoid incentive fee double dipping. For example, each quarter the increase in value over the previous quarter is determined, and investors pay incentive and management fees accordingly. If the value of the fund is lower than the previous quarter, however, the manager receives only the management fee, and the previous high value of the fund is established as a HWM.
+
+High water marks (HWMs) are typically employed to avoid incentive fee double dipping. 
+- For example, each quarter the increase in value over the previous quarter is determined, and investors pay incentive and management fees accordingly. 
+- If the value of the fund is lower than the previous quarter, however, the manager receives only the management fee, and the previous high value of the fund is established as a HWM.
+
 A lock-up period limits withdrawals by requiring a minimum investment period (e.g., one to three years), preventing sudden withdrawals that could force the manager to have to unwind positions.
+
 Incentive fees are paid to encourage the manager to earn ever higher profits. There is some controversy concerning incentive fees because the manager should have goals other than simply earning a gross return.
 
 ## q describe the purpose and characteristics of fund-of-funds hedge funds;
 
 A fund-of-funds (FOF) consists of approximately 10 to 30 hedge funds. The point is to achieve diversification, but the extra layer of management means an extra layer of fees.
+
 Often, an FOF offers more liquidity for the investor, but the cost is cash drag. 
+
 Despite the drawbacks, FOF are good entry-level investments because the manager of the FOF exercises due diligence.
+
 An FOF may serve as a better benchmark because it suffers from less survivorship bias.
+
 An FOF can suffer from **style drift**. Often two FOF that are classified as having the same style have a low correlation of returns.
+
 FOF returns have been more highly correlated with equity markets than those of individual hedge funds. This characteristic has important implications for their use as a diversifier in an equity portfolio (i.e., as correlation increases, diversification decreases)
 
 ## r discuss concerns involved in hedge fund performance evaluation;
@@ -267,13 +290,14 @@ Downside deviation is a popular hedge fund risk measure, as it measures only the
 
 ## s describe trading strategies of managed futures programs and the role of managed futures in a portfolio;
 
-CTAs that specialize in systematic trading strategies typically apply sets of rules to trade according to or contrary to short-, intermediate-, and/or long-term trends.
-A discretionary CTA trading strategy generates returns on the managers’ trading expertise, much like any active portfolio manager. CTAs can also be classified according to whether they trade in financial markets, currency markets, or diversified markets.
+- CTAs that specialize in systematic trading strategies typically apply sets of rules to trade according to or contrary to short-, intermediate-, and/or long-term trends.
+- A discretionary CTA trading strategy generates returns on the managers’ trading expertise, much like any active portfolio manager. 
+- CTAs can also be classified according to whether they trade in financial markets, currency markets, or diversified markets.
 
-The primary benefit to managed futures is increased risk-adjusted performance and diversification, although the performance seems to be related to specific strategies and time periods. 
-Private funds seem to add value; 
-publicly traded funds have performed poorly both stand-alone and in portfolios. 
-Even though CTAs often exhibit negative correlations with equities, correlations among CTAs themselves can range from significantly to modestly positive. The CTA β (relative to other CTAs) can be a good indicator of future risk-adjusted performance
+- The primary benefit to managed futures is increased risk-adjusted performance and diversification, although the performance seems to be related to specific strategies and time periods. 
+- Private funds seem to add value; 
+- Publicly traded funds have performed poorly both stand-alone and in portfolios. 
+- Even though CTAs often exhibit negative correlations with equities, correlations among CTAs themselves can range from significantly to modestly positive. The CTA β (relative to other CTAs) can be a good indicator of future risk-adjusted performance
 
 
 ## t describe strategies and risks associated with investing in distressed securities;
@@ -284,6 +308,7 @@ Even though CTAs often exhibit negative correlations with equities, correlations
 - Distressed debt arbitrage is the purchasing of a company’s distressed debt while short selling the company’s equity. The investment can earn a return in two ways:
    - If the firm’s condition declines, the debt and equity will both fall in value, but equity should decline more in value.
    - If the company’s prospects improve, the returns to bondholders should be greater than that of equity holders.
+
 Private equity is an “active” approach where the investor acquires positions in the distressed company, and the investment gives some measure of control. The investor can then influence the company as well as acquire more ownership in the process of any reorganization. 
 
 ## u explain event risk, market liquidity risk, market risk, and “J factor risk” in relation to investing in distressed securities.
