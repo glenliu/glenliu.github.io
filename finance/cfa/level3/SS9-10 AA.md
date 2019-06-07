@@ -194,14 +194,14 @@ Rebalancing is the discipline of adjusting portfolio weights to more closely ali
 
 |Considerations                       | Rebalancing ranges                                               |
 |---------------------------------------|--------------------------------------------------------------------|
-|Transaction costs                 |Higher costs, wider ranges                                      |
-|Risk-aversion                         |More risk-averse, narrower ranges                        |
-|Asset class correlation        | Less correlated, narrower ranges in case further divergence|
-|Beliefs in momentum favor/ mean reversion|Beliefs in momentum, wider ranges; Mean reversion,narrower ranges|
-|Liquidity                                  |Illiquid investments complicate rebalancing,commonly wider ranges|
-|Volatility                                | Higher volatility makes divergences from the strategic asset allocation more likely, thus narrower ranges|
-|Taxes                                    |Encourage asymmetric and wider rebalancing ranges, range may be less below a certain target weight than above for example, 25%->(24%,28%)|
-|Derivative                              |Synthetically rebalance a portfolio. Results in lower transaction costs, lower taxes, easier and quicker|
+|Transaction costs                 | (+) Higher costs, wider ranges. If transaction costs decrease, the costs of more frequent rebalancing decrease and the performance needed to compensate for the transaction costs is lower. This supports a narrower corridor width.  |
+|Risk-aversion                         | (-)More risk-averse, narrower ranges                        |
+|Asset class correlation        | (+)Less correlated, narrower ranges in case further divergence:  In a portfolio that has increased correlation among asset classes, there is less chance of an asset class diverting from its target weight. As an asset class increases in value, the other asset class will likely increase in value. Therefore, reduce the chance of divergence. This supports widening the corridor width|
+|Beliefs in momentum favor/ mean reversion|  (+)Beliefs in momentum, wider ranges; Mean reversion,narrower ranges|
+|Liquidity                                  |  (-) Illiquid investments complicate rebalancing, commonly wider ranges|
+|Volatility                                |  (-) Higher volatility makes divergences from the strategic asset allocation more likely, thus narrower ranges. But more frequent rebalancing increases transaction costs. This argues for wider corridors to control transaction costs, particularly when those costs are substantial. => trade-off between risk control, transaction costs, and correlations between classes. |
+|Taxes                                    | (-)Encourage asymmetric and wider rebalancing ranges, range may be less below a certain target weight than above for example, 25%->(24%,28%)|
+|Derivative                              | (-) Synthetically rebalance a portfolio. Results in lower transaction costs, lower taxes, easier and quicker|
 
 ## Reading 19: Principles of Asset Allocation
 
