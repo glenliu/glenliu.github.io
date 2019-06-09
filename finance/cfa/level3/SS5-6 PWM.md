@@ -716,6 +716,48 @@ A goal-based decision process modifies traditional mean-variance analysis to acc
 
 To implement a goal-based plan, the manager and client must determine the primary capital necessary to meet the goals of the ***first two*** risk buckets and the amount of any remaining surplus capital to meet aspirational goals. If a concentrated holding in the aspirational bucket leaves insufficient funds for the first two primary capital buckets, sale or monetization of the concentrated position must be discussed with the client
 
+
+EXHIBIT 1RICHARDS’ VALUES
+
+Asset	Estimated Value ($ thousands)	Cost Basis ($ thousands)
+
+Primary residence (no mortgage)	2,000	2,000
+
+MTL Corp	11,000	2,000
+
+Common stock (70,000 shares CTAS)	4,000	1,000
+
+Warehouse	3,000	4,300
+
+Municipal bond portfolio	3,000	3,150
+
+Global all-cap equity fund	3,400	1,650
+
+Cash equivalents	300	300
+
+Tax Rates
+
+Capital gains tax rate = 20%
+
+Income tax rate = 40%
+
+
+Q: Using the planning framework that Richards suggests, the after-tax primary is:
+
+Primary capital is the sum of assets that fall into the personal and market risk buckets. It includes the residence, municipal bond portfolio, global equity fund, and cash equivalents. It excludes the values of MTL and the concentrated positions in CTAS public stock and the warehouse (investment real estate)—those are considered aspirational.
+
+Asset	Value ($000s)	Cost ($000s)	Gain= Value − Cost ($000s)	Tax = Gain × 0.20 ($000s)	Net Value after Tax ($000s)
+
+Residence	2,000	2,000	0	0	2,000
+
+Muni Bonds	3,000	3,150	(150)	−30	3,030
+
+Global Equities	3,400	1,650	1750	350	3,050
+
+Cash Equivalents	300	300	0	0	300
+
+ 	 	 	Total Net Value =	8,380
+
 ## g explain uses of asset location and wealth transfers in managing concentrated positions;
 
 Asset location determines the method of taxation that will apply. Location in a tax deferred account would defer all taxes to a future date. In a taxable account, interest, dividends, and capital gains may be subject to different tax rates (or deferral possibilities in the case of when to realize capital gains).
@@ -864,6 +906,51 @@ on the property. If the property value falls below the loan amount, the borrower
 - A sale and leaseback can provide immediate funds while retaining use of the property
 
 ## l evaluate and recommend techniques for tax efficiently managing the risks of concentrated positions in publicly traded common stock, privately held businesses, and real estate.
+
+
+EXHIBIT 1RICHARDS’ VALUES
+
+Asset	Estimated Value ($ thousands)	Cost Basis ($ thousands)
+
+Primary residence (no mortgage)	2,000	2,000
+
+MTL Corp	11,000	2,000
+
+Common stock (70,000 shares CTAS)	4,000	1,000
+
+Warehouse	3,000	4,300
+
+Municipal bond portfolio	3,000	3,150
+
+Global all-cap equity fund	3,400	1,650
+
+Cash equivalents	300	300
+
+Tax Rates
+
+Capital gains tax rate = 20%
+
+Income tax rate = 40%
+
+
+Adams has strong connections to the real estate market and informs Richards that the market value estimate of $3 million for the warehouse is much too low. He advises Richards to consider reducing his real estate risk directly by using the immediate cash inflows net of tax liabilities and costs to increase his stock and bond portfolios. Adams is confident he can arrange any of the following real estate offers:
+
+1. Sell the warehouse for $4.8 million to an outside investor.
+2. Enter into a recourse mortgage loan, with the warehouse valued at $5.8 million by the lender and an LTV ratio of 80%.
+3. Enter into a sale-and-leaseback, with the warehouse valued at $4.9 million and the first year’s rental payment of $150,000 payable at the start of the lease.
+
+Using the information in Exhibit 1 and Adams’ real estate proposals, which offer will provide the largest immediate addition of funds to Richards’ stock and bond portfolios?
+
+Immediate cash inflows available would include proceeds and the possible first rental payment in Offer 2; all cash flows are net of taxes. As shown in the table below, Offer 1, selling the warehouse outright, produces the highest immediate cash flow net of taxes:
+
+Offer	Offer Amount	Cost	Taxes Paid Gains Taxes = 20%	Loan Proceeds LTV = 80%	Initial Lease Payment	Income Tax Deduction on Rent Income Tax rate = 40%	Net to Reinvest Offer less all taxes
+
+1	4,800,000	4,300,000	(100,000)	 	 	 	4,700,000
+
+2	5,800,000	4,300,000	0 as no sale occurs	4,640,000	 	 	4,640,000
+
+3	4,900,000	4,300,000	(120,000)	 	(150,000)	60,000	4,690,000
+
 
 # READING 14. RISK MANAGEMENT FOR INDIVIDUALS
 

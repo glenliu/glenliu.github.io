@@ -276,7 +276,7 @@ Resampled mean–variance optimization combines Markowitz’s mean–variance op
 - MCS to generate thousands of random variations of the inputs, resulting in efficient frontier
 - resampleed EF is an average of all the simulated EF
 
-Criticisms including thefollowing:
+Criticisms including the following:
 - Some frontiers have concave “bumps” where expected return decreases as expected risk increases;
 - The “riskier” asset allocations are overdiversified;
 - The asset allocations inherit the estimation errors in the original inputs; and
@@ -621,6 +621,8 @@ Additional ad hoc approaches to asset allocation include:
   - The criticism of this approach is that it ignores expected returns and focuses only on risk.
 - 1/N rule
   - In empirical studies comparing approaches, however, the 1/N rule has been found to perform considerably better, based on Sharpe ratios and certainty equivalents, than theory might suggest. One possible explanation is that the 1/N rule sidesteps problems caused by optimizing when there is estimation error in inputs.
+  
+- The Norway model passively invests in publicly traded securities subject to environmental, social, and governance concerns
 
 ### o. discuss factors affecting rebalancing policy. 
 
@@ -845,6 +847,66 @@ where for Equation 4:
 
 RFC = the return on a foreign currency denominated risk-free asset
 
+
+====================== 2015 Q9 ==========================
+
+Pete Aron, portfolio manager for Gulf & Co.’s European technology fund, is concerned about currency fluctuations related to the equity portfolio (the Portfolio). The Portfolio is valued in USD, but has exposure to multiple European currencies, primarily the EUR.
+
+Aron formulates the following market expectations for the coming year:
+
+- Expected return (in EUR) of the Portfolio: +13.2%
+- Standard deviation (in EUR) of the Portfolio: 15%
+- Expected USD/EUR spot rate in one year: 1.2045 (1 EUR = 1.2045 USD)
+- Standard deviation of the USD/EUR exchange rate: 5%
+- Correlation between the USD/EUR exchange rate and the Portfolio (in EUR): –0.07
+
+The market quotes presented in Exhibit 1 are available from a currency dealer:
+
+Exhibit 1
+Select Market Quotes
+USD/EUR spot rate 1.1930
+1-year USD/EUR forward rate (bid–offer) 1.2065 – 1.2090
+
+Aron considers selling EUR and buying USD using a one-year forward contract to fully hedge the EUR currency risk. He will execute the trade if he can achieve the following risk/return objectives:
+- Objective 1: Increase the Portfolio’s expected return (in USD) by at least 25 basis points.
+- Objective 2: Reduce the Portfolio’s expected standard deviation (in USD) by at least 30 basis points.
+
+Determine, based on Aron’s market expectations, whether he should execute the forward trade with respect to each of the following:
+- i. Objective 1
+- ii. Objective 2
+
+Justify your response. Show your calculations.
+
+Note: Assume a one-year time horizon. Consider each objective independently
+
+
+Answer:
+
+Objective 1:
+
+Aron should not execute the forward trade because the return objective is not met.
+
+For the USD-based investor, the expected USD return on the USD/EUR is 1.2045/1.1930 – 1 = 0.96%. Since the EUR return on the portfolio is given at 13.2%, the unhedged USD return on the portfolio is calculated as (1 + 0.96%)(1 + 13.2%) – 1 = 14.29%.
+
+If Aron decides to hedge by selling EUR forward, the return on the USD/EUR will be 1.2065/1.1930 – 1 = 1.13% and the return on the hedged portfolio would be (1 + 1.13%)(1 + 13.2%) – 1 = 14.48%.
+
+The difference between the hedged return and the unhedged return is 14.48% – 14.29% = 19 bps, which is less than Aron’s required additional return of 25 bps.
+
+Alternatively, one could calculate the difference between the hedged and unhedged return and get (1 + 14.48%)/(1 + 14.29%) – 1 = 17 bps, which is also less than Aron’s required return.
+
+Objective 2:
+
+Aron should execute the forward trade because the risk objective is met.
+
+If Aron does not execute the trade, the expected unhedged domestic-currency standard deviation is calculated as follows; note that the USD is the domestic currency and the EUR is the foreign currency:
+- σ(RDC) is the standard deviation of the portfolio return in USD.
+- σ(RFX) is the standard deviation of the return of the USD/EUR exchange rate.
+- σ(RFC) is the standard deviation of the equity portfolio return in EUR.
+- ρ(RFC,RFX) is the correlation between the USD/EUR exchange rate returns (changes) and the EUR-denominated equity portfolio returns.
+
+σ2(RDC) ≈ σ2(RFC) + σ2(RFX) + 2 σ(RFC) σ(RFX) ρ(RFC,RFX) = 0.152 + 0.052 + 2 ∙ 0.15 ∙ 0.05 ∙ (–0.07) = 0.02395
+
+Taking the square root of 0.02395 gives σ(RDC) = 15.48%. If Aron executes the trade, the expected USD portfolio standard deviation equals the standard deviation of the EUR equity position, 15.00%. Therefore, the standard deviation of the portfolio decreases by 15.48% – 15.00% = 48 bps, which is more than Aron’s required decrease of 30 bps.
 
 #### FX Swap
 

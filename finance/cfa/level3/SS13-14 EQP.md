@@ -99,7 +99,7 @@ An equity index used as a benchmark for equity investment strategies must be
 
 Considerations in choosing a benchmark include 
 - determining the desired market exposure, 
-  -  Market segment
+  - Market segment
   - Capitalization (size)
   - growth vs value (style)
   - other risk factors: momentum, liq, volatility, quality
@@ -135,7 +135,7 @@ Passive strategy can be achieved by either:
    - volatility factor
 
 Three types of passive factor-based strategies
-- Return oriented: dividend yield, momentum and fundamentallyweighted strategies
+- Return oriented: dividend yield, momentum and fundamentally weighted strategies
   - dividend yield strategies, Dividend yield strategies can include dividend growth as well as absolute dividend yield.
   - momentum strategies is generally defined by the amount of a stock’s excess price return relative to the market over a specified time period.
   - fundamentally weighted strategies.
@@ -153,6 +153,12 @@ Three types of passive factor-based strategies
 Passive factor-based strategies often use multiple benchmarks, including both factor based and market-cap-weighted indexes. This increases tracking error.
  - The advantages of passive factor-based investing include that it is typically less costly than active management, but still offers the investor factor exposure based on the investor’s view of the market (which is known as factor rotation).
  - The disadvantages include that, relative to passive cap-weighted investing, management fees and trading commissions are higher
+ 
+Passive factor-based strategies tend to be transparent in terms of factor selection, weighting, and rebalancing. 
+
+The strategies can be easily replicated by other investors which can produce overcrowding and reduce the realized advantages of a strategy. 
+
+Relative to broad-market-cap-weighting, passive factor-based strategies tend to concentrate risk exposures, leaving investors exposed during periods when a chosen risk factor is out of favor.
 
 ## c compare different approaches to passive equity investing;
 - Pooled investments:
@@ -180,6 +186,12 @@ Passive factor-based strategies often use multiple benchmarks, including both fa
   - An equity investor who builds an indexed portfolio will need to subscribe to certain data on the index and its constituents.
   - The investor also requires a robust trading and accounting system to manage the portfolio, broker relationships to trade efficiently and cheaply, and compliance systems to meet applicable laws and regulations.
   - Program trading is a strategy of buying or selling many stocks simultaneously
+  
+  
+Mutual funds VS ETF
+- Only ETF investors can take short positions.
+- only ETF investors can purchase shares on margin.
+- mutual funds and ETFs do not have the same degree of liquidity. Although ETFs allow for inter-day trading they could experience periods of market illiquidity. Mutual fund units are redeemed directly from the mutual fund.
 
 ## d compare the full replication, stratified sampling, and optimization approaches for the construction of passively managed equity portfolios;
 
@@ -187,7 +199,7 @@ Passive factor-based strategies often use multiple benchmarks, including both fa
 
 Advantages
 - Usually accomplishes the primary goal of matching the index performance;
--  Easy to comprehend.
+- Easy to comprehend.
 
 Disadvantages
 - Requires that the asset size of the mandate is sufficient and that the index constituents are available for trading;
@@ -202,7 +214,7 @@ strata formed across multiple dimensions, size up -> less tracking error
 
 ### optimization:
 
- MPT minimize tracking error. drawback: based on historical relationship; not mean-variance efficient (solution: constraint on total portfolio variance to be volatility of benchmark)
+MPT minimize tracking error. drawback: based on historical relationship; not mean-variance efficient (solution: constraint on total portfolio variance to be volatility of benchmark)
  
 Optimization typically involves maximizing a desirable characteristic or minimizing an undesirable characteristic, subject to one or more constraints.
 
@@ -245,6 +257,8 @@ Attribution analysis is a key tool in helping the manager identify the sources o
 Securities lending can generate fee income to offset some of the costs of managing the portfolio and reduce tracking error.
 
 Corporate governance and investor activism is important for both passive and active investors.
+
+
 
 # READING 28. ACTIVE EQUITY INVESTING: STRATEGIES
 
@@ -458,6 +472,9 @@ Disadvantages:
 - More data intensive than returns-based analysis
 - Less effective for funds with substantial positions in derivatives.
 
+
+
+
 # READING 29. ACTIVE EQUITY INVESTING: PORTFOLIO CONSTRUCTION
 
 The candidate should be able to:
@@ -615,7 +632,7 @@ A well-constructed portfolio should deliver the characteristics promised to inve
 - Achieving desired risk exposures in the most efficient manner.
 - Reasonably low operating costs given the strategy.
 
-Funds aiming to deliver different required characteristics will have different wellstructured portfolios. The following general points can be made about portfolios that have the same desired characteristics:
+Funds aiming to deliver different required characteristics will have different well structured portfolios. The following general points can be made about portfolios that have the same desired characteristics:
 
 - Portfolios that can achieve desired risk exposures with fewer positions are likely to have more focus on risk management in the portfolio construction process. While this will not guarantee excess return, it does indicate risk efficiency is likely higher.
 - If two portfolios have similar risk factor exposures, the product with the lower absolute volatility and lower active risk will likely be preferred (assuming similar costs).

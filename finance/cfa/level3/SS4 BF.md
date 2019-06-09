@@ -5,6 +5,14 @@ The candidate should be able to:
 
 
 ## b contrast expected utility and prospect theories of investment decision making;
+
+![Friedman-Savage](images/Friedman-Savage.png)
+
+Friedman-Savage utility function characterized by an inflection point where the function turns from concave to convex. This type of function explains why people may take low-probability, high-payoff risks (e.g., out-of-the-money options) while at the same time insuring against low-probability, low-payoff risks (e.g., earthquake insurance). The concave portion of the utility function explains purchasing lowpayoff insurance against low-probability losses, while the convex portion of the function explains risk taking with options.
+
+Traditional finance theory assumes risk aversion (concave utility function) at all levels of wealth, which would lead to rejection of all gambles having a non-positive expected return.
+
+
 Bounded rationality:
   - knowledge capacity limits
   - not assume:
