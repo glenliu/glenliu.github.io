@@ -194,6 +194,7 @@ Market adjusted IS = IS - β * E(Rm)
 
 
 ====================IS % ===============================
+
 Use the following information to calculate the implementation shortfall and its components as a percentage.
 - On Wednesday, the stock price closes at $50 a share.
 - On Thursday morning before market open, the portfolio manager decides to buy Megawidgets and transfers a limit order for 1,000 shares at $49.95. The order expires unfilled. The stock closes at $50.05.
@@ -209,7 +210,8 @@ First, organize the information.
 
 - Explicit cost—the commission as a percentage of the paper portfolio investment is $23 / $50,000 = 0.05%.
 - Realized profit and loss is EP – DP (or BP*). This is divided by the DP and weighted by proportion of the order filled. It is (700 / 1,000) × ($50.07 – $50.05) / $50.00 = 0.03%.
-- Delay cost is BP* – DP and then divided by the DP. It is weighted by the portion of the order filled. It is (700 / 1,000) × ($50.05 – $50.00) / $50.00 =0.07%.
+- Delay cost is BP\* – DP and then divided by the DP. It is weighted by the portion of the order filled. It is (700 / 1,000) × ($50.05 – $50.00) / $50.00 =0.07%.
+
 ===================================================
 
 ## g contrast volume weighted average price (VWAP) and implementation shortfall as measures of transaction costs;
@@ -276,6 +278,9 @@ Algorithmic trading is the use of automated, quantitative systems that utilize t
 Algorithmic trading strategies are classified into logical participation strategies (simple logical and implementation shortfall strategies), opportunistic strategies, and specialized strategies.
 
 - Simple logical participation strategies seek to trade with market flow so as to not become overly noticeable to the market and to minimize market impact.
+  - Volume-weighted average price strategy involves breaking up an order over time according to a pre-specified volume profiles;
+  - Time-weighted average price strategy is a particularly simple variant that assumes a flat volume profile and trades in proportion to time;
+  - Percentage-of-volume strategy takes place in proportion to overall market volume until the order is completed.
 
 - Implementation shortfall strategies, or arrival price strategies, minimize trading costs as defined by the implementation shortfall measure or total execution costs.
 
@@ -284,8 +289,8 @@ Algorithmic trading strategies are classified into logical participation strateg
 - Specialized strategies include passive strategies and other miscellaneous strategies
 
     - hunter strategies, where the size of the order or portion seeking execution is adjusted to take advantage of changing market liquidity;
-    - market-on-close, which targets the closing price as execution price; and smart
-    - routing, which monitors multiple markets and routes the order to the most liquid market
+    - market-on-close, which targets the closing price as execution price; and 
+    - smart routing, which monitors multiple markets and routes the order to the most liquid market
 
 ## l discuss the factors that typically determine the selection of a specific algorithmic trading strategy, including order size, average daily trading volume, bid–ask spread, and the urgency of the order;
 
