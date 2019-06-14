@@ -1059,7 +1059,9 @@ Ignoring wage correlation differences, Debra’s higher salary (i.e. USD 100,000
 
 
 =======================================
+
 EXHIBIT 3HYPOTHETICAL WHOLE LIFE INSURANCE POLICY
+
 |Item                                   |Amout              |
 |                                        |               |
 |Death benefit                         	|$300,000|
